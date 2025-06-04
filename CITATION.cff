@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+title: "Educational Theory Library (ETL.json)"
+message: "If you use this dataset, please cite it using these metadata."
+type: dataset
+authors:
+  - family-names: "Educational Theory Library"
+    given-names: "ETL"
+    orcid: "https://orcid.org/0000-0000-0000-0000"
+repository-code: "https://github.com/username/EducationTheoryLibrary"
+url: "https://github.com/username/EducationTheoryLibrary"
+abstract: >-
+  ETL.json is a comprehensive database of 115 educational theories,
+  systematically organized for use by educational practitioners, researchers,
+  and AI systems. Each theory includes detailed structured data with
+  core principles, key concepts, practical applications, and veteran
+  teacher insights.
+keywords:
+  - education
+  - educational theory
+  - pedagogy
+  - learning theory
+  - teaching methodology
+  - educational research
+  - artificial intelligence
+  - machine learning
+  - educational technology
+license: MIT
+version: "1.1.0"
+date-released: "2024-06-04"
+preferred-citation:
+  type: dataset
+  title: "Educational Theory Library (ETL.json): A Comprehensive Database of Educational Theories"
+  authors:
+    - family-names: "Educational Theory Library"
+      given-names: "ETL"
+  journal: "GitHub Repository"
+  url: "https://github.com/username/EducationTheoryLibrary"
+  year: 2024
+  version: "1.1.0"

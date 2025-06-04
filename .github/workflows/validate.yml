@@ -1,0 +1,218 @@
+name: Validate JSON Files
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  validate-json:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+        
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install jsonschema pandas
+        
+    - name: Validate JSON syntax
+      run: |
+        echo "Validating JSON syntax..."
+        python -c "
+        import json
+        import sys
+        
+        files_to_check = ['ETL.json', 'ETL_EN.json']
+        
+        for file_path in files_to_check:
+            try:
+                with open(file_path, 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+                print(f'✓ {file_path}: Valid JSON syntax')
+            except json.JSONDecodeError as e:
+                print(f'✗ {file_path}: Invalid JSON - {e}')
+                sys.exit(1)
+            except FileNotFoundError:
+                print(f'✗ {file_path}: File not found')
+                sys.exit(1)
+        "
+        
+    - name: Validate data structure
+      run: |
+        echo "Validating data structure..."
+        python -c "
+        import json
+        import sys
+        
+        def validate_theory_structure(theory, theory_id):
+            required_fields = ['id', 'theory_name', 'theorist']
+            recommended_fields = ['key_principles', 'core_concepts', 'educational_applications']
+            
+            errors = []
+            
+            # Check required fields
+            for field in required_fields:
+                if field not in theory:
+                    errors.append(f'Missing required field: {field}')
+            
+            # Validate ID is integer
+            if 'id' in theory and not isinstance(theory['id'], int):
+                errors.append(f'ID must be integer, got {type(theory[\"id\"])}')
+            
+            # Validate ID matches expected
+            if 'id' in theory and theory['id'] != theory_id:
+                errors.append(f'ID mismatch: expected {theory_id}, got {theory[\"id\"]}')
+            
+            return errors
+        
+        # Check ETL_EN_Complete.json
+        try:
+            with open('ETL_EN_Complete.json', 'r', encoding='utf-8') as f:
+                data = json.load(f)
+            
+            if 'educational_theories' not in data:
+                print('✗ Missing educational_theories key')
+                sys.exit(1)
+            
+            theories = data['educational_theories']
+            print(f'Found {len(theories)} theories in ETL_EN_Complete.json')
+            
+            total_errors = 0
+            for i, theory in enumerate(theories, 1):
+                errors = validate_theory_structure(theory, i)
+                if errors:
+                    print(f'✗ Theory {i} errors:')
+                    for error in errors:
+                        print(f'  - {error}')
+                    total_errors += len(errors)
+            
+            if total_errors == 0:
+                print('✓ All theories have valid structure')
+            else:
+                print(f'✗ Found {total_errors} structural errors')
+                sys.exit(1)
+                
+        except Exception as e:
+            print(f'✗ Error validating data structure: {e}')
+            sys.exit(1)
+        "
+        
+    - name: Check theory completeness
+      run: |
+        echo "Checking theory completeness..."
+        python -c "
+        import json
+        
+        with open('ETL_EN_Complete.json', 'r', encoding='utf-8') as f:
+            data = json.load(f)
+        
+        theories = data['educational_theories']
+        
+        # Check for 115 theories
+        expected_count = 115
+        actual_count = len(theories)
+        
+        if actual_count != expected_count:
+            print(f'✗ Expected {expected_count} theories, found {actual_count}')
+        else:
+            print(f'✓ Found all {expected_count} theories')
+        
+        # Check sequential IDs
+        expected_ids = set(range(1, expected_count + 1))
+        actual_ids = set(theory['id'] for theory in theories if 'id' in theory)
+        
+        missing_ids = expected_ids - actual_ids
+        extra_ids = actual_ids - expected_ids
+        
+        if missing_ids:
+            print(f'✗ Missing theory IDs: {sorted(missing_ids)}')
+        if extra_ids:
+            print(f'✗ Unexpected theory IDs: {sorted(extra_ids)}')
+        
+        if not missing_ids and not extra_ids:
+            print('✓ All theory IDs are sequential and complete')
+        "
+        
+    - name: Validate cross-references
+      run: |
+        echo "Validating theory cross-references..."
+        python -c "
+        import json
+        
+        with open('ETL_EN_Complete.json', 'r', encoding='utf-8') as f:
+            data = json.load(f)
+        
+        theories = data['educational_theories']
+        valid_ids = set(theory['id'] for theory in theories if 'id' in theory)
+        
+        invalid_refs = []
+        
+        for theory in theories:
+            if 'related_theories' in theory:
+                for ref_id in theory['related_theories']:
+                    if ref_id not in valid_ids:
+                        invalid_refs.append((theory['id'], ref_id))
+        
+        if invalid_refs:
+            print('✗ Invalid cross-references found:')
+            for theory_id, invalid_ref in invalid_refs:
+                print(f'  Theory {theory_id} references non-existent theory {invalid_ref}')
+        else:
+            print('✓ All cross-references are valid')
+        "
+
+  check-consistency:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+        
+    - name: Check Japanese-English consistency
+      run: |
+        echo "Checking consistency between Japanese and English versions..."
+        python -c "
+        import json
+        
+        # Load both files
+        try:
+            with open('ETL.json', 'r', encoding='utf-8') as f:
+                jp_data = json.load(f)
+            with open('ETL_EN_Complete.json', 'r', encoding='utf-8') as f:
+                en_data = json.load(f)
+        except FileNotFoundError as e:
+            print(f'File not found: {e}')
+            exit(0)  # Don't fail if files don't exist yet
+        
+        jp_theories = jp_data.get('educational_theories', [])
+        en_theories = en_data.get('educational_theories', [])
+        
+        jp_ids = set(theory['id'] for theory in jp_theories if 'id' in theory)
+        en_ids = set(theory['id'] for theory in en_theories if 'id' in theory)
+        
+        print(f'Japanese version: {len(jp_ids)} theories')
+        print(f'English version: {len(en_ids)} theories')
+        
+        missing_in_en = jp_ids - en_ids
+        missing_in_jp = en_ids - jp_ids
+        
+        if missing_in_en:
+            print(f'Missing in English version: {sorted(missing_in_en)}')
+        if missing_in_jp:
+            print(f'Missing in Japanese version: {sorted(missing_in_jp)}')
+        
+        if not missing_in_en and not missing_in_jp:
+            print('✓ Both versions have consistent theory IDs')
+        "

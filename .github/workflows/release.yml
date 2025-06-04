@@ -1,0 +1,110 @@
+name: Create Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Get version from tag
+      id: get_version
+      run: echo "VERSION=${GITHUB_REF#refs/tags/v}" >> $GITHUB_OUTPUT
+      
+    - name: Validate JSON files before release
+      run: |
+        python -c "
+        import json
+        import sys
+        
+        files_to_check = ['ETL.json', 'ETL_EN.json']
+        
+        for file_path in files_to_check:
+            try:
+                with open(file_path, 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+                print(f'✓ {file_path}: Valid JSON syntax')
+            except json.JSONDecodeError as e:
+                print(f'✗ {file_path}: Invalid JSON - {e}')
+                sys.exit(1)
+            except FileNotFoundError:
+                print(f'✗ {file_path}: File not found')
+                sys.exit(1)
+        "
+    
+    - name: Get theory count
+      id: get_count
+      run: |
+        COUNT=$(python -c "
+        import json
+        with open('ETL.json', 'r', encoding='utf-8') as f:
+            data = json.load(f)
+        print(len(data))
+        ")
+        echo "THEORY_COUNT=$COUNT" >> $GITHUB_OUTPUT
+        
+    - name: Create Release Notes
+      id: release_notes
+      run: |
+        cat > release_notes.md << 'EOF'
+        # Educational Theory Library v${{ steps.get_version.outputs.VERSION }}
+        
+        ## 📊 統計情報
+        - **理論数**: ${{ steps.get_count.outputs.THEORY_COUNT }} 理論
+        - **多言語対応**: 日本語、英語
+        
+        ## 📚 含まれるファイル
+        - `ETL.json` - 日本語版教育理論データベース
+        - `ETL_EN.json` - 英語版教育理論データベース
+        - `examples/` - プログラミング言語別の使用例
+        - ドキュメント（README、貢献ガイドライン等）
+        
+        ## 🔄 変更内容
+        詳細な変更内容については [CHANGELOG.md](CHANGELOG.md) をご確認ください。
+        
+        ## 📖 使用方法
+        1. JSON ファイルをダウンロード
+        2. お好みのプログラミング言語で読み込み
+        3. [examples/](examples/) フォルダの例を参考に実装
+        
+        ## 🤝 貢献
+        新しい理論の追加や改善提案は [CONTRIBUTING.md](CONTRIBUTING.md) をご覧ください。
+        EOF
+        
+    - name: Create Release
+      uses: actions/create-release@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        tag_name: ${{ github.ref }}
+        release_name: Educational Theory Library v${{ steps.get_version.outputs.VERSION }}
+        body_path: release_notes.md
+        draft: false
+        prerelease: false
+        
+    - name: Upload ETL.json
+      uses: actions/upload-release-asset@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        upload_url: ${{ steps.create_release.outputs.upload_url }}
+        asset_path: ./ETL.json
+        asset_name: ETL.json
+        asset_content_type: application/json
+        
+    - name: Upload ETL_EN.json
+      uses: actions/upload-release-asset@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        upload_url: ${{ steps.create_release.outputs.upload_url }}
+        asset_path: ./ETL_EN.json
+        asset_name: ETL_EN.json
+        asset_content_type: application/json
