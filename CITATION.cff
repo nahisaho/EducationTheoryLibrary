@@ -6,8 +6,8 @@ authors:
   - family-names: "Educational Theory Library"
     given-names: "ETL"
     orcid: "https://orcid.org/0000-0000-0000-0000"
-repository-code: "https://github.com/username/EducationTheoryLibrary"
-url: "https://github.com/username/EducationTheoryLibrary"
+repository-code: "https://github.com/nahisaho/EducationTheoryLibrary"
+url: "https://github.com/nahisaho/EducationTheoryLibrary"
 abstract: >-
   ETL.json is a comprehensive database of 115 educational theories,
   systematically organized for use by educational practitioners, researchers,
@@ -34,6 +34,6 @@ preferred-citation:
     - family-names: "Educational Theory Library"
       given-names: "ETL"
   journal: "GitHub Repository"
-  url: "https://github.com/username/EducationTheoryLibrary"
+  url: "https://github.com/nahisaho/EducationTheoryLibrary"
   year: 2024
   version: "1.1.0"

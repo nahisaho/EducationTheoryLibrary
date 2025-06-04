@@ -36,9 +36,9 @@
 ## 🔧 Items Requiring Updates
 
 ### URL and Link Updates
-- [ ] Update `USERNAME` in README.md badge URLs to actual GitHub username
-- [ ] Update `USERNAME` in README_EN.md badge URLs to actual GitHub username
-- [ ] Update `repository-code` URL in `CITATION.cff` to actual repository URL
+- [x] Update `USERNAME` in README.md badge URLs to actual GitHub username
+- [x] Update `USERNAME` in README_EN.md badge URLs to actual GitHub username
+- [x] Update `repository-code` URL in `CITATION.cff` to actual repository URL
 - [ ] Update contact information in `SECURITY.md` to actual information
 
 ### DOI and Zenodo

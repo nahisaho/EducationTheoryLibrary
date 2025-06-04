@@ -36,9 +36,9 @@
 ## 🔧 更新が必要な項目
 
 ### URLとリンクの更新
-- [ ] `README.md` のバッジURLで `USERNAME` を実際のGitHubユーザー名に変更
-- [ ] `README_EN.md` のバッジURLで `USERNAME` を実際のGitHubユーザー名に変更
-- [ ] `CITATION.cff` の `repository-code` URLを実際のリポジトリURLに更新
+- [x] `README.md` のバッジURLで `USERNAME` を実際のGitHubユーザー名に変更
+- [x] `README_EN.md` のバッジURLで `USERNAME` を実際のGitHubユーザー名に変更
+- [x] `CITATION.cff` の `repository-code` URLを実際のリポジトリURLに更新
 - [ ] `SECURITY.md` の連絡先情報を実際の情報に更新
 
 ### DOIとZenodo

@@ -1,12 +1,12 @@
 # ETL.json 教育理論データベース説明書
 
-[![JSON Validation](https://github.com/USERNAME/EducationTheoryLibrary/workflows/Validate%20JSON%20Files/badge.svg)](https://github.com/USERNAME/EducationTheoryLibrary/actions)
+[![JSON Validation](https://github.com/nahisaho/EducationTheoryLibrary/workflows/Validate%20JSON%20Files/badge.svg)](https://github.com/nahisaho/EducationTheoryLibrary/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE.txt)
 [![Theories Count](https://img.shields.io/badge/Theories-115-blue.svg)](#)
 [![Languages](https://img.shields.io/badge/Languages-Japanese%20|%20English-green.svg)](#)
 [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.XXXXXX-blue.svg)](https://doi.org/10.5281/zenodo.XXXXXX)
 
-> **注意**: 上記のUSERNAMEをあなたのGitHubユーザー名に、DOIの番号を実際のDOI（取得後）に置き換えてください。
+> **注意**: DOIの番号は、Zenodoなどのリポジトリでの登録後に実際の番号に置き換えてください。
 
 ## 概要
 
