@@ -1,0 +1,7711 @@
+{
+  "educational_theories": [
+    {
+      "id": 1,
+      "name_ja": "構成主義学習理論",
+      "name_en": "Constructivism Learning Theory",
+      "category": "learning_theories",
+      "theorists": ["Jean Piaget", "Lev Vygotsky", "John Dewey"],
+      "year_proposed": "1896-1980s",
+      "core_principles": [
+        "学習者が能動的に知識を構築する",
+        "既存の知識と新しい知識の相互作用",
+        "学習は個人的な意味構築プロセス",
+        "社会的相互作用の重要性"
+      ],
+      "key_concepts": [
+        "知識構築",
+        "既存知識との統合",
+        "能動的学習",
+        "意味構築"
+      ],
+      "educational_applications": [
+        "探究型学習",
+        "問題解決学習",
+        "協同学習",
+        "体験学習"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "生徒の既存知識を把握してから新しい内容を導入する",
+          "具体的な体験から抽象的な概念へと段階的に進める",
+          "生徒同士の意見交換の機会を多く設ける"
+        ],
+        "success_patterns": [
+          "実験や観察を通した学習",
+          "グループディスカッション"
+        ],
+        "common_pitfalls": [
+          "教師の一方的な説明",
+          "暗記重視の指導"
+        ]
+      },
+      "ai_prompt_template": "構成主義学習理論に基づき、[学習内容]について、学習者が既存知識を活用して能動的に新しい知識を構築できる学習活動を設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "学習への積極的参加",
+        "medium_term": "理解の深化",
+        "long_term": "自律的学習能力の向上"
+      },
+      "suitable_contexts": [
+        "探究学習",
+        "理科実験",
+        "プロジェクト学習",
+        "グループワーク"
+      ],
+      "grade_levels": ["elementary", "middle", "high", "university"],
+      "subjects": ["all_subjects"],
+      "learning_objectives": [
+        "能動的学習態度の育成",
+        "批判的思考力の向上",
+        "知識の深い理解"
+      ],
+      "implementation_strategies": [
+        "既存知識の活性化",
+        "体験的活動の実施",
+        "リフレクションの時間確保",
+        "協働学習の促進"
+      ],
+      "related_theories": [2, 11, 26, 27]
+    },
+    {
+      "id": 2,
+      "name_ja": "社会構成主義理論",
+      "name_en": "Social Constructivism Theory",
+      "category": "learning_theories",
+      "theorists": ["Lev Vygotsky", "Jerome Bruner", "Albert Bandura"],
+      "year_proposed": "1930s-1960s",
+      "core_principles": [
+        "知識は社会的相互作用を通じて構築される",
+        "文化と言語が学習に重要な役割を果たす",
+        "最近接発達領域での学習が効果的",
+        "協働学習の重要性"
+      ],
+      "key_concepts": [
+        "社会的相互作用",
+        "文化的媒介",
+        "最近接発達領域",
+        "協働学習"
+      ],
+      "educational_applications": [
+        "グループ学習",
+        "ピア・チューター",
+        "ディスカッション",
+        "プロジェクト型学習"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "異なる学力レベルの生徒をペアにする",
+          "教師は学習の足場かけ役として機能する",
+          "文化的背景の違いを学習リソースとして活用する"
+        ],
+        "success_patterns": [
+          "多様な視点を持つグループ編成",
+          "構造化されたディスカッション"
+        ],
+        "common_pitfalls": [
+          "個人学習の軽視",
+          "グループ内での役割分担の不明確さ"
+        ]
+      },
+      "ai_prompt_template": "社会構成主義理論に基づき、[学習テーマ]について、学習者同士の社会的相互作用を通じて知識を協働構築する学習活動を設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "活発な相互作用",
+        "medium_term": "多様な視点の理解",
+        "long_term": "協働的問題解決能力"
+      },
+      "suitable_contexts": [
+        "グループワーク",
+        "ディベート",
+        "共同研究",
+        "文化交流"
+      ],
+      "grade_levels": ["elementary", "middle", "high", "university"],
+      "subjects": ["social_studies", "language_arts", "science"],
+      "learning_objectives": [
+        "協働学習能力の育成",
+        "多様性の理解",
+        "コミュニケーション能力の向上"
+      ],
+      "implementation_strategies": [
+        "多様なグループ編成",
+        "足場かけの提供",
+        "文化的リソースの活用",
+        "振り返りの共有"
+      ],
+      "related_theories": [1, 22, 26, 10]
+    },
+    {
+      "id": 3,
+      "name_ja": "認知負荷理論",
+      "name_en": "Cognitive Load Theory",
+      "category": "cognitive_theories",
+      "theorists": ["John Sweller", "Paul Chandler", "Jeroen van Merriënboer"],
+      "year_proposed": "1980s-1990s",
+      "core_principles": [
+        "人間の作業記憶容量は限られている",
+        "認知負荷の種類を理解して指導を設計する",
+        "内在的負荷、外在的負荷、学習関連負荷の区別",
+        "効果的な学習のための負荷管理"
+      ],
+      "key_concepts": [
+        "作業記憶",
+        "内在的負荷",
+        "外在的負荷",
+        "学習関連負荷"
+      ],
+      "educational_applications": [
+        "段階的スキル習得",
+        "マルチメディア学習",
+        "問題解決指導",
+        "複雑な課題の分解"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "複雑な内容は小さなステップに分けて教える",
+          "不要な情報や装飾を避けてシンプルに提示する",
+          "既習事項を活用して新しい内容の負荷を軽減する"
+        ],
+        "success_patterns": [
+          "ワーク例題の提示",
+          "段階的な難易度設定"
+        ],
+        "common_pitfalls": [
+          "一度に多くの情報を提示する",
+          "装飾的な要素の過多"
+        ]
+      },
+      "ai_prompt_template": "認知負荷理論に基づき、[学習内容]について、学習者の作業記憶への負荷を適切に管理しながら効果的な学習を促進する指導方法を設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "理解度の向上",
+        "medium_term": "学習効率の改善",
+        "long_term": "認知能力の向上"
+      },
+      "suitable_contexts": [
+        "技能習得",
+        "複雑な概念学習",
+        "デジタル教材",
+        "初心者指導"
+      ],
+      "grade_levels": ["elementary", "middle", "high", "university"],
+      "subjects": ["mathematics", "science", "technology"],
+      "learning_objectives": [
+        "効率的な学習",
+        "認知能力の向上",
+        "スキル習得の促進"
+      ],
+      "implementation_strategies": [
+        "情報の段階的提示",
+        "ワーク例題の活用",
+        "不要情報の除去",
+        "認知負荷の監視"
+      ],
+      "related_theories": [14, 13, 12, 15]
+    },
+    {
+      "id": 4,
+      "name_ja": "ブルームの教育目標分類学",
+      "name_en": "Bloom's Taxonomy",
+      "category": "curriculum_theories",
+      "theorists": ["Benjamin Bloom", "David Krathwohl", "Lorin Anderson"],
+      "year_proposed": "1956, revised 2001",
+      "core_principles": [
+        "学習目標の階層的分類",
+        "認知領域、情意領域、精神運動領域",
+        "低次思考から高次思考への段階的発達",
+        "評価基準としての活用"
+      ],
+      "key_concepts": [
+        "認知領域の6段階",
+        "知識の次元",
+        "高次思考スキル",
+        "学習目標の明確化"
+      ],
+      "educational_applications": [
+        "カリキュラム設計",
+        "授業計画",
+        "評価問題作成",
+        "学習進度確認"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "単元全体で各レベルをバランスよく配置する",
+          "生徒の理解レベルに応じて目標設定を調整する",
+          "動詞を使って具体的な行動目標を設定する"
+        ],
+        "success_patterns": [
+          "段階的な問題設計",
+          "明確な評価基準"
+        ],
+        "common_pitfalls": [
+          "記憶レベルの問題のみ",
+          "段階を飛ばした指導"
+        ]
+      },
+      "ai_prompt_template": "ブルームの教育目標分類学に基づき、[学習内容]について、認知領域の6段階を意識した段階的な学習目標と評価方法を設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "明確な学習目標",
+        "medium_term": "思考力の段階的向上",
+        "long_term": "高次思考能力の育成"
+      },
+      "suitable_contexts": [
+        "カリキュラム設計",
+        "授業計画",
+        "テスト作成",
+        "評価設計"
+      ],
+      "grade_levels": ["elementary", "middle", "high", "university"],
+      "subjects": ["all_subjects"],
+      "learning_objectives": [
+        "思考力の体系的育成",
+        "学習目標の明確化",
+        "評価の客観化"
+      ],
+      "implementation_strategies": [
+        "段階的目標設定",
+        "動詞の適切な使用",
+        "バランスの取れた問題設計",
+        "継続的評価"
+      ],
+      "related_theories": [5, 21, 15, 19]
+    },
+    {
+      "id": 5,
+      "name_ja": "多重知能理論",
+      "name_en": "Multiple Intelligence Theory",
+      "category": "cognitive_theories",
+      "theorists": ["Howard Gardner"],
+      "year_proposed": "1983",
+      "core_principles": [
+        "人間は8つの異なる知能を持つ",
+        "各個人の知能プロファイルは独特",
+        "全ての知能は同等に価値がある",
+        "教育は多様な知能を育成すべき"
+      ],
+      "key_concepts": [
+        "8つの知能",
+        "知能プロファイル",
+        "個別化教育",
+        "多様な才能"
+      ],
+      "educational_applications": [
+        "個別化指導",
+        "多様な教授法",
+        "才能開発",
+        "評価の多様化"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "生徒の得意な知能を見つけて活用する",
+          "一つの内容を複数の方法で教える",
+          "苦手分野も得意な知能を使ってアプローチする"
+        ],
+        "success_patterns": [
+          "多様な活動の組み合わせ",
+          "個人の強みを活かした指導"
+        ],
+        "common_pitfalls": [
+          "特定の知能のみの重視",
+          "知能の固定的な捉え方"
+        ]
+      },
+      "ai_prompt_template": "多重知能理論に基づき、[学習内容]について、8つの知能を活用した多様な学習活動と評価方法を設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "学習への多様なアプローチ",
+        "medium_term": "個人の強みの発見",
+        "long_term": "多面的な能力開発"
+      },
+      "suitable_contexts": [
+        "個別化教育",
+        "才能教育",
+        "統合カリキュラム",
+        "多様性対応"
+      ],
+      "grade_levels": ["elementary", "middle", "high"],
+      "subjects": ["all_subjects"],
+      "learning_objectives": [
+        "個人の才能発見",
+        "多様な能力育成",
+        "自己理解の促進"
+      ],
+      "implementation_strategies": [
+        "知能プロファイル把握",
+        "多様な教授法活用",
+        "個別指導計画",
+        "才能開発プログラム"
+      ],
+      "related_theories": [4, 16, 17, 25]
+    },
+    {
+      "id": 6,
+      "name_ja": "経験学習理論",
+      "name_en": "Experiential Learning Theory",
+      "category": "learning_theories",
+      "theorists": ["David Kolb", "John Dewey", "Kurt Lewin"],
+      "year_proposed": "1970s-1980s",
+      "core_principles": [
+        "経験が学習の中心",
+        "4段階の学習サイクル",
+        "具体的経験から抽象的概念化へ",
+        "学習スタイルの個人差"
+      ],
+      "key_concepts": [
+        "4段階学習サイクル",
+        "学習スタイル",
+        "経験の振り返り",
+        "実践への応用"
+      ],
+      "educational_applications": [
+        "体験学習",
+        "インターンシップ",
+        "フィールドワーク",
+        "リフレクション活動"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "体験の後に必ず振り返りの時間を設ける",
+          "生徒の学習スタイルに応じて活動を調整する",
+          "理論と実践を往復させる機会を作る"
+        ],
+        "success_patterns": [
+          "体験-振り返り-概念化-応用のサイクル",
+          "実社会との接続"
+        ],
+        "common_pitfalls": [
+          "体験のみで終わる",
+          "振り返りの不足"
+        ]
+      },
+      "ai_prompt_template": "経験学習理論に基づき、[学習テーマ]について、4段階の学習サイクルを活用した体験的な学習プログラムを設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "体験への積極的参加",
+        "medium_term": "深い理解の獲得",
+        "long_term": "実践的応用能力"
+      },
+      "suitable_contexts": [
+        "職業教育",
+        "野外教育",
+        "サービスラーニング",
+        "実習科目"
+      ],
+      "grade_levels": ["middle", "high", "university"],
+      "subjects": ["vocational", "science", "social_studies"],
+      "learning_objectives": [
+        "実践的スキル習得",
+        "体験的理解",
+        "応用能力の育成"
+      ],
+      "implementation_strategies": [
+        "具体的体験の設計",
+        "構造化された振り返り",
+        "概念と実践の接続",
+        "学習スタイル対応"
+      ],
+      "related_theories": [1, 28, 29, 11]
+    },
+    {
+      "id": 7,
+      "name_ja": "行動主義学習理論",
+      "name_en": "Behaviorism Learning Theory",
+      "category": "learning_theories",
+      "theorists": ["John Watson", "B.F. Skinner", "Ivan Pavlov"],
+      "year_proposed": "1913-1950s",
+      "core_principles": [
+        "学習は行動の変化として定義される",
+        "条件づけによる学習",
+        "強化と罰による行動修正",
+        "環境刺激が行動を決定する"
+      ],
+      "key_concepts": [
+        "古典的条件づけ",
+        "オペラント条件づけ",
+        "強化スケジュール",
+        "行動分析"
+      ],
+      "educational_applications": [
+        "基礎スキル習得",
+        "行動管理",
+        "習慣形成",
+        "反復練習"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "小さな成功体験を積み重ねさせる",
+          "即座にフィードバックを与える",
+          "明確な目標と達成基準を設定する"
+        ],
+        "success_patterns": [
+          "段階的な目標設定",
+          "適切な強化のタイミング"
+        ],
+        "common_pitfalls": [
+          "外発的動機のみに依存",
+          "創造性の軽視"
+        ]
+      },
+      "ai_prompt_template": "行動主義学習理論に基づき、[学習内容]について、適切な強化スケジュールを用いた基礎スキル習得プログラムを設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "行動の変化",
+        "medium_term": "スキルの定着",
+        "long_term": "習慣の形成"
+      },
+      "suitable_contexts": [
+        "基礎教育",
+        "特別支援教育",
+        "技能訓練",
+        "行動指導"
+      ],
+      "grade_levels": ["elementary", "special_needs"],
+      "subjects": ["basic_skills", "mathematics", "language"],
+      "learning_objectives": [
+        "基礎スキル習得",
+        "行動の改善",
+        "習慣の形成"
+      ],
+      "implementation_strategies": [
+        "段階的目標設定",
+        "即座のフィードバック",
+        "適切な強化選択",
+        "行動の継続的観察"
+      ],
+      "related_theories": [8, 10, 16, 19]
+    },
+    {
+      "id": 8,
+      "name_ja": "認知主義学習理論",
+      "name_en": "Cognitivism Learning Theory",
+      "category": "cognitive_theories",
+      "theorists": ["Jerome Bruner", "Jean Piaget", "Ulric Neisser"],
+      "year_proposed": "1950s-1960s",
+      "core_principles": [
+        "学習は情報処理プロセス",
+        "記憶の構造と機能の理解",
+        "メタ認知の重要性",
+        "知識の構造化と組織化"
+      ],
+      "key_concepts": [
+        "情報処理",
+        "短期記憶と長期記憶",
+        "メタ認知",
+        "知識の構造化"
+      ],
+      "educational_applications": [
+        "記憶術指導",
+        "学習方略指導",
+        "概念マッピング",
+        "メタ認知指導"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "新しい情報と既存知識を関連づけて教える",
+          "学習方法を意識的に指導する",
+          "知識の体系化を促す活動を取り入れる"
+        ],
+        "success_patterns": [
+          "視覚的な知識整理",
+          "学習戦略の明示的指導"
+        ],
+        "common_pitfalls": [
+          "機械的暗記の重視",
+          "メタ認知の軽視"
+        ]
+      },
+      "ai_prompt_template": "認知主義学習理論に基づき、[学習内容]について、情報処理能力とメタ認知能力を向上させる学習方法を設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "情報処理能力の向上",
+        "medium_term": "学習方略の習得",
+        "long_term": "自律的学習能力"
+      },
+      "suitable_contexts": [
+        "学習方法指導",
+        "記憶術指導",
+        "概念学習",
+        "問題解決学習"
+      ],
+      "grade_levels": ["middle", "high", "university"],
+      "subjects": ["all_subjects"],
+      "learning_objectives": [
+        "情報処理能力向上",
+        "学習方略習得",
+        "メタ認知能力育成"
+      ],
+      "implementation_strategies": [
+        "知識の構造化指導",
+        "学習方法の明示化",
+        "メタ認知活動の促進",
+        "記憶技術の指導"
+      ],
+      "related_theories": [14, 13, 15, 3]
+    },
+    {
+      "id": 9,
+      "name_ja": "人間主義学習理論",
+      "name_en": "Humanistic Learning Theory",
+      "category": "humanistic_theories",
+      "theorists": ["Carl Rogers", "Abraham Maslow", "Malcolm Knowles"],
+      "year_proposed": "1940s-1960s",
+      "core_principles": [
+        "学習者の自己実現を重視",
+        "内発的動機の促進",
+        "全人的成長の追求",
+        "学習者中心の教育"
+      ],
+      "key_concepts": [
+        "自己実現",
+        "内発的動機",
+        "全人的成長",
+        "自己概念"
+      ],
+      "educational_applications": [
+        "個別指導",
+        "自主学習",
+        "感情教育",
+        "創造性教育"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "生徒の興味関心を出発点とする",
+          "自己選択の機会を多く与える",
+          "感情面にも配慮した指導を行う"
+        ],
+        "success_patterns": [
+          "生徒主導の学習活動",
+          "個人の成長に焦点を当てた評価"
+        ],
+        "common_pitfalls": [
+          "学習内容の体系性不足",
+          "客観的評価の困難さ"
+        ]
+      },
+      "ai_prompt_template": "人間主義学習理論に基づき、[学習テーマ]について、学習者の自己実現と全人的成長を促進する学習環境を設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "学習への主体的参加",
+        "medium_term": "自己概念の向上",
+        "long_term": "自己実現の達成"
+      },
+      "suitable_contexts": [
+        "個別指導",
+        "カウンセリング",
+        "創造性教育",
+        "人格教育"
+      ],
+      "grade_levels": ["elementary", "middle", "high"],
+      "subjects": ["art", "language_arts", "counseling"],
+      "learning_objectives": [
+        "自己実現の促進",
+        "全人的成長",
+        "創造性の発揮"
+      ],
+      "implementation_strategies": [
+        "学習者中心の環境構築",
+        "内発的動機の促進",
+        "個別対応の重視",
+        "感情面への配慮"
+      ],
+      "related_theories": [17, 20, 16, 5]
+    },
+    {
+      "id": 10,
+      "name_ja": "社会学習理論",
+      "name_en": "Social Learning Theory",
+      "category": "social_learning_theories",
+      "theorists": ["Albert Bandura"],
+      "year_proposed": "1960s-1970s",
+      "core_principles": [
+        "観察学習による行動習得",
+        "モデリングの重要性",
+        "認知的要因と環境要因の相互作用",
+        "自己効力感の役割"
+      ],
+      "key_concepts": [
+        "観察学習",
+        "モデリング",
+        "自己効力感",
+        "相互決定論"
+      ],
+      "educational_applications": [
+        "ロールモデル学習",
+        "ピア・ラーニング",
+        "協同学習",
+        "社会的スキル指導"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "良いモデルとなる行動を意識的に示す",
+          "生徒同士の良い行動を共有させる",
+          "自己効力感を高める声かけを心がける"
+        ],
+        "success_patterns": [
+          "具体的なモデル提示",
+          "段階的な自信構築"
+        ],
+        "common_pitfalls": [
+          "不適切なモデルの提示",
+          "自己効力感の軽視"
+        ]
+      },
+      "ai_prompt_template": "社会学習理論に基づき、[学習内容]について、適切なモデリングと自己効力感の向上を組み込んだ学習活動を設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "モデル行動の観察",
+        "medium_term": "行動の模倣と習得",
+        "long_term": "自己効力感の向上"
+      },
+      "suitable_contexts": [
+        "社会的スキル指導",
+        "行動指導",
+        "リーダーシップ教育",
+        "協働学習"
+      ],
+      "grade_levels": ["elementary", "middle", "high"],
+      "subjects": ["social_studies", "physical_education", "moral_education"],
+      "learning_objectives": [
+        "社会的スキル習得",
+        "自己効力感向上",
+        "協調性の育成"
+      ],
+      "implementation_strategies": [
+        "適切なモデル選択",
+        "観察機会の提供",
+        "模倣練習の実施",
+        "自己効力感の強化"
+      ],
+      "related_theories": [7, 2, 26, 17]
+    },
+    {
+      "id": 11,
+      "name_ja": "発見学習理論",
+      "name_en": "Discovery Learning Theory",
+      "category": "learning_theories",
+      "theorists": ["Jerome Bruner", "Jean Piaget"],
+      "year_proposed": "1960s",
+      "core_principles": [
+        "学習者が自ら発見することの重要性",
+        "探究プロセスの重視",
+        "試行錯誤による学習",
+        "内発的動機の促進"
+      ],
+      "key_concepts": [
+        "自主的発見",
+        "探究プロセス",
+        "試行錯誤",
+        "内発的動機"
+      ],
+      "educational_applications": [
+        "探究学習",
+        "実験学習",
+        "問題解決学習",
+        "オープンエンド課題"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "答えを直接教えずにヒントで導く",
+          "失敗も学習の一部として受け入れる雰囲気を作る",
+          "発見の喜びを共有する時間を設ける"
+        ],
+        "success_patterns": [
+          "段階的なヒント提供",
+          "探究過程の価値づけ"
+        ],
+        "common_pitfalls": [
+          "時間効率の悪さ",
+          "基礎知識不足での実施"
+        ]
+      },
+      "ai_prompt_template": "発見学習理論に基づき、[学習内容]について、学習者が自ら探究し発見できる学習活動を設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "探究への積極的参加",
+        "medium_term": "発見の喜びの体験",
+        "long_term": "自主的学習態度の育成"
+      },
+      "suitable_contexts": [
+        "理科実験",
+        "数学的探究",
+        "歴史調査",
+        "芸術創作"
+      ],
+      "grade_levels": ["elementary", "middle", "high"],
+      "subjects": ["science", "mathematics", "social_studies"],
+      "learning_objectives": [
+        "探究能力の育成",
+        "発見的思考力の向上",
+        "自主性の促進"
+      ],
+      "implementation_strategies": [
+        "オープンエンド課題設定",
+        "段階的支援提供",
+        "試行錯誤の奨励",
+        "発見プロセスの共有"
+      ],
+      "related_theories": [1, 6, 29, 27]
+    },
+    {
+      "id": 12,
+      "name_ja": "有意味学習理論",
+      "name_en": "Meaningful Learning Theory",
+      "category": "cognitive_theories",
+      "theorists": ["David Ausubel", "Joseph Novak"],
+      "year_proposed": "1960s-1970s",
+      "core_principles": [
+        "既存知識と新知識の有意味な結合",
+        "概念の階層的組織化",
+        "先行オーガナイザーの活用",
+        "意味のある学習コンテキスト"
+      ],
+      "key_concepts": [
+        "有意味学習",
+        "既存知識の活用",
+        "先行オーガナイザー",
+        "概念マップ"
+      ],
+      "educational_applications": [
+        "概念マッピング",
+        "アドバンス・オーガナイザー",
+        "統合的学習",
+        "概念学習"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "新しい内容を教える前に関連する既習事項を確認する",
+          "具体例から抽象概念へと段階的に進める",
+          "知識同士のつながりを意識的に示す"
+        ],
+        "success_patterns": [
+          "知識の体系的整理",
+          "概念間の関係性明示"
+        ],
+        "common_pitfalls": [
+          "機械的暗記の重視",
+          "知識の断片化"
+        ]
+      },
+      "ai_prompt_template": "有意味学習理論に基づき、[学習内容]について、既存知識と新知識を有意味に結合させる学習活動を設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "知識の関連付け",
+        "medium_term": "理解の深化",
+        "long_term": "知識の体系化"
+      },
+      "suitable_contexts": [
+        "概念学習",
+        "理論学習",
+        "科学教育",
+        "統合カリキュラム"
+      ],
+      "grade_levels": ["middle", "high", "university"],
+      "subjects": ["science", "social_studies", "mathematics"],
+      "learning_objectives": [
+        "概念の深い理解",
+        "知識の体系化",
+        "転移可能な学習"
+      ],
+      "implementation_strategies": [
+        "先行オーガナイザー使用",
+        "概念マップ作成",
+        "知識の階層化",
+        "関連性の明示"
+      ],
+      "related_theories": [13, 8, 3, 14]
+    },
+    {
+      "id": 13,
+      "name_ja": "スキーマ理論",
+      "name_en": "Schema Theory",
+      "category": "cognitive_theories",
+      "theorists": ["Richard Anderson", "Frederic Bartlett", "David Rumelhart"],
+      "year_proposed": "1970s-1980s",
+      "core_principles": [
+        "知識は構造化されたスキーマとして保存される",
+        "新情報はスキーマに同化または調節される",
+        "スキーマは理解と記憶に影響する",
+        "文脈がスキーマの活性化に重要"
+      ],
+      "key_concepts": [
+        "スキーマ",
+        "同化と調節",
+        "背景知識",
+        "文脈理解"
+      ],
+      "educational_applications": [
+        "背景知識の活性化",
+        "読解指導",
+        "文脈学習",
+        "概念変化指導"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "新しい内容を学ぶ前に関連する背景知識を活性化する",
+          "生徒の持つスキーマの違いを理解して指導する",
+          "文脈を豊かにして理解を促進する"
+        ],
+        "success_patterns": [
+          "背景知識の確認と活用",
+          "豊かな文脈の提供"
+        ],
+        "common_pitfalls": [
+          "背景知識の軽視",
+          "文脈のない学習"
+        ]
+      },
+      "ai_prompt_template": "スキーマ理論に基づき、[学習内容]について、学習者の既存スキーマを活用し新しいスキーマ形成を促進する学習方法を設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "背景知識の活性化",
+        "medium_term": "理解の促進",
+        "long_term": "スキーマの拡張"
+      },
+      "suitable_contexts": [
+        "読解指導",
+        "文科系学習",
+        "文化学習",
+        "言語学習"
+      ],
+      "grade_levels": ["elementary", "middle", "high"],
+      "subjects": ["language_arts", "social_studies", "literature"],
+      "learning_objectives": [
+        "読解力向上",
+        "文脈理解力育成",
+        "背景知識活用"
+      ],
+      "implementation_strategies": [
+        "背景知識の診断",
+        "文脈の豊富化",
+        "スキーマの明示化",
+        "概念変化の支援"
+      ],
+      "related_theories": [12, 8, 21, 14]
+    },
+    {
+      "id": 14,
+      "name_ja": "情報処理理論",
+      "name_en": "Information Processing Theory",
+      "category": "cognitive_theories",
+      "theorists": ["Richard Atkinson", "Richard Shiffrin", "Alan Baddeley"],
+      "year_proposed": "1960s-1970s",
+      "core_principles": [
+        "人間の認知をコンピュータのような情報処理として捉える",
+        "感覚記憶、短期記憶、長期記憶の区別",
+        "注意と符号化の重要性",
+        "処理容量の制限"
+      ],
+      "key_concepts": [
+        "記憶の三段階モデル",
+        "注意",
+        "符号化",
+        "検索"
+      ],
+      "educational_applications": [
+        "記憶術指導",
+        "注意力向上",
+        "学習方略指導",
+        "認知負荷管理"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "重要な情報には注意を向けさせる工夫をする",
+          "記憶に残りやすい符号化方法を教える",
+          "短期記憶の制約を考慮して情報量を調整する"
+        ],
+        "success_patterns": [
+          "多感覚を使った符号化",
+          "段階的な情報提示"
+        ],
+        "common_pitfalls": [
+          "情報過多",
+          "記憶方法の軽視"
+        ]
+      },
+      "ai_prompt_template": "情報処理理論に基づき、[学習内容]について、効果的な情報処理と記憶定着を促進する学習方法を設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "注意の集中",
+        "medium_term": "記憶の定着",
+        "long_term": "効率的な情報処理"
+      },
+      "suitable_contexts": [
+        "記憶学習",
+        "基礎スキル習得",
+        "情報リテラシー",
+        "学習方法指導"
+      ],
+      "grade_levels": ["elementary", "middle", "high"],
+      "subjects": ["all_subjects"],
+      "learning_objectives": [
+        "効率的な情報処理",
+        "記憶力向上",
+        "学習方略習得"
+      ],
+      "implementation_strategies": [
+        "注意喚起の工夫",
+        "効果的符号化指導",
+        "記憶方法の多様化",
+        "検索練習の実施"
+      ],
+      "related_theories": [8, 3, 13, 15]
+    },
+    {
+      "id": 15,
+      "name_ja": "自己調整学習理論",
+      "name_en": "Self-Regulated Learning Theory",
+      "category": "learning_theories",
+      "theorists": ["Barry Zimmerman", "Dale Schunk", "Monique Boekaerts"],
+      "year_proposed": "1980s-1990s",
+      "core_principles": [
+        "学習者が自分の学習を管理・調整する",
+        "目標設定、計画、監視、評価のサイクル",
+        "メタ認知、動機、行動の統合",
+        "自己効力感の重要性"
+      ],
+      "key_concepts": [
+        "自己調整",
+        "メタ認知",
+        "学習方略",
+        "自己効力感"
+      ],
+      "educational_applications": [
+        "学習方法指導",
+        "目標設定指導",
+        "自己評価活動",
+        "学習計画作成"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "学習目標を生徒自身に設定させる",
+          "学習過程を振り返る習慣をつけさせる",
+          "効果的な学習方法を明示的に指導する"
+        ],
+        "success_patterns": [
+          "目標-計画-実行-評価のサイクル",
+          "自己効力感の段階的構築"
+        ],
+        "common_pitfalls": [
+          "指導者依存の継続",
+          "メタ認知の軽視"
+        ]
+      },
+      "ai_prompt_template": "自己調整学習理論に基づき、[学習内容]について、学習者の自律的な学習能力を育成する指導方法を設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "学習計画の立案",
+        "medium_term": "学習方略の習得",
+        "long_term": "自律的学習者の育成"
+      },
+      "suitable_contexts": [
+        "自主学習指導",
+        "生涯学習",
+        "高等教育",
+        "個別指導"
+      ],
+      "grade_levels": ["middle", "high", "university"],
+      "subjects": ["all_subjects"],
+      "learning_objectives": [
+        "自律的学習能力",
+        "メタ認知能力育成",
+        "学習方略習得"
+      ],
+      "implementation_strategies": [
+        "目標設定指導",
+        "学習方略指導",
+        "自己監視技術",
+        "自己評価活動"
+      ],
+      "related_theories": [8, 17, 4, 16]
+    },
+    {
+      "id": 16,
+      "name_ja": "動機理論",
+      "name_en": "Motivation Theory",
+      "category": "motivation_theories",
+      "theorists": ["Edward Deci", "Richard Ryan", "Abraham Maslow"],
+      "year_proposed": "1970s-1980s",
+      "core_principles": [
+        "内発的動機と外発的動機の区別",
+        "基本的心理欲求の充足",
+        "動機の質が学習に影響する",
+        "環境要因が動機に影響する"
+      ],
+      "key_concepts": [
+        "内発的動機",
+        "外発的動機",
+        "基本的欲求",
+        "動機の質"
+      ],
+      "educational_applications": [
+        "興味関心の喚起",
+        "自主性の尊重",
+        "有能感の育成",
+        "関係性の構築"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "生徒の興味関心を把握して授業に活用する",
+          "選択の機会を与えて自主性を育む",
+          "達成可能な目標設定で有能感を高める"
+        ],
+        "success_patterns": [
+          "興味に基づく学習活動",
+          "段階的な成功体験"
+        ],
+        "common_pitfalls": [
+          "外的報酬への過度な依存",
+          "統制的な指導"
+        ]
+      },
+      "ai_prompt_template": "動機理論に基づき、[学習内容]について、学習者の内発的動機を高める学習環境と活動を設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "学習への積極的参加",
+        "medium_term": "内発的動機の向上",
+        "long_term": "自律的学習態度"
+      },
+      "suitable_contexts": [
+        "興味関心重視の授業",
+        "選択制学習",
+        "個別指導",
+        "創作活動"
+      ],
+      "grade_levels": ["elementary", "middle", "high"],
+      "subjects": ["all_subjects"],
+      "learning_objectives": [
+        "内発的動機の育成",
+        "学習への積極性",
+        "自主的学習態度"
+      ],
+      "implementation_strategies": [
+        "興味関心の把握",
+        "選択機会の提供",
+        "有能感の育成",
+        "社会的関係性構築"
+      ],
+      "related_theories": [17, 9, 18, 19]
+    },
+    {
+      "id": 17,
+      "name_ja": "自己決定理論",
+      "name_en": "Self-Determination Theory",
+      "category": "motivation_theories",
+      "theorists": ["Edward Deci", "Richard Ryan"],
+      "year_proposed": "1980s-2000s",
+      "core_principles": [
+        "自律性、有能性、関係性の3つの基本的欲求",
+        "内発的動機の促進",
+        "動機の自己決定度の連続体",
+        "社会環境が動機に与える影響"
+      ],
+      "key_concepts": [
+        "自律性",
+        "有能性",
+        "関係性",
+        "自己決定度"
+      ],
+      "educational_applications": [
+        "選択の自由の提供",
+        "適切な挑戦課題",
+        "支援的関係構築",
+        "内発的動機の促進"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "生徒に学習方法や内容の選択権を与える",
+          "個人のペースに合わせた課題設定をする",
+          "温かく支援的な関係性を築く"
+        ],
+        "success_patterns": [
+          "選択権のある学習環境",
+          "個別化された挑戦"
+        ],
+        "common_pitfalls": [
+          "統制的な指導",
+          "画一的な課題設定"
+        ]
+      },
+      "ai_prompt_template": "自己決定理論に基づき、[学習内容]について、自律性・有能性・関係性の3つの基本的欲求を満たす学習環境を設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "自主的な学習行動",
+        "medium_term": "内発的動機の安定化",
+        "long_term": "ウェルビーイングの向上"
+      },
+      "suitable_contexts": [
+        "学習者中心教育",
+        "個別化教育",
+        "創造的活動",
+        "協働学習"
+      ],
+      "grade_levels": ["elementary", "middle", "high", "university"],
+      "subjects": ["all_subjects"],
+      "learning_objectives": [
+        "自律的学習者育成",
+        "内発的動機向上",
+        "ウェルビーイング促進"
+      ],
+      "implementation_strategies": [
+        "選択機会の提供",
+        "個別化課題設定",
+        "支援的関係構築",
+        "フィードバック提供"
+      ],
+      "related_theories": [16, 9, 15, 20]
+    },
+    {
+      "id": 18,
+      "name_ja": "期待価値理論",
+      "name_en": "Expectancy-Value Theory",
+      "category": "motivation_theories",
+      "theorists": ["John Atkinson", "Jacquelynne Eccles", "Allan Wigfield"],
+      "year_proposed": "1950s-1980s",
+      "core_principles": [
+        "動機は期待と価値の積で決まる",
+        "成功への期待が重要",
+        "課題価値の4つの要素",
+        "個人差と発達的変化"
+      ],
+      "key_concepts": [
+        "成功期待",
+        "課題価値",
+        "内在価値",
+        "有用価値"
+      ],
+      "educational_applications": [
+        "期待感の向上",
+        "価値の明確化",
+        "成功体験の提供",
+        "関連性の説明"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "学習内容の実生活での価値を説明する",
+          "段階的な成功体験を積ませる",
+          "個人の興味と学習内容を関連づける"
+        ],
+        "success_patterns": [
+          "明確な価値の提示",
+          "達成可能な目標設定"
+        ],
+        "common_pitfalls": [
+          "価値説明の不足",
+          "過度に困難な課題"
+        ]
+      },
+      "ai_prompt_template": "期待価値理論に基づき、[学習内容]について、学習者の成功期待と課題価値を高める指導方法を設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "学習への期待感",
+        "medium_term": "持続的な努力",
+        "long_term": "価値観の内在化"
+      },
+      "suitable_contexts": [
+        "キャリア教育",
+        "実用的科目",
+        "進路指導",
+        "職業教育"
+      ],
+      "grade_levels": ["middle", "high", "university"],
+      "subjects": ["vocational", "career_guidance", "practical"],
+      "learning_objectives": [
+        "学習価値の理解",
+        "成功期待の向上",
+        "持続的努力の促進"
+      ],
+      "implementation_strategies": [
+        "価値の明確化",
+        "成功体験の設計",
+        "実用性の強調",
+        "個人関連性の提示"
+      ],
+      "related_theories": [16, 19, 17, 4]
+    },
+    {
+      "id": 19,
+      "name_ja": "達成目標理論",
+      "name_en": "Achievement Goal Theory",
+      "category": "motivation_theories",
+      "theorists": ["John Nicholls", "Carol Dweck", "Ames Carole"],
+      "year_proposed": "1980s-1990s",
+      "core_principles": [
+        "学習目標と遂行目標の区別",
+        "目標志向性が学習行動に影響",
+        "接近-回避の次元",
+        "環境が目標志向性を形成"
+      ],
+      "key_concepts": [
+        "学習目標志向",
+        "遂行目標志向",
+        "接近-回避",
+        "目標構造"
+      ],
+      "educational_applications": [
+        "学習目標の設定",
+        "過程重視の評価",
+        "協力的学習環境",
+        "失敗からの学習"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "結果よりも学習過程を重視して評価する",
+          "間違いを学習機会として捉える雰囲気を作る",
+          "他者との比較よりも自己の成長に焦点を当てる"
+        ],
+        "success_patterns": [
+          "過程重視の評価",
+          "成長マインドセットの促進"
+        ],
+        "common_pitfalls": [
+          "結果のみの評価",
+          "競争的環境の過度な強調"
+        ]
+      },
+      "ai_prompt_template": "達成目標理論に基づき、[学習内容]について、学習目標志向を促進し持続的な学習動機を育む指導方法を設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "学習過程への注目",
+        "medium_term": "挑戦的課題への取り組み",
+        "long_term": "生涯学習志向"
+      },
+      "suitable_contexts": [
+        "能力開発",
+        "技能習得",
+        "創造的活動",
+        "研究活動"
+      ],
+      "grade_levels": ["elementary", "middle", "high", "university"],
+      "subjects": ["all_subjects"],
+      "learning_objectives": [
+        "学習志向の育成",
+        "挑戦的態度の促進",
+        "成長マインドセット"
+      ],
+      "implementation_strategies": [
+        "学習目標の明確化",
+        "過程評価の重視",
+        "失敗の肯定的扱い",
+        "協力的環境構築"
+      ],
+      "related_theories": [16, 17, 18, 4]
+    },
+    {
+      "id": 20,
+      "name_ja": "フロー理論",
+      "name_en": "Flow Theory",
+      "category": "motivation_theories",
+      "theorists": ["Mihaly Csikszentmihalyi"],
+      "year_proposed": "1970s-1990s",
+      "core_principles": [
+        "最適体験としてのフロー状態",
+        "挑戦とスキルのバランス",
+        "明確な目標と即座のフィードバック",
+        "自己意識の消失と時間感覚の変化"
+      ],
+      "key_concepts": [
+        "フロー状態",
+        "挑戦-スキルバランス",
+        "集中状態",
+        "内発的動機"
+      ],
+      "educational_applications": [
+        "適切な難易度調整",
+        "即座のフィードバック",
+        "集中環境の整備",
+        "明確な目標設定"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "個人のスキルレベルに応じて課題の難易度を調整する",
+          "集中を妨げる要因を排除した環境を作る",
+          "小刻みで具体的な目標を設定する"
+        ],
+        "success_patterns": [
+          "個別化された難易度設定",
+          "没入できる学習環境"
+        ],
+        "common_pitfalls": [
+          "難易度の不適切さ",
+          "注意散漫な環境"
+        ]
+      },
+      "ai_prompt_template": "フロー理論に基づき、[学習内容]について、学習者がフロー状態を体験できる最適な学習環境と活動を設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "高い集中状態",
+        "medium_term": "学習への没入",
+        "long_term": "最適体験の習慣化"
+      },
+      "suitable_contexts": [
+        "技能練習",
+        "創作活動",
+        "個別学習",
+        "ゲーム学習"
+      ],
+      "grade_levels": ["elementary", "middle", "high", "university"],
+      "subjects": ["art", "music", "sports", "craft"],
+      "learning_objectives": [
+        "最適体験の促進",
+        "集中力の向上",
+        "内発的動機の強化"
+      ],
+      "implementation_strategies": [
+        "個別難易度調整",
+        "即座フィードバック",
+        "集中環境整備",
+        "明確目標設定"
+      ],
+      "related_theories": [16, 17, 9, 6]
+    },
+    {
+      "id": 21,
+      "name_ja": "ピアジェの認知発達理論",
+      "name_en": "Piaget's Cognitive Development Theory",
+      "category": "developmental_theories",
+      "theorists": ["Jean Piaget"],
+      "year_proposed": "1920s-1960s",
+      "core_principles": [
+        "認知発達の4段階",
+        "同化と調節による適応",
+        "発達段階の不変性と普遍性",
+        "構成主義的学習観"
+      ],
+      "key_concepts": [
+        "4つの発達段階",
+        "同化と調節",
+        "シェマ",
+        "平衡化"
+      ],
+      "educational_applications": [
+        "発達段階に応じた指導",
+        "具体物を使った学習",
+        "探究活動の重視",
+        "認知的葛藤の活用"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "子どもの発達段階を把握して適切な教材を選ぶ",
+          "具体的操作から抽象的思考へ段階的に進める",
+          "子ども自身が探究する機会を多く設ける"
+        ],
+        "success_patterns": [
+          "発達段階に応じた教材選択",
+          "体験的学習の重視"
+        ],
+        "common_pitfalls": [
+          "発達段階を超えた指導",
+          "抽象的説明への偏重"
+        ]
+      },
+      "ai_prompt_template": "ピアジェの認知発達理論に基づき、[対象年齢]の[学習内容]について、発達段階に適した学習活動と教材を設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "発達段階に適した理解",
+        "medium_term": "認知能力の段階的向上",
+        "long_term": "論理的思考力の育成"
+      },
+      "suitable_contexts": [
+        "幼児教育",
+        "初等教育",
+        "数学教育",
+        "科学教育"
+      ],
+      "grade_levels": ["preschool", "elementary", "middle"],
+      "subjects": ["mathematics", "science", "general"],
+      "learning_objectives": [
+        "発達段階に応じた認知能力育成",
+        "論理的思考力の発達",
+        "探究心の促進"
+      ],
+      "implementation_strategies": [
+        "発達段階の診断",
+        "具体物の活用",
+        "探究活動の実施",
+        "認知的葛藤の創出"
+      ],
+      "related_theories": [1, 22, 25, 13]
+    },
+    {
+      "id": 22,
+      "name_ja": "ヴィゴツキーの最近接発達領域理論",
+      "name_en": "Vygotsky's Zone of Proximal Development Theory",
+      "category": "developmental_theories",
+      "theorists": ["Lev Vygotsky"],
+      "year_proposed": "1930s",
+      "core_principles": [
+        "最近接発達領域での学習が最も効果的",
+        "社会的相互作用による発達",
+        "言語と思考の発達",
+        "文化的道具の媒介作用"
+      ],
+      "key_concepts": [
+        "最近接発達領域",
+        "足場かけ",
+        "社会的相互作用",
+        "文化的道具"
+      ],
+      "educational_applications": [
+        "協働学習",
+        "ピア・チューター",
+        "足場かけ指導",
+        "言語活動重視"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "子どもが一人でできることと支援があればできることを把握する",
+          "適切な援助を段階的に減らしていく",
+          "子ども同士の教え合いを積極的に活用する"
+        ],
+        "success_patterns": [
+          "段階的支援の提供",
+          "ペア・グループ学習の活用"
+        ],
+        "common_pitfalls": [
+          "過度な支援の継続",
+          "個人学習への偏重"
+        ]
+      },
+      "ai_prompt_template": "ヴィゴツキーの最近接発達領域理論に基づき、[学習内容]について、適切な足場かけと社会的相互作用を組み込んだ指導方法を設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "支援下での課題達成",
+        "medium_term": "自立的な課題解決",
+        "long_term": "高次精神機能の発達"
+      },
+      "suitable_contexts": [
+        "協働学習",
+        "個別指導",
+        "言語活動",
+        "問題解決学習"
+      ],
+      "grade_levels": ["preschool", "elementary", "middle"],
+      "subjects": ["language_arts", "mathematics", "social_studies"],
+      "learning_objectives": [
+        "発達の最適化",
+        "社会的スキル育成",
+        "言語能力向上"
+      ],
+      "implementation_strategies": [
+        "発達水準の診断",
+        "適切な足場かけ",
+        "協働活動の促進",
+        "言語活動の重視"
+      ],
+      "related_theories": [2, 21, 26, 10]
+    },
+    {
+      "id": 23,
+      "name_ja": "エリクソンの心理社会的発達理論",
+      "name_en": "Erikson's Psychosocial Development Theory",
+      "category": "developmental_theories",
+      "theorists": ["Erik Erikson"],
+      "year_proposed": "1950s-1960s",
+      "core_principles": [
+        "生涯にわたる8段階の発達課題",
+        "各段階での危機と達成",
+        "社会的関係性の重要性",
+        "アイデンティティ形成"
+      ],
+      "key_concepts": [
+        "8つの発達段階",
+        "発達課題",
+        "危機と達成",
+        "アイデンティティ"
+      ],
+      "educational_applications": [
+        "発達段階に応じた指導",
+        "社会性の育成",
+        "アイデンティティ支援",
+        "人間関係指導"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "各発達段階の課題を理解して生徒に寄り添う",
+          "社会的関係性を重視した活動を取り入れる",
+          "自己理解を深める機会を提供する"
+        ],
+        "success_patterns": [
+          "発達課題に応じた支援",
+          "社会的関係性の重視"
+        ],
+        "common_pitfalls": [
+          "発達課題の軽視",
+          "個人的側面のみの重視"
+        ]
+      },
+      "ai_prompt_template": "エリクソンの心理社会的発達理論に基づき、[対象年齢]の生徒の発達課題を考慮した[学習活動]を設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "発達課題への取り組み",
+        "medium_term": "社会的適応の向上",
+        "long_term": "健全なアイデンティティ形成"
+      },
+      "suitable_contexts": [
+        "人格教育",
+        "道徳教育",
+        "生活指導",
+        "カウンセリング"
+      ],
+      "grade_levels": ["elementary", "middle", "high"],
+      "subjects": ["moral_education", "social_studies", "counseling"],
+      "learning_objectives": [
+        "健全な人格発達",
+        "社会性の育成",
+        "アイデンティティ形成"
+      ],
+      "implementation_strategies": [
+        "発達段階の理解",
+        "社会的関係性重視",
+        "自己理解促進",
+        "課題解決支援"
+      ],
+      "related_theories": [24, 21, 9, 22]
+    },
+    {
+      "id": 24,
+      "name_ja": "コールバーグの道徳発達理論",
+      "name_en": "Kohlberg's Moral Development Theory",
+      "category": "developmental_theories",
+      "theorists": ["Lawrence Kohlberg"],
+      "year_proposed": "1960s-1970s",
+      "core_principles": [
+        "道徳判断の6段階発達",
+        "道徳的推論の質的変化",
+        "正義の概念の発達",
+        "道徳的ジレンマによる発達促進"
+      ],
+      "key_concepts": [
+        "6段階の道徳発達",
+        "道徳的推論",
+        "正義の概念",
+        "道徳的ジレンマ"
+      ],
+      "educational_applications": [
+        "道徳教育",
+        "ジレンマ討議",
+        "価値観教育",
+        "市民性教育"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "道徳的ジレンマを用いて生徒の思考を促す",
+          "異なる道徳的観点を比較検討させる",
+          "実生活の問題と関連づけて考えさせる"
+        ],
+        "success_patterns": [
+          "ジレンマ討議の活用",
+          "多様な観点の比較"
+        ],
+        "common_pitfalls": [
+          "一方的な価値観の押し付け",
+          "段階の飛び越し"
+        ]
+      },
+      "ai_prompt_template": "コールバーグの道徳発達理論に基づき、[道徳的テーマ]について、学習者の道徳的推論を促進する教育活動を設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "道徳的推論の活性化",
+        "medium_term": "道徳判断力の向上",
+        "long_term": "高次の道徳的思考"
+      },
+      "suitable_contexts": [
+        "道徳教育",
+        "公民教育",
+        "哲学教育",
+        "ディベート"
+      ],
+      "grade_levels": ["elementary", "middle", "high"],
+      "subjects": ["moral_education", "social_studies", "philosophy"],
+      "learning_objectives": [
+        "道徳的推論力育成",
+        "正義感の発達",
+        "批判的思考力向上"
+      ],
+      "implementation_strategies": [
+        "道徳的ジレンマ提示",
+        "討議活動実施",
+        "多様な観点提供",
+        "段階的思考促進"
+      ],
+      "related_theories": [23, 21, 4, 29]
+    },
+    {
+      "id": 25,
+      "name_ja": "ガードナーの発達理論",
+      "name_en": "Gardner's Development Theory",
+      "category": "developmental_theories",
+      "theorists": ["Howard Gardner"],
+      "year_proposed": "1980s-1990s",
+      "core_principles": [
+        "多重知能の発達的変化",
+        "個人の知能プロファイルの独自性",
+        "文化的価値との相互作用",
+        "才能開発の重要性"
+      ],
+      "key_concepts": [
+        "多重知能の発達",
+        "個人プロファイル",
+        "文化的影響",
+        "才能開発"
+      ],
+      "educational_applications": [
+        "個別才能開発",
+        "多様な評価方法",
+        "文化的多様性尊重",
+        "統合的カリキュラム"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "個々の生徒の知能プロファイルを把握する",
+          "多様な表現方法を認める評価を行う",
+          "文化的背景を活かした指導を心がける"
+        ],
+        "success_patterns": [
+          "個人の強みを活かした指導",
+          "多文化的アプローチ"
+        ],
+        "common_pitfalls": [
+          "画一的な評価基準",
+          "文化的偏見"
+        ]
+      },
+      "ai_prompt_template": "ガードナーの発達理論に基づき、[対象年齢]の[学習分野]について、多重知能の発達を促進する個別化された教育プログラムを設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "個人の強みの発見",
+        "medium_term": "多面的能力の発達",
+        "long_term": "才能の開花"
+      },
+      "suitable_contexts": [
+        "才能教育",
+        "個別化教育",
+        "多文化教育",
+        "統合教育"
+      ],
+      "grade_levels": ["elementary", "middle", "high"],
+      "subjects": ["art", "music", "mathematics", "language"],
+      "learning_objectives": [
+        "多面的才能開発",
+        "個性の尊重",
+        "文化的理解"
+      ],
+      "implementation_strategies": [
+        "知能プロファイル診断",
+        "個別指導計画",
+        "多様な評価実施",
+        "文化的リソース活用"
+      ],
+      "related_theories": [5, 21, 23, 22]
+    },
+    {
+      "id": 26,
+      "name_ja": "協同学習理論",
+      "name_en": "Collaborative Learning Theory",
+      "category": "social_learning_theories",
+      "theorists": ["David Johnson", "Roger Johnson", "Spencer Kagan"],
+      "year_proposed": "1970s-1980s",
+      "core_principles": [
+        "相互依存の重要性",
+        "個人の責任と集団の成果",
+        "対面的相互作用",
+        "社会的スキルの発達"
+      ],
+      "key_concepts": [
+        "積極的相互依存",
+        "個人の責任",
+        "対面的相互作用",
+        "社会的スキル"
+      ],
+      "educational_applications": [
+        "グループ学習",
+        "プロジェクト学習",
+        "ピア・ラーニング",
+        "チームワーク育成"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "明確な役割分担と共通目標を設定する",
+          "個人の貢献が見える仕組みを作る",
+          "協力のためのスキルを事前に指導する"
+        ],
+        "success_patterns": [
+          "構造化されたグループ活動",
+          "相互依存関係の明確化"
+        ],
+        "common_pitfalls": [
+          "単なるグループ作業",
+          "個人の責任の不明確さ"
+        ]
+      },
+      "ai_prompt_template": "協同学習理論に基づき、[学習内容]について、積極的相互依存と個人の責任を両立させる協同学習活動を設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "活発な相互作用",
+        "medium_term": "社会的スキル向上",
+        "long_term": "協働能力の育成"
+      },
+      "suitable_contexts": [
+        "グループワーク",
+        "プロジェクト学習",
+        "問題解決学習",
+        "実技科目"
+      ],
+      "grade_levels": ["elementary", "middle", "high", "university"],
+      "subjects": ["all_subjects"],
+      "learning_objectives": [
+        "協働能力育成",
+        "社会的スキル向上",
+        "相互理解促進"
+      ],
+      "implementation_strategies": [
+        "相互依存構造設計",
+        "個人責任明確化",
+        "社会的スキル指導",
+        "振り返り活動実施"
+      ],
+      "related_theories": [2, 10, 22, 27]
+    },
+    {
+      "id": 27,
+      "name_ja": "問題解決学習理論",
+      "name_en": "Problem-Based Learning Theory",
+      "category": "instructional_theories",
+      "theorists": ["Howard Barrows", "John Dewey", "Jerome Bruner"],
+      "year_proposed": "1960s-1970s",
+      "core_principles": [
+        "現実的問題を学習の出発点とする",
+        "学習者中心の探究プロセス",
+        "協働的問題解決",
+        "メタ認知的思考の促進"
+      ],
+      "key_concepts": [
+        "現実的問題",
+        "探究プロセス",
+        "協働的解決",
+        "メタ認知"
+      ],
+      "educational_applications": [
+        "課題解決学習",
+        "ケーススタディ",
+        "プロジェクト学習",
+        "実践的学習"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "生徒にとって意味のある現実的な問題を選ぶ",
+          "解決過程での思考を可視化させる",
+          "協働で取り組める環境を整える"
+        ],
+        "success_patterns": [
+          "段階的な問題設定",
+          "思考過程の共有"
+        ],
+        "common_pitfalls": [
+          "問題の複雑さ過多",
+          "過程軽視の結果重視"
+        ]
+      },
+      "ai_prompt_template": "問題解決学習理論に基づき、[学習分野]の[現実問題]について、学習者が協働的に探究・解決できる学習プログラムを設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "問題への積極的取り組み",
+        "medium_term": "思考力の向上",
+        "long_term": "実践的問題解決能力"
+      },
+      "suitable_contexts": [
+        "実問題学習",
+        "ケーススタディ",
+        "医学教育",
+        "工学教育"
+      ],
+      "grade_levels": ["middle", "high", "university"],
+      "subjects": ["science", "medicine", "engineering", "business"],
+      "learning_objectives": [
+        "問題解決能力育成",
+        "批判的思考力向上",
+        "実践的応用力"
+      ],
+      "implementation_strategies": [
+        "現実問題の選定",
+        "探究過程の構造化",
+        "協働学習促進",
+        "メタ認知支援"
+      ],
+      "related_theories": [1, 11, 26, 28]
+    },
+    {
+      "id": 28,
+      "name_ja": "プロジェクト学習理論",
+      "name_en": "Project-Based Learning Theory",
+      "category": "instructional_theories",
+      "theorists": ["William Kilpatrick", "John Dewey", "Seymour Papert"],
+      "year_proposed": "1910s-1990s",
+      "core_principles": [
+        "長期的なプロジェクトによる学習",
+        "統合的・学際的アプローチ",
+        "成果物の創造",
+        "自律的学習の促進"
+      ],
+      "key_concepts": [
+        "長期プロジェクト",
+        "統合的学習",
+        "成果物創造",
+        "自律性"
+      ],
+      "educational_applications": [
+        "総合的学習",
+        "研究プロジェクト",
+        "制作活動",
+        "社会貢献活動"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "明確な最終成果物を設定する",
+          "段階的なマイルストーンを設ける",
+          "生徒の興味関心と関連づける"
+        ],
+        "success_patterns": [
+          "魅力的な最終成果設定",
+          "適切な進行管理"
+        ],
+        "common_pitfalls": [
+          "目標の不明確さ",
+          "時間管理の困難"
+        ]
+      },
+      "ai_prompt_template": "プロジェクト学習理論に基づき、[学習テーマ]について、統合的で魅力的な成果物を創造する長期プロジェクトを設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "プロジェクトへの積極的参加",
+        "medium_term": "統合的理解の深化",
+        "long_term": "創造的実践能力"
+      },
+      "suitable_contexts": [
+        "総合学習",
+        "卒業研究",
+        "制作科目",
+        "地域連携"
+      ],
+      "grade_levels": ["elementary", "middle", "high", "university"],
+      "subjects": ["integrated", "art", "technology", "social_studies"],
+      "learning_objectives": [
+        "統合的理解",
+        "創造的思考力",
+        "実践的応用力"
+      ],
+      "implementation_strategies": [
+        "魅力的目標設定",
+        "段階的計画立案",
+        "進捗管理支援",
+        "成果発表機会"
+      ],
+      "related_theories": [6, 27, 1, 29]
+    },
+    {
+      "id": 29,
+      "name_ja": "探究学習理論",
+      "name_en": "Inquiry-Based Learning Theory",
+      "category": "instructional_theories",
+      "theorists": ["John Dewey", "Jerome Bruner", "Joseph Schwab"],
+      "year_proposed": "1900s-1960s",
+      "core_principles": [
+        "疑問・問いからの学習出発",
+        "科学的思考プロセスの重視",
+        "証拠に基づく結論",
+        "知識の能動的構築"
+      ],
+      "key_concepts": [
+        "探究サイクル",
+        "科学的思考",
+        "証拠重視",
+        "能動的学習"
+      ],
+      "educational_applications": [
+        "科学実験",
+        "調査研究",
+        "フィールドワーク",
+        "仮説検証学習"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "生徒の素朴な疑問を大切にして発展させる",
+          "証拠を集める方法を具体的に指導する",
+          "結論に至る論理的過程を重視する"
+        ],
+        "success_patterns": [
+          "興味深い問いの設定",
+          "段階的探究過程"
+        ],
+        "common_pitfalls": [
+          "答えありきの探究",
+          "過程軽視の結果重視"
+        ]
+      },
+      "ai_prompt_template": "探究学習理論に基づき、[探究テーマ]について、学習者が科学的思考プロセスを通じて能動的に知識を構築する探究活動を設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "探究への意欲",
+        "medium_term": "科学的思考力向上",
+        "long_term": "探究的態度の定着"
+      },
+      "suitable_contexts": [
+        "理科教育",
+        "社会科調査",
+        "卒業研究",
+        "自由研究"
+      ],
+      "grade_levels": ["elementary", "middle", "high", "university"],
+      "subjects": ["science", "social_studies", "research"],
+      "learning_objectives": [
+        "探究能力育成",
+        "科学的思考力向上",
+        "批判的思考力"
+      ],
+      "implementation_strategies": [
+        "問いの設定支援",
+        "探究方法指導",
+        "証拠収集技術",
+        "論理的思考促進"
+      ],
+      "related_theories": [11, 27, 1, 24]
+    },
+    {
+      "id": 30,
+      "name_ja": "反転学習理論",
+      "name_en": "Flipped Learning Theory",
+      "category": "instructional_theories",
+      "theorists": ["Jonathan Bergmann", "Aaron Sams", "Eric Mazur"],
+      "year_proposed": "2000s-2010s",
+      "core_principles": [
+        "授業時間と宿題時間の反転",
+        "個別ペースでの知識習得",
+        "授業での応用・実践重視",
+        "テクノロジーの効果的活用"
+      ],
+      "key_concepts": [
+        "時間の反転",
+        "個別学習",
+        "アクティブラーニング",
+        "テクノロジー活用"
+      ],
+      "educational_applications": [
+        "動画教材活用",
+        "個別進度学習",
+        "授業内実践活動",
+        "ブレンド型学習"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "家庭学習用の短い動画を作成する",
+          "授業では応用問題や討議に時間を使う",
+          "個別の理解度を細かく把握する"
+        ],
+        "success_patterns": [
+          "質の高い事前学習教材",
+          "授業での高次活動"
+        ],
+        "common_pitfalls": [
+          "家庭学習の管理不足",
+          "技術的障壁"
+        ]
+      },
+      "ai_prompt_template": "反転学習理論に基づき、[学習内容]について、効果的な事前学習と授業内アクティビティを組み合わせた学習設計をしてください。",
+      "effectiveness_indicators": {
+        "short_term": "事前学習の完了",
+        "medium_term": "授業参加度向上",
+        "long_term": "自律的学習能力"
+      },
+      "suitable_contexts": [
+        "高等教育",
+        "テクノロジー環境",
+        "個別化教育",
+        "継続教育"
+      ],
+      "grade_levels": ["high", "university"],
+      "subjects": ["mathematics", "science", "language"],
+      "learning_objectives": [
+        "自律的学習促進",
+        "深い理解の実現",
+        "効率的時間活用"
+      ],
+      "implementation_strategies": [
+        "事前学習教材作成",
+        "進捗管理システム",
+        "授業内活動設計",
+        "技術的支援提供"
+      ],
+      "related_theories": [15, 6, 1, 26]
+    },
+    
+    {
+      "id": 31,
+      "name_ja": "フォーマティブ・アセスメント理論",
+      "name_en": "Formative Assessment Theory",
+      "category": "assessment_theories",
+      "theorists": ["Michael Scriven", "Benjamin Bloom", "Paul Black", "Dylan Wiliam"],
+      "year_proposed": "1960s-1990s",
+      "core_principles": [
+        "学習過程での継続的評価",
+        "学習改善のための評価",
+        "即座のフィードバック提供",
+        "学習者の自己調整支援"
+      ],
+      "key_concepts": [
+        "形成的評価",
+        "学習のための評価",
+        "即座フィードバック",
+        "自己調整"
+      ],
+      "educational_applications": [
+        "小テスト活用",
+        "観察評価",
+        "ポートフォリオ",
+        "ピア評価"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "授業中に小刻みに理解度を確認する",
+          "間違いを学習機会として活用する",
+          "生徒が自分の理解度を把握できるよう支援する"
+        ],
+        "success_patterns": [
+          "頻繁な理解度チェック",
+          "建設的フィードバック"
+        ],
+        "common_pitfalls": [
+          "評価が成績づけに偏る",
+          "フィードバックの遅延"
+        ]
+      },
+      "ai_prompt_template": "フォーマティブ・アセスメント理論に基づき、[学習内容]について、学習過程を継続的に評価し改善につなげる評価方法を設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "学習過程の可視化",
+        "medium_term": "学習改善の実現",
+        "long_term": "自己調整能力の向上"
+      },
+      "suitable_contexts": [
+        "日常授業",
+        "個別指導",
+        "協働学習",
+        "オンライン学習"
+      ],
+      "grade_levels": ["elementary", "middle", "high", "university"],
+      "subjects": ["all_subjects"],
+      "learning_objectives": [
+        "学習過程の改善",
+        "自己評価能力育成",
+        "継続的成長"
+      ],
+      "implementation_strategies": [
+        "頻繁な理解度確認",
+        "即座フィードバック",
+        "自己評価活動",
+        "学習調整支援"
+      ],
+      "related_theories": [32, 4, 15, 35]
+    },
+    {
+      "id": 32,
+      "name_ja": "真正の評価理論",
+      "name_en": "Authentic Assessment Theory",
+      "category": "assessment_theories",
+      "theorists": ["Grant Wiggins", "Fred Newmann", "Linda Darling-Hammond"],
+      "year_proposed": "1980s-1990s",
+      "core_principles": [
+        "現実世界の文脈での評価",
+        "実践的スキルの測定",
+        "複雑で意味のある課題",
+        "多様な評価方法の活用"
+      ],
+      "key_concepts": [
+        "真正性",
+        "実世界文脈",
+        "パフォーマンス評価",
+        "多面的評価"
+      ],
+      "educational_applications": [
+        "パフォーマンス課題",
+        "ポートフォリオ評価",
+        "実技評価",
+        "プロジェクト評価"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "実生活で使える能力を評価の対象とする",
+          "複数の評価方法を組み合わせて多面的に評価する",
+          "評価基準を事前に明確に示す"
+        ],
+        "success_patterns": [
+          "現実的な課題設定",
+          "明確な評価基準"
+        ],
+        "common_pitfalls": [
+          "評価の客観性不足",
+          "時間・労力の過大"
+        ]
+      },
+      "ai_prompt_template": "真正の評価理論に基づき、[学習分野]について、実世界の文脈で実践的能力を測定する評価課題を設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "実践的スキルの発揮",
+        "medium_term": "応用能力の向上",
+        "long_term": "実世界での活用"
+      },
+      "suitable_contexts": [
+        "職業教育",
+        "実技科目",
+        "総合学習",
+        "卒業研究"
+      ],
+      "grade_levels": ["middle", "high", "university"],
+      "subjects": ["vocational", "art", "science", "integrated"],
+      "learning_objectives": [
+        "実践的能力育成",
+        "応用力向上",
+        "現実対応力"
+      ],
+      "implementation_strategies": [
+        "現実的課題設定",
+        "ルーブリック作成",
+        "多様な評価方法",
+        "継続的観察"
+      ],
+      "related_theories": [31, 35, 27, 28]
+    },
+    {
+      "id": 33,
+      "name_ja": "ポートフォリオ評価理論",
+      "name_en": "Portfolio Assessment Theory",
+      "category": "assessment_theories",
+      "theorists": ["F. Leon Paulson", "Pearl R. Paulson", "Carol A. Meyer"],
+      "year_proposed": "1980s-1990s",
+      "core_principles": [
+        "学習成果の体系的収集",
+        "学習過程の可視化",
+        "自己省察の促進",
+        "成長の継続的記録"
+      ],
+      "key_concepts": [
+        "作品集",
+        "学習過程記録",
+        "自己省察",
+        "成長の軌跡"
+      ],
+      "educational_applications": [
+        "学習記録作成",
+        "自己評価活動",
+        "成長の可視化",
+        "面談での活用"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "目的を明確にしてポートフォリオを作成する",
+          "定期的に振り返りの時間を設ける",
+          "質の高い作品選択の基準を教える"
+        ],
+        "success_patterns": [
+          "明確な収集基準",
+          "定期的な振り返り活動"
+        ],
+        "common_pitfalls": [
+          "単なる作品の寄せ集め",
+          "振り返りの不足"
+        ]
+      },
+      "ai_prompt_template": "ポートフォリオ評価理論に基づき、[学習分野]について、学習者の成長を継続的に記録し自己省察を促すポートフォリオシステムを設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "学習成果の蓄積",
+        "medium_term": "自己評価能力向上",
+        "long_term": "メタ認知能力育成"
+      },
+      "suitable_contexts": [
+        "芸術教育",
+        "ライティング",
+        "総合学習",
+        "キャリア教育"
+      ],
+      "grade_levels": ["elementary", "middle", "high", "university"],
+      "subjects": ["art", "language_arts", "integrated", "career"],
+      "learning_objectives": [
+        "自己省察能力",
+        "成長の自覚",
+        "学習過程の理解"
+      ],
+      "implementation_strategies": [
+        "収集基準明確化",
+        "振り返り活動",
+        "選択基準指導",
+        "デジタル化推進"
+      ],
+      "related_theories": [31, 32, 15, 9]
+    },
+    {
+      "id": 34,
+      "name_ja": "基準参照評価理論",
+      "name_en": "Criterion-Referenced Assessment Theory",
+      "category": "assessment_theories",
+      "theorists": ["Robert Glaser", "James Popham", "Robert Mager"],
+      "year_proposed": "1960s-1970s",
+      "core_principles": [
+        "絶対的基準による評価",
+        "学習目標の達成度測定",
+        "個人の成長に焦点",
+        "能力ベースの判定"
+      ],
+      "key_concepts": [
+        "絶対基準",
+        "習得度",
+        "学習目標",
+        "能力判定"
+      ],
+      "educational_applications": [
+        "習得度評価",
+        "能力認定",
+        "個別指導",
+        "到達度評価"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "明確な学習目標と評価基準を設定する",
+          "他者との比較ではなく目標達成に焦点を当てる",
+          "未達成の場合は追加指導を行う"
+        ],
+        "success_patterns": [
+          "明確な基準設定",
+          "個別対応の充実"
+        ],
+        "common_pitfalls": [
+          "基準の不明確さ",
+          "相対評価との混同"
+        ]
+      },
+      "ai_prompt_template": "基準参照評価理論に基づき、[学習目標]について、絶対的基準による習得度評価システムを設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "目標達成度の明確化",
+        "medium_term": "個別成長の促進",
+        "long_term": "確実な能力習得"
+      },
+      "suitable_contexts": [
+        "技能習得",
+        "基礎教育",
+        "資格取得",
+        "能力認定"
+      ],
+      "grade_levels": ["elementary", "middle", "high", "university"],
+      "subjects": ["basic_skills", "vocational", "language"],
+      "learning_objectives": [
+        "確実な習得",
+        "個別成長促進",
+        "能力証明"
+      ],
+      "implementation_strategies": [
+        "明確基準設定",
+        "習得度診断",
+        "個別対応実施",
+        "再学習支援"
+      ],
+      "related_theories": [4, 31, 7, 35]
+    },
+    {
+      "id": 35,
+      "name_ja": "建設的アライメント理論",
+      "name_en": "Constructive Alignment Theory",
+      "category": "curriculum_theories",
+      "theorists": ["John Biggs", "Catherine Tang"],
+      "year_proposed": "1990s-2000s",
+      "core_principles": [
+        "学習目標、教授活動、評価の一致",
+        "構成主義的学習観",
+        "学習者中心の設計",
+        "深い学習の促進"
+      ],
+      "key_concepts": [
+        "アライメント",
+        "学習目標",
+        "教授活動",
+        "評価方法"
+      ],
+      "educational_applications": [
+        "カリキュラム設計",
+        "授業計画",
+        "評価設計",
+        "コース開発"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "学習目標を明確にしてから教授法と評価を決める",
+          "目標と活動と評価が一貫するよう常に確認する",
+          "学生の学習活動に焦点を当てて設計する"
+        ],
+        "success_patterns": [
+          "一貫したコース設計",
+          "明確な学習成果"
+        ],
+        "common_pitfalls": [
+          "目標と評価の不一致",
+          "教師中心の思考"
+        ]
+      },
+      "ai_prompt_template": "建設的アライメント理論に基づき、[学習目標]について、目標・教授活動・評価が一致した包括的な学習設計を行ってください。",
+      "effectiveness_indicators": {
+        "short_term": "一貫した学習体験",
+        "medium_term": "深い学習の実現",
+        "long_term": "確実な能力育成"
+      },
+      "suitable_contexts": [
+        "高等教育",
+        "カリキュラム開発",
+        "コース設計",
+        "専門教育"
+      ],
+      "grade_levels": ["high", "university"],
+      "subjects": ["all_subjects"],
+      "learning_objectives": [
+        "一貫した学習体験",
+        "深い理解促進",
+        "確実な能力習得"
+      ],
+      "implementation_strategies": [
+        "学習目標明確化",
+        "教授活動設計",
+        "評価方法選択",
+        "一貫性確保"
+      ],
+      "related_theories": [4, 1, 31, 32]
+    },
+    {
+      "id": 36,
+      "name_ja": "直接指導法理論",
+      "name_en": "Direct Instruction Theory",
+      "category": "instructional_theories",
+      "theorists": ["Siegfried Engelmann", "Wesley Becker", "Barak Rosenshine"],
+      "year_proposed": "1960s-1970s",
+      "core_principles": [
+        "明示的で体系的な指導",
+        "段階的スキル習得",
+        "頻繁な練習と確認",
+        "即座の修正フィードバック"
+      ],
+      "key_concepts": [
+        "明示的指導",
+        "体系的学習",
+        "段階的習得",
+        "即座修正"
+      ],
+      "educational_applications": [
+        "基礎スキル指導",
+        "読み書き指導",
+        "計算指導",
+        "技能習得"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "学習内容を小さなステップに分けて教える",
+          "模範を示してから練習させる",
+          "理解度を頻繁に確認して即座に修正する"
+        ],
+        "success_patterns": [
+          "明確なステップ提示",
+          "充分な練習機会"
+        ],
+        "common_pitfalls": [
+          "受動的学習への偏重",
+          "創造性の軽視"
+        ]
+      },
+      "ai_prompt_template": "直接指導法理論に基づき、[基礎スキル]について、明示的で体系的な指導プログラムを設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "基礎スキルの習得",
+        "medium_term": "正確性の向上",
+        "long_term": "自動化された技能"
+      },
+      "suitable_contexts": [
+        "基礎教育",
+        "技能訓練",
+        "特別支援教育",
+        "補習指導"
+      ],
+      "grade_levels": ["elementary", "special_needs"],
+      "subjects": ["basic_skills", "mathematics", "reading"],
+      "learning_objectives": [
+        "基礎技能習得",
+        "正確性向上",
+        "自動化促進"
+      ],
+      "implementation_strategies": [
+        "小ステップ分割",
+        "模範提示",
+        "反復練習",
+        "即座修正"
+      ],
+      "related_theories": [7, 37, 34, 40]
+    },
+    {
+      "id": 37,
+      "name_ja": "足場かけ理論",
+      "name_en": "Scaffolding Theory",
+      "category": "instructional_theories",
+      "theorists": ["Jerome Bruner", "David Wood", "Gail Ross"],
+      "year_proposed": "1970s",
+      "core_principles": [
+        "一時的な学習支援",
+        "段階的支援の削減",
+        "学習者の自立促進",
+        "適切なタイミングでの介入"
+      ],
+      "key_concepts": [
+        "一時的支援",
+        "段階的削減",
+        "自立促進",
+        "適切介入"
+      ],
+      "educational_applications": [
+        "個別指導",
+        "協働学習",
+        "問題解決支援",
+        "技能習得支援"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "生徒が必要とする最小限の支援を提供する",
+          "段階的に支援を減らして自立を促す",
+          "生徒のサインを読み取って適切なタイミングで介入する"
+        ],
+        "success_patterns": [
+          "適切な支援レベル",
+          "タイムリーな介入"
+        ],
+        "common_pitfalls": [
+          "過度な支援の継続",
+          "支援の突然な中止"
+        ]
+      },
+      "ai_prompt_template": "足場かけ理論に基づき、[学習課題]について、学習者の自立を段階的に促進する支援システムを設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "支援下での課題達成",
+        "medium_term": "支援の段階的削減",
+        "long_term": "自立的問題解決"
+      },
+      "suitable_contexts": [
+        "個別指導",
+        "初学者指導",
+        "困難課題",
+        "技能習得"
+      ],
+      "grade_levels": ["elementary", "middle", "high"],
+      "subjects": ["all_subjects"],
+      "learning_objectives": [
+        "自立的学習能力",
+        "段階的成長",
+        "適応的支援"
+      ],
+      "implementation_strategies": [
+        "適切支援レベル設定",
+        "段階的削減計画",
+        "継続的観察",
+        "タイムリー介入"
+      ],
+      "related_theories": [22, 36, 40, 15]
+    },
+    {
+      "id": 38,
+      "name_ja": "段階的リリース理論",
+      "name_en": "Gradual Release of Responsibility Theory",
+      "category": "instructional_theories",
+      "theorists": ["P. David Pearson", "Margaret Gallagher", "Doug Fisher"],
+      "year_proposed": "1980s-2000s",
+      "core_principles": [
+        "責任の段階的移行",
+        "「私がする」から「あなたがする」へ",
+        "協働学習の中間段階",
+        "学習者の自立支援"
+      ],
+      "key_concepts": [
+        "責任移行",
+        "段階的独立",
+        "協働段階",
+        "自立支援"
+      ],
+      "educational_applications": [
+        "技能指導",
+        "読解指導",
+        "問題解決指導",
+        "プロジェクト指導"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "模範→協働→指導→独立の4段階を意識する",
+          "各段階で生徒の理解度を確認する",
+          "急がずに生徒のペースに合わせて進める"
+        ],
+        "success_patterns": [
+          "明確な4段階実施",
+          "適切な段階移行"
+        ],
+        "common_pitfalls": [
+          "段階の飛び越し",
+          "移行タイミングの誤り"
+        ]
+      },
+      "ai_prompt_template": "段階的リリース理論に基づき、[学習スキル]について、教師主導から学習者自立への4段階移行プログラムを設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "各段階での理解確認",
+        "medium_term": "協働能力の向上",
+        "long_term": "完全な自立達成"
+      },
+      "suitable_contexts": [
+        "技能指導",
+        "読解指導",
+        "新しい学習内容",
+        "複雑な課題"
+      ],
+      "grade_levels": ["elementary", "middle", "high"],
+      "subjects": ["reading", "mathematics", "science"],
+      "learning_objectives": [
+        "段階的自立",
+        "技能の内在化",
+        "自信の構築"
+      ],
+      "implementation_strategies": [
+        "4段階の明確化",
+        "段階移行基準",
+        "継続的評価",
+        "個別対応"
+      ],
+      "related_theories": [37, 36, 22, 61]
+    },
+    {
+      "id": 39,
+      "name_ja": "ユニバーサルデザイン学習理論",
+      "name_en": "Universal Design for Learning Theory",
+      "category": "inclusive_education_theories",
+      "theorists": ["David Rose", "Anne Meyer", "CAST研究者"],
+      "year_proposed": "1990s-2000s",
+      "core_principles": [
+        "全ての学習者のアクセシビリティ",
+        "多様な学習方法の提供",
+        "3つの学習ネットワーク",
+        "柔軟で包括的な学習環境"
+      ],
+      "key_concepts": [
+        "学習のアクセシビリティ",
+        "認識ネットワーク",
+        "戦略ネットワーク",
+        "情意ネットワーク"
+      ],
+      "educational_applications": [
+        "インクルーシブ教育",
+        "多様な教材提供",
+        "個別化支援",
+        "アクセシブル設計"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "情報提示方法を多様化する",
+          "表現方法の選択肢を提供する",
+          "学習動機を高める工夫を複数用意する"
+        ],
+        "success_patterns": [
+          "多様な学習オプション",
+          "柔軟な評価方法"
+        ],
+        "common_pitfalls": [
+          "一律の指導方法",
+          "特定の能力のみの重視"
+        ]
+      },
+      "ai_prompt_template": "ユニバーサルデザイン学習理論に基づき、[学習内容]について、全ての学習者がアクセス可能な包括的学習環境を設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "全学習者の参加",
+        "medium_term": "個別ニーズ対応",
+        "long_term": "包括的学習文化"
+      },
+      "suitable_contexts": [
+        "インクルーシブ教育",
+        "特別支援教育",
+        "多様性対応",
+        "デジタル教材"
+      ],
+      "grade_levels": ["elementary", "middle", "high", "university"],
+      "subjects": ["all_subjects"],
+      "learning_objectives": [
+        "全員参加の実現",
+        "個別ニーズ対応",
+        "学習機会の平等"
+      ],
+      "implementation_strategies": [
+        "多様な情報提示",
+        "表現選択肢提供",
+        "動機向上工夫",
+        "アクセシビリティ確保"
+      ],
+      "related_theories": [40, 5, 25, 41]
+    },
+    {
+      "id": 40,
+      "name_ja": "特別支援教育理論",
+      "name_en": "Special Education Theory",
+      "category": "inclusive_education_theories",
+      "theorists": ["Samuel Kirk", "Lev Vygotsky", "Maria Montessori"],
+      "year_proposed": "1960s-現在",
+      "core_principles": [
+        "個別のニーズに応じた教育",
+        "発達の可能性への信頼",
+        "環境調整による支援",
+        "多職種連携による包括的支援"
+      ],
+      "key_concepts": [
+        "個別教育計画",
+        "発達支援",
+        "環境調整",
+        "多職種連携"
+      ],
+      "educational_applications": [
+        "個別指導計画",
+        "発達段階別指導",
+        "補助具活用",
+        "チーム支援"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "一人一人の特性を詳しく理解する",
+          "小さな成功を積み重ねる指導を心がける",
+          "専門職との連携を密にする"
+        ],
+        "success_patterns": [
+          "個別特性の把握",
+          "段階的目標設定"
+        ],
+        "common_pitfalls": [
+          "画一的な支援",
+          "可能性の過小評価"
+        ]
+      },
+      "ai_prompt_template": "特別支援教育理論に基づき、[特別なニーズ]を持つ学習者のための個別化された支援プログラムを設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "個別ニーズ対応",
+        "medium_term": "発達の促進",
+        "long_term": "自立と社会参加"
+      },
+      "suitable_contexts": [
+        "特別支援学校",
+        "通常学級",
+        "リソースルーム",
+        "療育機関"
+      ],
+      "grade_levels": ["preschool", "elementary", "middle", "high"],
+      "subjects": ["special_education", "rehabilitation"],
+      "learning_objectives": [
+        "個別発達支援",
+        "自立促進",
+        "社会参加準備"
+      ],
+      "implementation_strategies": [
+        "個別評価実施",
+        "支援計画作成",
+        "環境調整",
+        "多職種連携"
+      ],
+      "related_theories": [39, 21, 22, 23]
+    },
+    {
+      "id": 41,
+      "name_ja": "インクルーシブ教育理論",
+      "name_en": "Inclusive Education Theory",
+      "category": "inclusive_education_theories",
+      "theorists": ["Mel Ainscow", "Tony Booth", "Susan Stainback"],
+      "year_proposed": "1980s-1990s",
+      "core_principles": [
+        "全ての子どもの教育権",
+        "多様性の価値認識",
+        "排除の解消",
+        "共生社会の実現"
+      ],
+      "key_concepts": [
+        "教育の包括性",
+        "多様性尊重",
+        "バリア除去",
+        "共生社会"
+      ],
+      "educational_applications": [
+        "統合教育",
+        "協働学習",
+        "ピア支援",
+        "環境整備"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "違いを個性として捉える学級文化を作る",
+          "互いに支え合える関係性を育む",
+          "全ての子どもが参加できる活動を工夫する"
+        ],
+        "success_patterns": [
+          "受容的学級風土",
+          "相互支援関係"
+        ],
+        "common_pitfalls": [
+          "表面的な統合",
+          "支援の偏り"
+        ]
+      },
+      "ai_prompt_template": "インクルーシブ教育理論に基づき、[多様な学習者]が共に学ぶ包括的な学習環境と活動を設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "全員参加の実現",
+        "medium_term": "相互理解の深化",
+        "long_term": "共生意識の育成"
+      },
+      "suitable_contexts": [
+        "通常学級",
+        "統合教育",
+        "地域学校",
+        "多様性教育"
+      ],
+      "grade_levels": ["elementary", "middle", "high"],
+      "subjects": ["all_subjects"],
+      "learning_objectives": [
+        "多様性理解",
+        "共生意識育成",
+        "社会参加促進"
+      ],
+      "implementation_strategies": [
+        "バリアフリー環境",
+        "協働活動促進",
+        "相互支援体制",
+        "多様性教育"
+      ],
+      "related_theories": [39, 40, 26, 2]
+    },
+    {
+      "id": 42,
+      "name_ja": "多文化教育理論",
+      "name_en": "Multicultural Education Theory",
+      "category": "cultural_theories",
+      "theorists": ["James Banks", "Christine Sleeter", "Carl Grant"],
+      "year_proposed": "1970s-1980s",
+      "core_principles": [
+        "文化的多様性の尊重",
+        "教育機会の平等",
+        "批判的文化理解",
+        "社会正義の追求"
+      ],
+      "key_concepts": [
+        "文化的多様性",
+        "教育平等",
+        "文化的リテラシー",
+        "社会正義"
+      ],
+      "educational_applications": [
+        "多文化カリキュラム",
+        "文化交流活動",
+        "言語多様性対応",
+        "偏見解消教育"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "多様な文化的背景を教材として活用する",
+          "偏見や固定観念を問い直す機会を作る",
+          "文化的アイデンティティを尊重する"
+        ],
+        "success_patterns": [
+          "多様な視点の提示",
+          "文化的誇りの育成"
+        ],
+        "common_pitfalls": [
+          "表面的な文化紹介",
+          "ステレオタイプの強化"
+        ]
+      },
+      "ai_prompt_template": "多文化教育理論に基づき、[文化的テーマ]について、多様性を尊重し社会正義を促進する教育プログラムを設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "文化的理解の深化",
+        "medium_term": "偏見の軽減",
+        "long_term": "多文化社会への適応"
+      },
+      "suitable_contexts": [
+        "国際学校",
+        "多様性地域",
+        "語学教育",
+        "社会科教育"
+      ],
+      "grade_levels": ["elementary", "middle", "high", "university"],
+      "subjects": ["social_studies", "language", "global_studies"],
+      "learning_objectives": [
+        "文化的理解力",
+        "グローバル意識",
+        "社会正義感"
+      ],
+      "implementation_strategies": [
+        "多文化教材活用",
+        "文化交流促進",
+        "批判的対話",
+        "アイデンティティ尊重"
+      ],
+      "related_theories": [43, 41, 53, 2]
+    },
+    {
+      "id": 43,
+      "name_ja": "批判的教育学理論",
+      "name_en": "Critical Pedagogy Theory",
+      "category": "cultural_theories",
+      "theorists": ["Paulo Freire", "Henry Giroux", "bell hooks"],
+      "year_proposed": "1960s-1970s",
+      "core_principles": [
+        "教育による意識化",
+        "批判的思考の育成",
+        "社会変革への参加",
+        "対話的教育実践"
+      ],
+      "key_concepts": [
+        "意識化",
+        "批判的思考",
+        "社会変革",
+        "対話的実践"
+      ],
+      "educational_applications": [
+        "問題提起教育",
+        "批判的討議",
+        "社会参加学習",
+        "民主的教育"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "生徒の生活経験を教育の出発点とする",
+          "社会の矛盾や問題を共に考える機会を作る",
+          "生徒の声を大切にした対話的授業を行う"
+        ],
+        "success_patterns": [
+          "問題意識の共有",
+          "対話的学習環境"
+        ],
+        "common_pitfalls": [
+          "一方的な問題提起",
+          "政治的偏向"
+        ]
+      },
+      "ai_prompt_template": "批判的教育学理論に基づき、[社会的課題]について、学習者の批判的思考と社会参加意識を育む教育実践を設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "問題意識の醸成",
+        "medium_term": "批判的思考力向上",
+        "long_term": "社会変革への参加"
+      },
+      "suitable_contexts": [
+        "社会科教育",
+        "公民教育",
+        "成人教育",
+        "地域教育"
+      ],
+      "grade_levels": ["high", "university", "adult"],
+      "subjects": ["social_studies", "civics", "philosophy"],
+      "learning_objectives": [
+        "批判的意識の育成",
+        "社会参加態度",
+        "変革的思考力"
+      ],
+      "implementation_strategies": [
+        "問題提起教育",
+        "対話的討議",
+        "経験の重視",
+        "行動への促進"
+      ],
+      "related_theories": [42, 24, 44, 29]
+    },
+    {
+      "id": 44,
+      "name_ja": "変革的学習理論",
+      "name_en": "Transformative Learning Theory",
+      "category": "adult_learning_theories",
+      "theorists": ["Jack Mezirow", "Patricia Cranton", "Edward Taylor"],
+      "year_proposed": "1970s-1980s",
+      "core_principles": [
+        "既存の枠組みの変革",
+        "批判的省察の重要性",
+        "意味の再構築",
+        "行動の変化"
+      ],
+      "key_concepts": [
+        "変革的学習",
+        "批判的省察",
+        "意味再構築",
+        "行動変化"
+      ],
+      "educational_applications": [
+        "成人教育",
+        "専門職開発",
+        "ライフロング学習",
+        "キャリア変更支援"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "学習者の既存の信念や価値観を丁寧に扱う",
+          "深い省察を促す質問を投げかける",
+          "変化への抵抗を理解し寄り添う"
+        ],
+        "success_patterns": [
+          "安全な学習環境の提供",
+          "段階的な変革支援"
+        ],
+        "common_pitfalls": [
+          "急激な変化の強要",
+          "価値観の押し付け"
+        ]
+      },
+      "ai_prompt_template": "変革的学習理論に基づき、[学習者の背景]について、既存の枠組みを批判的に省察し新たな視点を獲得する学習プログラムを設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "批判的省察の開始",
+        "medium_term": "意味枠組みの変化",
+        "long_term": "行動の根本的変化"
+      },
+      "suitable_contexts": [
+        "成人教育",
+        "企業研修",
+        "専門職開発",
+        "人生移行期"
+      ],
+      "grade_levels": ["adult", "professional"],
+      "subjects": ["adult_education", "professional_development"],
+      "learning_objectives": [
+        "視点の変革",
+        "自己理解の深化",
+        "行動変容の実現"
+      ],
+      "implementation_strategies": [
+        "批判的省察促進",
+        "対話機会提供",
+        "安全環境構築",
+        "段階的変革支援"
+      ],
+      "related_theories": [43, 9, 46, 15]
+    },
+    {
+      "id": 45,
+      "name_ja": "TPACK理論",
+      "name_en": "TPACK Theory (Technology, Pedagogy, and Content Knowledge)",
+      "category": "technology_theories",
+      "theorists": ["Punya Mishra", "Matthew Koehler"],
+      "year_proposed": "2000s",
+      "core_principles": [
+        "技術・教育法・内容知識の統合",
+        "3つの知識の相互作用",
+        "文脈に応じた技術活用",
+        "効果的な技術統合教育"
+      ],
+      "key_concepts": [
+        "技術知識",
+        "教育法知識",
+        "内容知識",
+        "統合的活用"
+      ],
+      "educational_applications": [
+        "ICT活用授業",
+        "デジタル教材開発",
+        "オンライン学習",
+        "教師研修"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "技術ありきではなく教育目標から出発する",
+          "内容に最適な技術を選択する",
+          "技術的トラブルに備えた代替案を用意する"
+        ],
+        "success_patterns": [
+          "目的に応じた技術選択",
+          "段階的な技術統合"
+        ],
+        "common_pitfalls": [
+          "技術偏重の指導",
+          "内容との不整合"
+        ]
+      },
+      "ai_prompt_template": "TPACK理論に基づき、[学習内容]について、技術・教育法・内容知識を効果的に統合した授業設計を行ってください。",
+      "effectiveness_indicators": {
+        "short_term": "適切な技術選択",
+        "medium_term": "統合的指導実践",
+        "long_term": "効果的技術活用"
+      },
+      "suitable_contexts": [
+        "ICT教育",
+        "デジタル授業",
+        "教師研修",
+        "教材開発"
+      ],
+      "grade_levels": ["elementary", "middle", "high", "university"],
+      "subjects": ["all_subjects"],
+      "learning_objectives": [
+        "技術統合能力",
+        "効果的ICT活用",
+        "21世紀型スキル"
+      ],
+      "implementation_strategies": [
+        "3知識の診断",
+        "統合的設計",
+        "段階的導入",
+        "継続的改善"
+      ],
+      "related_theories": [46, 47, 48, 30]
+    },
+    {
+      "id": 46,
+      "name_ja": "ブレンデッドラーニング理論",
+      "name_en": "Blended Learning Theory",
+      "category": "technology_theories",
+      "theorists": ["Clayton Christensen", "Michael Horn", "Curtis Johnson"],
+      "year_proposed": "2000s-2010s",
+      "core_principles": [
+        "対面とオンラインの効果的組み合わせ",
+        "個別化学習の促進",
+        "学習の時間・場所の柔軟性",
+        "学習者の主体的参加"
+      ],
+      "key_concepts": [
+        "対面・オンライン融合",
+        "個別化学習",
+        "柔軟性",
+        "主体的参加"
+      ],
+      "educational_applications": [
+        "ハイブリッド授業",
+        "反転授業",
+        "個別学習支援",
+        "継続教育"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "対面とオンラインの役割を明確に分ける",
+          "学習者の技術スキルレベルを把握する",
+          "継続的なコミュニケーションを維持する"
+        ],
+        "success_patterns": [
+          "明確な役割分担",
+          "適切な技術選択"
+        ],
+        "common_pitfalls": [
+          "技術的困難の軽視",
+          "コミュニケーション不足"
+        ]
+      },
+      "ai_prompt_template": "ブレンデッドラーニング理論に基づき、[学習内容]について、対面とオンラインを効果的に組み合わせた学習プログラムを設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "両形式での積極参加",
+        "medium_term": "学習効果の向上",
+        "long_term": "自律的学習能力"
+      },
+      "suitable_contexts": [
+        "高等教育",
+        "企業研修",
+        "継続教育",
+        "遠隔地教育"
+      ],
+      "grade_levels": ["high", "university", "adult"],
+      "subjects": ["all_subjects"],
+      "learning_objectives": [
+        "柔軟な学習実現",
+        "学習効率向上",
+        "デジタルスキル育成"
+      ],
+      "implementation_strategies": [
+        "形式別役割設定",
+        "技術環境整備",
+        "進捗管理システム",
+        "サポート体制構築"
+      ],
+      "related_theories": [30, 45, 47, 15]
+    },
+    {
+      "id": 47,
+      "name_ja": "eラーニング理論",
+      "name_en": "E-learning Theory",
+      "category": "technology_theories",
+      "theorists": ["Michael Moore", "Greg Kearsley", "Tony Bates"],
+      "year_proposed": "1990s-2000s",
+      "core_principles": [
+        "デジタル技術による学習",
+        "時間・場所の制約克服",
+        "個別ペース学習",
+        "インタラクティブ学習体験"
+      ],
+      "key_concepts": [
+        "デジタル学習",
+        "制約克服",
+        "個別ペース",
+        "インタラクティブ性"
+      ],
+      "educational_applications": [
+        "オンライン講座",
+        "学習管理システム",
+        "モバイル学習",
+        "仮想教室"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "学習者の孤立感を防ぐコミュニケーション機会を作る",
+          "短時間で集中できるコンテンツに分割する",
+          "進捗状況を可視化して動機を維持する"
+        ],
+        "success_patterns": [
+          "インタラクティブなコンテンツ",
+          "定期的なフィードバック"
+        ],
+        "common_pitfalls": [
+          "一方向的な情報提供",
+          "学習支援の不足"
+        ]
+      },
+      "ai_prompt_template": "eラーニング理論に基づき、[学習分野]について、効果的なデジタル学習環境とコンテンツを設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "学習システムへの適応",
+        "medium_term": "継続的学習参加",
+        "long_term": "自律的デジタル学習"
+      },
+      "suitable_contexts": [
+        "遠隔教育",
+        "企業研修",
+        "生涯学習",
+        "専門教育"
+      ],
+      "grade_levels": ["high", "university", "adult"],
+      "subjects": ["all_subjects"],
+      "learning_objectives": [
+        "デジタルリテラシー",
+        "自律的学習能力",
+        "継続学習習慣"
+      ],
+      "implementation_strategies": [
+        "学習管理システム構築",
+        "インタラクティブ教材",
+        "進捗管理機能",
+        "コミュニケーション支援"
+      ],
+      "related_theories": [46, 45, 48, 15]
+    },
+    {
+      "id": 48,
+      "name_ja": "適応学習理論",
+      "name_en": "Adaptive Learning Theory",
+      "category": "technology_theories",
+      "theorists": ["Peter Brusilovsky", "Alfred Bork", "Richard Snow"],
+      "year_proposed": "1990s-2000s",
+      "core_principles": [
+        "学習者に応じたカスタマイズ",
+        "リアルタイム学習分析",
+        "個別最適化された学習パス",
+        "AIによる学習支援"
+      ],
+      "key_concepts": [
+        "個別適応",
+        "学習分析",
+        "最適化パス",
+        "AI支援"
+      ],
+      "educational_applications": [
+        "個別化教材",
+        "適応的テスト",
+        "学習支援システム",
+        "パーソナライズ学習"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "システムの診断結果を教師の観察と照合する",
+          "技術に頼りすぎず人的支援も併用する",
+          "学習者のプライバシーに配慮する"
+        ],
+        "success_patterns": [
+          "精確な学習診断",
+          "適切な難易度調整"
+        ],
+        "common_pitfalls": [
+          "技術的過信",
+          "個人情報の扱い不備"
+        ]
+      },
+      "ai_prompt_template": "適応学習理論に基づき、[学習分野]について、学習者の個別特性に応じて最適化される学習システムを設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "個別ニーズ対応",
+        "medium_term": "学習効率向上",
+        "long_term": "最適学習習慣形成"
+      },
+      "suitable_contexts": [
+        "個別化教育",
+        "補習指導",
+        "能力別指導",
+        "自学自習支援"
+      ],
+      "grade_levels": ["elementary", "middle", "high", "university"],
+      "subjects": ["mathematics", "language", "science"],
+      "learning_objectives": [
+        "個別最適学習",
+        "効率的習得",
+        "自律的学習管理"
+      ],
+      "implementation_strategies": [
+        "学習分析システム",
+        "個別診断機能",
+        "適応的教材提供",
+        "進捗追跡機能"
+      ],
+      "related_theories": [47, 5, 15, 3]
+    },
+    {
+      "id": 49,
+      "name_ja": "第二言語習得理論",
+      "name_en": "Second Language Acquisition Theory",
+      "category": "language_learning_theories",
+      "theorists": ["Stephen Krashen", "Jim Cummins", "Michael Long"],
+      "year_proposed": "1970s-1980s",
+      "core_principles": [
+        "習得と学習の区別",
+        "理解可能なインプット",
+        "自然習得順序",
+        "情意フィルター仮説"
+      ],
+      "key_concepts": [
+        "習得vs学習",
+        "理解可能インプット",
+        "自然順序",
+        "情意フィルター"
+      ],
+      "educational_applications": [
+        "自然習得法",
+        "コミュニケーション重視",
+        "インプット中心指導",
+        "不安軽減環境"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "理解できるレベルより少し上の材料を使う",
+          "間違いを恐れない雰囲気を作る",
+          "意味のあるコミュニケーション機会を多く提供する"
+        ],
+        "success_patterns": [
+          "豊富なインプット提供",
+          "リラックスした学習環境"
+        ],
+        "common_pitfalls": [
+          "文法偏重の指導",
+          "不安を高める評価"
+        ]
+      },
+      "ai_prompt_template": "第二言語習得理論に基づき、[言語学習目標]について、自然な言語習得を促進する学習環境と活動を設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "理解可能インプット処理",
+        "medium_term": "自然な表現産出",
+        "long_term": "流暢なコミュニケーション"
+      },
+      "suitable_contexts": [
+        "外国語教育",
+        "日本語教育",
+        "イマージョン教育",
+        "国際教育"
+      ],
+      "grade_levels": ["elementary", "middle", "high", "adult"],
+      "subjects": ["foreign_language", "japanese", "english"],
+      "learning_objectives": [
+        "自然な言語習得",
+        "コミュニケーション能力",
+        "文化的理解"
+      ],
+      "implementation_strategies": [
+        "理解可能インプット提供",
+        "不安軽減環境構築",
+        "意味重視活動",
+        "自然順序尊重"
+      ],
+      "related_theories": [50, 51, 52, 1]
+    },
+    {
+      "id": 50,
+      "name_ja": "コミュニカティブ・アプローチ理論",
+      "name_en": "Communicative Approach Theory",
+      "category": "language_learning_theories",
+      "theorists": ["Dell Hymes", "Henry Widdowson", "Keith Johnson"],
+      "year_proposed": "1970s-1980s",
+      "core_principles": [
+        "コミュニケーション能力の育成",
+        "意味重視の言語使用",
+        "実際的言語活動",
+        "流暢性と正確性のバランス"
+      ],
+      "key_concepts": [
+        "コミュニケーション能力",
+        "意味重視",
+        "実際的使用",
+        "流暢性"
+      ],
+      "educational_applications": [
+        "会話活動",
+        "ロールプレイ",
+        "タスク活動",
+        "実用的練習"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "実際のコミュニケーション場面を想定した活動を行う",
+          "正確性よりも伝達を重視する段階を設ける",
+          "学習者同士の相互作用を促進する"
+        ],
+        "success_patterns": [
+          "実用的な活動設計",
+          "積極的コミュニケーション促進"
+        ],
+        "common_pitfalls": [
+          "文法軽視の極端化",
+          "形式練習の全廃"
+        ]
+      },
+      "ai_prompt_template": "コミュニカティブ・アプローチ理論に基づき、[言語スキル]について、実際的なコミュニケーション能力を育成する活動を設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "積極的コミュニケーション参加",
+        "medium_term": "実用的言語使用",
+        "long_term": "自然なコミュニケーション能力"
+      },
+      "suitable_contexts": [
+        "外国語会話",
+        "実用英語",
+        "ビジネス言語",
+        "日常会話"
+      ],
+      "grade_levels": ["middle", "high", "university", "adult"],
+      "subjects": ["foreign_language", "english", "communication"],
+      "learning_objectives": [
+        "実用的コミュニケーション能力",
+        "流暢な表現力",
+        "文化的適応力"
+      ],
+      "implementation_strategies": [
+        "実際的活動設計",
+        "意味重視指導",
+        "相互作用促進",
+        "流暢性重視評価"
+      ],
+      "related_theories": [49, 51, 26, 2]
+    },
+    {
+      "id": 51,
+      "name_ja": "タスクベース言語指導理論",
+      "name_en": "Task-Based Language Teaching Theory",
+      "category": "language_learning_theories",
+      "theorists": ["Peter Skehan", "Rod Ellis", "Martin Bygate"],
+      "year_proposed": "1980s-1990s",
+      "core_principles": [
+        "意味のあるタスク中心",
+        "言語使用による学習",
+        "目標達成重視",
+        "実世界との関連性"
+      ],
+      "key_concepts": [
+        "意味あるタスク",
+        "使用による学習",
+        "目標達成",
+        "実世界関連"
+      ],
+      "educational_applications": [
+        "問題解決タスク",
+        "情報交換活動",
+        "創作タスク",
+        "実生活シミュレーション"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "明確な成果物があるタスクを設定する",
+          "言語形式は事後に扱う",
+          "学習者の関心と関連するタスクを選ぶ"
+        ],
+        "success_patterns": [
+          "魅力的なタスク設計",
+          "適切な難易度設定"
+        ],
+        "common_pitfalls": [
+          "タスクの曖昧性",
+          "言語学習要素の軽視"
+        ]
+      },
+      "ai_prompt_template": "タスクベース言語指導理論に基づき、[言語技能]について、意味のある目標達成を通じて言語を学習するタスクを設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "タスクへの積極的取り組み",
+        "medium_term": "言語使用の自然さ",
+        "long_term": "実用的言語能力"
+      },
+      "suitable_contexts": [
+        "実用語学",
+        "ビジネス英語",
+        "専門用途言語",
+        "生活言語"
+      ],
+      "grade_levels": ["middle", "high", "university", "adult"],
+      "subjects": ["foreign_language", "esp", "business_language"],
+      "learning_objectives": [
+        "実用的言語運用能力",
+        "タスク遂行能力",
+        "実世界対応力"
+      ],
+      "implementation_strategies": [
+        "意味あるタスク設計",
+        "目標明確化",
+        "段階的支援",
+        "言語注目活動"
+      ],
+      "related_theories": [50, 49, 27, 6]
+    },
+    {
+      "id": 52,
+      "name_ja": "イマージョン教育理論",
+      "name_en": "Immersion Education Theory",
+      "category": "language_learning_theories",
+      "theorists": ["Wallace Lambert", "Merrill Swain", "Fred Genesee"],
+      "year_proposed": "1960s-1970s",
+      "core_principles": [
+        "目標言語による教科学習",
+        "自然な言語環境の創出",
+        "内容と言語の統合学習",
+        "バイリンガル能力の育成"
+      ],
+      "key_concepts": [
+        "言語浸漬",
+        "内容言語統合",
+        "自然習得環境",
+        "バイリンガル育成"
+      ],
+      "educational_applications": [
+        "外国語による教科指導",
+        "国際学校教育",
+        "バイリンガル教育",
+        "語学留学"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "内容理解を最優先にして言語は自然に習得させる",
+          "母語の発達も並行して重視する",
+          "文化的アイデンティティを大切にする"
+        ],
+        "success_patterns": [
+          "豊富な言語環境",
+          "段階的イマージョン"
+        ],
+        "common_pitfalls": [
+          "母語軽視",
+          "急激な全面イマージョン"
+        ]
+      },
+      "ai_prompt_template": "イマージョン教育理論に基づき、[教科内容]を[目標言語]で学習する統合的教育プログラムを設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "目標言語環境への適応",
+        "medium_term": "内容理解と言語習得の両立",
+        "long_term": "バイリンガル能力の確立"
+      },
+      "suitable_contexts": [
+        "国際学校",
+        "バイリンガル校",
+        "語学留学",
+        "多言語環境"
+      ],
+      "grade_levels": ["preschool", "elementary", "middle", "high"],
+      "subjects": ["content_subjects", "foreign_language"],
+      "learning_objectives": [
+        "バイリンガル能力",
+        "文化的適応力",
+        "国際的視野"
+      ],
+      "implementation_strategies": [
+        "段階的イマージョン",
+        "内容言語統合",
+        "母語維持支援",
+        "文化的配慮"
+      ],
+      "related_theories": [49, 50, 42, 12]
+    },
+    {
+      "id": 53,
+      "name_ja": "教師効力感理論",
+      "name_en": "Teacher Efficacy Theory",
+      "category": "teacher_development_theories",
+      "theorists": ["Albert Bandura", "Anita Woolfolk Hoy", "Megan Tschannen-Moran"],
+      "year_proposed": "1970s-1990s",
+      "core_principles": [
+        "教師の自己効力感の重要性",
+        "生徒の学習に対する信念",
+        "教育実践への影響",
+        "継続的な専門発達"
+      ],
+      "key_concepts": [
+        "教師効力感",
+        "自己効力信念",
+        "教育実践効果",
+        "専門性発達"
+      ],
+      "educational_applications": [
+        "教師研修",
+        "メンター制度",
+        "専門職開発",
+        "教育実践改善"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "小さな成功体験を積み重ねる",
+          "同僚との協働により効力感を高める",
+          "継続的な学習により専門性を向上させる"
+        ],
+        "success_patterns": [
+          "段階的成功体験",
+          "協働的環境"
+        ],
+        "common_pitfalls": [
+          "孤立した実践",
+          "失敗の過度な一般化"
+        ]
+      },
+      "ai_prompt_template": "教師効力感理論に基づき、[教師の状況]について、教師の自己効力感を高める専門発達プログラムを設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "教師の自信向上",
+        "medium_term": "教育実践の改善",
+        "long_term": "生徒学習成果の向上"
+      },
+      "suitable_contexts": [
+        "教師研修",
+        "新任教師支援",
+        "学校組織開発",
+        "教育改革"
+      ],
+      "grade_levels": ["teacher_development"],
+      "subjects": ["teacher_education"],
+      "learning_objectives": [
+        "教師効力感向上",
+        "教育実践改善",
+        "専門性発達"
+      ],
+      "implementation_strategies": [
+        "成功体験設計",
+        "協働機会提供",
+        "継続学習支援",
+        "フィードバック提供"
+      ],
+      "related_theories": [10, 54, 55, 17]
+    },
+    {
+      "id": 54,
+      "name_ja": "専門的学習共同体理論",
+      "name_en": "Professional Learning Community Theory",
+      "category": "organizational_theories",
+      "theorists": ["Richard DuFour", "Rebecca DuFour", "Robert Eaker"],
+      "year_proposed": "1990s-2000s",
+      "core_principles": [
+        "学習に焦点を当てた文化",
+        "協働による問題解決",
+        "結果志向の継続改善",
+        "集合的責任の共有"
+      ],
+      "key_concepts": [
+        "学習中心文化",
+        "協働的問題解決",
+        "結果志向",
+        "集合的責任"
+      ],
+      "educational_applications": [
+        "教師チーム活動",
+        "授業研究",
+        "データ分析会議",
+        "協働的計画"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "共通の目標を明確にして取り組む",
+          "定期的にデータを検討して改善する",
+          "互いの実践から学び合う文化を作る"
+        ],
+        "success_patterns": [
+          "明確な共通目標",
+          "継続的なデータ活用"
+        ],
+        "common_pitfalls": [
+          "形式的な会議",
+          "個人主義の残存"
+        ]
+      },
+      "ai_prompt_template": "専門的学習共同体理論に基づき、[学校の課題]について、教師が協働的に学習し改善する組織体制を設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "協働文化の醸成",
+        "medium_term": "教育実践の改善",
+        "long_term": "学校全体の成果向上"
+      },
+      "suitable_contexts": [
+        "学校組織運営",
+        "教師研修",
+        "教育改善",
+        "学校改革"
+      ],
+      "grade_levels": ["organizational"],
+      "subjects": ["school_management"],
+      "learning_objectives": [
+        "協働文化構築",
+        "継続的改善",
+        "集合的効力感"
+      ],
+      "implementation_strategies": [
+        "共通目標設定",
+        "定期的協議",
+        "データ活用",
+        "成果共有"
+      ],
+      "related_theories": [53, 55, 56, 26]
+    },
+    {
+      "id": 55,
+      "name_ja": "実践共同体理論",
+      "name_en": "Communities of Practice Theory",
+      "category": "organizational_theories",
+      "theorists": ["Etienne Wenger", "Jean Lave", "Richard McDermott"],
+      "year_proposed": "1990s",
+      "core_principles": [
+        "共通の実践による学習",
+        "参加による知識構築",
+        "アイデンティティの形成",
+        "継続的な改善"
+      ],
+      "key_concepts": [
+        "実践共同体",
+        "参加による学習",
+        "アイデンティティ形成",
+        "知識共有"
+      ],
+      "educational_applications": [
+        "教師研修コミュニティ",
+        "授業研究会",
+        "専門職ネットワーク",
+        "学習者コミュニティ"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "共通の関心事を持つメンバーで構成する",
+          "実践的な問題解決に焦点を当てる",
+          "新参者と熟練者の交流を促進する"
+        ],
+        "success_patterns": [
+          "実践に根ざした活動",
+          "世代を超えた交流"
+        ],
+        "common_pitfalls": [
+          "理論偏重の議論",
+          "排他的な雰囲気"
+        ]
+      },
+      "ai_prompt_template": "実践共同体理論に基づき、[専門分野]について、実践者が継続的に学び合うコミュニティを設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "活発な知識共有",
+        "medium_term": "実践の改善",
+        "long_term": "専門性の向上"
+      },
+      "suitable_contexts": [
+        "教師研修",
+        "専門職開発",
+        "組織学習",
+        "知識管理"
+      ],
+      "grade_levels": ["professional"],
+      "subjects": ["professional_development"],
+      "learning_objectives": [
+        "実践知の共有",
+        "専門性向上",
+        "コミュニティ形成"
+      ],
+      "implementation_strategies": [
+        "共通関心の明確化",
+        "定期的交流機会",
+        "実践事例共有",
+        "新参者支援"
+      ],
+      "related_theories": [54, 44, 2, 53]
+    },
+    {
+      "id": 56,
+      "name_ja": "学校組織学習理論",
+      "name_en": "School Organizational Learning Theory",
+      "category": "organizational_theories",
+      "theorists": ["Peter Senge", "Kenneth Leithwood", "Karen Seashore Louis"],
+      "year_proposed": "1990s-2000s",
+      "core_principles": [
+        "組織全体での学習",
+        "システム思考の重視",
+        "継続的な適応と改善",
+        "学習する組織の構築"
+      ],
+      "key_concepts": [
+        "組織学習",
+        "システム思考",
+        "適応的改善",
+        "学習組織"
+      ],
+      "educational_applications": [
+        "学校改革",
+        "組織開発",
+        "変革管理",
+        "能力開発"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "個人の学習が組織の学習につながる仕組みを作る",
+          "失敗を学習機会として捉える文化を醸成する",
+          "外部との連携により新しい視点を取り入れる"
+        ],
+        "success_patterns": [
+          "学習を促進する構造",
+          "オープンな組織文化"
+        ],
+        "common_pitfalls": [
+          "個人学習の孤立",
+          "変化への抵抗"
+        ]
+      },
+      "ai_prompt_template": "学校組織学習理論に基づき、[学校の課題]について、組織全体が継続的に学習し改善する仕組みを設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "学習文化の醸成",
+        "medium_term": "組織能力の向上",
+        "long_term": "持続的な改善"
+      },
+      "suitable_contexts": [
+        "学校経営",
+        "教育改革",
+        "組織変革",
+        "能力開発"
+      ],
+      "grade_levels": ["organizational"],
+      "subjects": ["school_management"],
+      "learning_objectives": [
+        "組織学習能力",
+        "適応的改善",
+        "持続的発展"
+      ],
+      "implementation_strategies": [
+        "学習促進構造",
+        "知識共有システム",
+        "外部連携強化",
+        "変革リーダーシップ"
+      ],
+      "related_theories": [54, 55, 44, 53]
+    },
+    {
+      "id": 57,
+      "name_ja": "カリキュラム開発理論",
+      "name_en": "Curriculum Development Theory",
+      "category": "curriculum_theories",
+      "theorists": ["Ralph Tyler", "Hilda Taba", "Jerome Bruner"],
+      "year_proposed": "1940s-1960s",
+      "core_principles": [
+        "体系的なカリキュラム設計",
+        "目標-内容-方法-評価の統合",
+        "学習者と社会のニーズ考慮",
+        "継続的な改善"
+      ],
+      "key_concepts": [
+        "体系的設計",
+        "要素統合",
+        "ニーズ分析",
+        "継続改善"
+      ],
+      "educational_applications": [
+        "教育課程編成",
+        "単元開発",
+        "教材開発",
+        "評価システム"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "明確な目標設定から始める",
+          "学習者の実態を詳しく把握する",
+          "社会の要請を考慮して内容を選択する"
+        ],
+        "success_patterns": [
+          "明確な目標設定",
+          "実態に基づく設計"
+        ],
+        "common_pitfalls": [
+          "要素間の不整合",
+          "実態把握の不足"
+        ]
+      },
+      "ai_prompt_template": "カリキュラム開発理論に基づき、[教育分野]について、体系的で効果的なカリキュラムを設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "体系的設計の実現",
+        "medium_term": "教育効果の向上",
+        "long_term": "持続的な教育品質"
+      },
+      "suitable_contexts": [
+        "教育課程編成",
+        "新科目開発",
+        "教育改革",
+        "国際教育"
+      ],
+      "grade_levels": ["all_levels"],
+      "subjects": ["curriculum_design"],
+      "learning_objectives": [
+        "体系的教育設計",
+        "効果的学習促進",
+        "継続的改善"
+      ],
+      "implementation_strategies": [
+        "ニーズ分析実施",
+        "目標明確化",
+        "内容選択基準",
+        "評価システム構築"
+      ],
+      "related_theories": [4, 35, 58, 21]
+    },
+    {
+      "id": 58,
+      "name_ja": "隠れたカリキュラム理論",
+      "name_en": "Hidden Curriculum Theory",
+      "category": "curriculum_theories",
+      "theorists": ["Philip Jackson", "Michael Apple", "Jean Anyon"],
+      "year_proposed": "1960s-1970s",
+      "core_principles": [
+        "非公式な学習内容の存在",
+        "学校文化による価値観形成",
+        "権力関係の再生産",
+        "批判的意識の必要性"
+      ],
+      "key_concepts": [
+        "隠れたカリキュラム",
+        "非公式学習",
+        "価値観形成",
+        "権力関係"
+      ],
+      "educational_applications": [
+        "学校文化分析",
+        "価値観教育",
+        "批判的教育",
+        "組織改革"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "学校の雰囲気や慣習が与える影響を意識する",
+          "多様な価値観を認める環境を作る",
+          "生徒が批判的に考える機会を提供する"
+        ],
+        "success_patterns": [
+          "意識的な環境づくり",
+          "多様性の尊重"
+        ],
+        "common_pitfalls": [
+          "無意識の価値観押し付け",
+          "権力関係の固定化"
+        ]
+      },
+      "ai_prompt_template": "隠れたカリキュラム理論に基づき、[教育環境]について、隠れたメッセージを意識した教育環境の改善策を設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "隠れた要素の意識化",
+        "medium_term": "環境改善の実現",
+        "long_term": "公正な教育文化"
+      },
+      "suitable_contexts": [
+        "学校文化改革",
+        "多様性教育",
+        "批判的教育",
+        "組織開発"
+      ],
+      "grade_levels": ["all_levels"],
+      "subjects": ["school_culture"],
+      "learning_objectives": [
+        "批判的意識育成",
+        "公正な環境構築",
+        "多様性尊重"
+      ],
+      "implementation_strategies": [
+        "現状分析実施",
+        "意識化活動",
+        "環境改善計画",
+        "継続的監視"
+      ],
+      "related_theories": [43, 42, 57, 41]
+    },
+    {
+      "id": 59,
+      "name_ja": "アンドラゴジー理論",
+      "name_en": "Andragogy Theory",
+      "category": "adult_learning_theories",
+      "theorists": ["Malcolm Knowles", "Eduard Lindeman"],
+      "year_proposed": "1960s-1970s",
+      "core_principles": [
+        "成人学習者の特性理解",
+        "自己主導的学習の重視",
+        "経験の活用",
+        "実用性の重要性"
+      ],
+      "key_concepts": [
+        "成人学習特性",
+        "自己主導学習",
+        "経験活用",
+        "実用性重視"
+      ],
+      "educational_applications": [
+        "成人教育",
+        "企業研修",
+        "生涯学習",
+        "専門職開発"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "学習者の豊富な経験を活用する",
+          "実際の問題解決に役立つ内容にする",
+          "学習者の自主性を尊重する"
+        ],
+        "success_patterns": [
+          "経験重視の学習設計",
+          "自主性の尊重"
+        ],
+        "common_pitfalls": [
+          "子ども向け指導法の流用",
+          "経験の軽視"
+        ]
+      },
+      "ai_prompt_template": "アンドラゴジー理論に基づき、[成人学習目標]について、成人学習者の特性を活かした効果的な学習プログラムを設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "学習への主体的参加",
+        "medium_term": "実用的スキル習得",
+        "long_term": "継続的自己発達"
+      },
+      "suitable_contexts": [
+        "成人教育",
+        "企業研修",
+        "大学教育",
+        "生涯学習"
+      ],
+      "grade_levels": ["adult"],
+      "subjects": ["adult_education"],
+      "learning_objectives": [
+        "自己主導学習能力",
+        "実用的能力習得",
+        "継続学習態度"
+      ],
+      "implementation_strategies": [
+        "成人特性の活用",
+        "経験重視設計",
+        "自主性尊重",
+        "実用性重視"
+      ],
+      "related_theories": [44, 15, 6, 16]
+    },
+    {
+      "id": 60,
+      "name_ja": "ゲーミフィケーション理論",
+      "name_en": "Gamification Theory",
+      "category": "motivation_theories",
+      "theorists": ["Sebastian Deterding", "Jane McGonigal", "Karl Kapp"],
+      "year_proposed": "2000s-2010s",
+      "core_principles": [
+        "ゲーム要素の教育活用",
+        "内発的動機の喚起",
+        "段階的達成感の提供",
+        "社会的要素の統合"
+      ],
+      "key_concepts": [
+        "ゲーム要素",
+        "内発的動機",
+        "達成感",
+        "社会的要素"
+      ],
+      "educational_applications": [
+        "学習ゲーム",
+        "ポイントシステム",
+        "バッジ・レベル制",
+        "協競学習"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "外発的報酬に頼りすぎない設計にする",
+          "学習内容と自然に統合されたゲーム要素を用いる",
+          "協力と競争のバランスを考慮する"
+        ],
+        "success_patterns": [
+          "内発的動機重視",
+          "自然な統合"
+        ],
+        "common_pitfalls": [
+          "外発的報酬への過度依存",
+          "学習内容との乖離"
+        ]
+      },
+      "ai_prompt_template": "ゲーミフィケーション理論に基づき、[学習内容]について、ゲーム要素を効果的に活用した学習体験を設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "学習への積極的参加",
+        "medium_term": "持続的学習動機",
+        "long_term": "学習習慣の形成"
+      },
+      "suitable_contexts": [
+        "デジタル学習",
+        "技能訓練",
+        "語学学習",
+        "子ども教育"
+      ],
+      "grade_levels": ["elementary", "middle", "high", "adult"],
+      "subjects": ["digital_learning", "language", "skill_training"],
+      "learning_objectives": [
+        "学習動機向上",
+        "継続的参加",
+        "楽しい学習体験"
+      ],
+      "implementation_strategies": [
+        "適切なゲーム要素選択",
+        "段階的目標設定",
+        "社会的要素組み込み",
+        "フィードバック提供"
+      ],
+      "related_theories": [16, 17, 20, 26]
+    },
+        {
+      "id": 61,
+      "name_ja": "認知的徒弟制理論",
+      "name_en": "Cognitive Apprenticeship Theory",
+      "category": "learning_theories",
+      "theorists": ["Allan Collins", "John Seely Brown", "Susan Newman"],
+      "year_proposed": "1980s-1990s",
+      "core_principles": [
+        "専門家の思考プロセスの可視化",
+        "段階的な責任移行",
+        "実践的文脈での学習",
+        "モデリング、コーチング、足場かけ"
+      ],
+      "key_concepts": [
+        "思考の可視化",
+        "段階的独立",
+        "実践的文脈",
+        "専門家モデル"
+      ],
+      "educational_applications": [
+        "技能指導",
+        "専門職教育",
+        "問題解決指導",
+        "メンター制度"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "自分の思考プロセスを声に出して示す",
+          "生徒の思考を言語化させる",
+          "実際の課題に近い文脈で指導する"
+        ],
+        "success_patterns": [
+          "専門家の思考の明示化",
+          "段階的支援削減"
+        ],
+        "common_pitfalls": [
+          "思考プロセスの隠蔽",
+          "急激な独立要求"
+        ]
+      },
+      "ai_prompt_template": "認知的徒弟制理論に基づき、[専門スキル]について、専門家の思考プロセスを可視化し段階的に習得させる指導プログラムを設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "思考プロセスの理解",
+        "medium_term": "技能の段階的習得",
+        "long_term": "専門的実践能力"
+      },
+      "suitable_contexts": [
+        "専門職教育",
+        "技能指導",
+        "研究指導",
+        "職業訓練"
+      ],
+      "grade_levels": ["high", "university", "professional"],
+      "subjects": ["professional_skills", "research", "technical"],
+      "learning_objectives": [
+        "専門的思考力",
+        "実践的技能",
+        "問題解決能力"
+      ],
+      "implementation_strategies": [
+        "思考プロセス可視化",
+        "段階的モデリング",
+        "実践的課題設定",
+        "継続的コーチング"
+      ],
+      "related_theories": [37, 38, 22, 62]
+    },
+    {
+      "id": 62,
+      "name_ja": "状況学習理論",
+      "name_en": "Situated Learning Theory",
+      "category": "learning_theories",
+      "theorists": ["Jean Lave", "Etienne Wenger", "Lucy Suchman"],
+      "year_proposed": "1980s-1990s",
+      "core_principles": [
+        "学習は状況に埋め込まれている",
+        "正統的周辺参加による学習",
+        "実践共同体での学習",
+        "文脈と知識の不可分性"
+      ],
+      "key_concepts": [
+        "状況に埋め込まれた学習",
+        "正統的周辺参加",
+        "実践共同体",
+        "文脈依存性"
+      ],
+      "educational_applications": [
+        "実習教育",
+        "職場学習",
+        "フィールドワーク",
+        "インターンシップ"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "実際の使用場面で学習させる",
+          "専門家コミュニティへの参加機会を作る",
+          "段階的に参加度を高める"
+        ],
+        "success_patterns": [
+          "真正な文脈での学習",
+          "コミュニティ参加促進"
+        ],
+        "common_pitfalls": [
+          "人工的な学習環境",
+          "文脈の軽視"
+        ]
+      },
+      "ai_prompt_template": "状況学習理論に基づき、[学習領域]について、実践共同体への正統的周辺参加を通じた学習プログラムを設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "実践への参加",
+        "medium_term": "コミュニティでの認知",
+        "long_term": "専門家としての自立"
+      },
+      "suitable_contexts": [
+        "職業教育",
+        "実習科目",
+        "地域学習",
+        "文化継承"
+      ],
+      "grade_levels": ["high", "university", "adult"],
+      "subjects": ["vocational", "practical", "cultural"],
+      "learning_objectives": [
+        "実践的能力",
+        "専門的アイデンティティ",
+        "文化的理解"
+      ],
+      "implementation_strategies": [
+        "実践場面設定",
+        "段階的参加促進",
+        "メンター配置",
+        "文脈重視設計"
+      ],
+      "related_theories": [55, 61, 6, 107]
+    },
+    {
+      "id": 63,
+      "name_ja": "分散認知理論",
+      "name_en": "Distributed Cognition Theory",
+      "category": "cognitive_theories",
+      "theorists": ["Edwin Hutchins", "James Hollan", "Donald Norman"],
+      "year_proposed": "1980s-1990s",
+      "core_principles": [
+        "認知は個人を超えて分散する",
+        "道具と環境の認知的役割",
+        "集合的知性の活用",
+        "外部記憶と内部記憶の統合"
+      ],
+      "key_concepts": [
+        "分散認知",
+        "道具的思考",
+        "集合的知性",
+        "外部記憶"
+      ],
+      "educational_applications": [
+        "協働学習",
+        "技術活用学習",
+        "チーム問題解決",
+        "学習環境デザイン"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "様々な道具や資源を学習に活用する",
+          "グループでの知識共有を促進する",
+          "外部記憶装置の効果的使用を指導する"
+        ],
+        "success_patterns": [
+          "多様なリソース活用",
+          "集合的問題解決"
+        ],
+        "common_pitfalls": [
+          "個人主義的学習観",
+          "道具の軽視"
+        ]
+      },
+      "ai_prompt_template": "分散認知理論に基づき、[学習課題]について、個人・道具・環境が連携した分散認知システムを設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "リソース活用の向上",
+        "medium_term": "協働的問題解決",
+        "long_term": "集合的知性の発揮"
+      },
+      "suitable_contexts": [
+        "チーム学習",
+        "技術環境",
+        "複雑な問題解決",
+        "研究活動"
+      ],
+      "grade_levels": ["middle", "high", "university"],
+      "subjects": ["science", "technology", "research"],
+      "learning_objectives": [
+        "集合的問題解決能力",
+        "道具活用能力",
+        "システム思考"
+      ],
+      "implementation_strategies": [
+        "多様なツール提供",
+        "協働環境構築",
+        "外部記憶活用",
+        "集合的活動促進"
+      ],
+      "related_theories": [26, 45, 2, 56]
+    },
+    {
+      "id": 64,
+      "name_ja": "創造性理論",
+      "name_en": "Creativity Theory",
+      "category": "cognitive_theories",
+      "theorists": ["J.P. Guilford", "E.P. Torrance", "Teresa Amabile"],
+      "year_proposed": "1950s-1980s",
+      "core_principles": [
+        "発散的思考と収束的思考",
+        "創造的プロセスの段階性",
+        "内発的動機の重要性",
+        "創造的環境の影響"
+      ],
+      "key_concepts": [
+        "発散的思考",
+        "収束的思考",
+        "創造的プロセス",
+        "創造的環境"
+      ],
+      "educational_applications": [
+        "創造性教育",
+        "アート教育",
+        "問題解決指導",
+        "イノベーション教育"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "多様なアイデアを受け入れる雰囲気を作る",
+          "判断を保留して自由な発想を促す",
+          "異なる視点から物事を見る機会を提供する"
+        ],
+        "success_patterns": [
+          "心理的安全性の確保",
+          "多様性の尊重"
+        ],
+        "common_pitfalls": [
+          "早期の判断・評価",
+          "画一的な解答要求"
+        ]
+      },
+      "ai_prompt_template": "創造性理論に基づき、[創造的課題]について、発散的思考と収束的思考を促進する創造的学習活動を設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "多様なアイデア産出",
+        "medium_term": "創造的思考力向上",
+        "long_term": "イノベーション能力"
+      },
+      "suitable_contexts": [
+        "芸術教育",
+        "デザイン教育",
+        "発明・工作",
+        "起業教育"
+      ],
+      "grade_levels": ["elementary", "middle", "high", "university"],
+      "subjects": ["art", "design", "innovation", "engineering"],
+      "learning_objectives": [
+        "創造的思考力",
+        "柔軟性",
+        "独創性"
+      ],
+      "implementation_strategies": [
+        "ブレインストーミング",
+        "自由な表現機会",
+        "多様な刺激提供",
+        "評価の工夫"
+      ],
+      "related_theories": [5, 9, 16, 11]
+    },
+    {
+      "id": 65,
+      "name_ja": "社会情動学習理論",
+      "name_en": "Social Emotional Learning Theory",
+      "category": "social_learning_theories",
+      "theorists": ["Daniel Goleman", "Peter Salovey", "CASEL研究者"],
+      "year_proposed": "1990s-2000s",
+      "core_principles": [
+        "感情の理解と管理",
+        "社会的スキルの育成",
+        "自己認識と他者理解",
+        "責任ある意思決定"
+      ],
+      "key_concepts": [
+        "感情知性",
+        "社会的スキル",
+        "自己認識",
+        "関係性スキル"
+      ],
+      "educational_applications": [
+        "感情教育",
+        "対人関係指導",
+        "レジリエンス教育",
+        "リーダーシップ教育"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "感情を言語化する機会を多く作る",
+          "他者の気持ちを考える活動を取り入れる",
+          "良い人間関係のモデルを示す"
+        ],
+        "success_patterns": [
+          "感情の可視化",
+          "体験的学習"
+        ],
+        "common_pitfalls": [
+          "感情の軽視",
+          "知識偏重の指導"
+        ]
+      },
+      "ai_prompt_template": "社会情動学習理論に基づき、[対象年齢]について、感情知性と社会的スキルを育成する包括的プログラムを設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "感情認識の向上",
+        "medium_term": "対人関係の改善",
+        "long_term": "社会的適応力"
+      },
+      "suitable_contexts": [
+        "人格教育",
+        "生活指導",
+        "カウンセリング",
+        "チームビルディング"
+      ],
+      "grade_levels": ["preschool", "elementary", "middle", "high"],
+      "subjects": ["moral_education", "counseling", "life_skills"],
+      "learning_objectives": [
+        "感情知性の向上",
+        "社会的スキル習得",
+        "人間関係能力"
+      ],
+      "implementation_strategies": [
+        "感情教育活動",
+        "ロールプレイ",
+        "協働活動",
+        "リフレクション"
+      ],
+      "related_theories": [10, 23, 66, 41]
+    },
+    {
+      "id": 66,
+      "name_ja": "レジリエンス理論",
+      "name_en": "Resilience Theory",
+      "category": "psychological_theories",
+      "theorists": ["Ann Masten", "Michael Rutter", "Bonnie Benard"],
+      "year_proposed": "1970s-1990s",
+      "core_principles": [
+        "困難からの回復力",
+        "保護因子の育成",
+        "リスク因子の軽減",
+        "適応的発達の促進"
+      ],
+      "key_concepts": [
+        "回復力",
+        "保護因子",
+        "リスク因子",
+        "適応力"
+      ],
+      "educational_applications": [
+        "ストレス管理教育",
+        "困難克服支援",
+        "自己肯定感育成",
+        "サポートシステム構築"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "小さな成功体験を積み重ねさせる",
+          "支えてくれる人間関係を大切にする",
+          "困難を乗り越えた体験を共有する"
+        ],
+        "success_patterns": [
+          "段階的チャレンジ",
+          "支援的環境"
+        ],
+        "common_pitfalls": [
+          "過保護な環境",
+          "困難の回避"
+        ]
+      },
+      "ai_prompt_template": "レジリエンス理論に基づき、[困難な状況]について、学習者の回復力と適応力を育成する支援プログラムを設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "ストレス対処の向上",
+        "medium_term": "困難への適応",
+        "long_term": "回復力の習慣化"
+      },
+      "suitable_contexts": [
+        "生活指導",
+        "カウンセリング",
+        "特別支援",
+        "危機対応"
+      ],
+      "grade_levels": ["elementary", "middle", "high", "adult"],
+      "subjects": ["counseling", "life_skills", "mental_health"],
+      "learning_objectives": [
+        "回復力の育成",
+        "適応力の向上",
+        "自己効力感の強化"
+      ],
+      "implementation_strategies": [
+        "保護因子強化",
+        "段階的挑戦",
+        "サポート体制",
+        "成功体験積み重ね"
+      ],
+      "related_theories": [65, 17, 23, 67]
+    },
+    {
+      "id": 67,
+      "name_ja": "ポジティブ教育理論",
+      "name_en": "Positive Education Theory",
+      "category": "psychological_theories",
+      "theorists": ["Martin Seligman", "Lea Waters", "Geelong Grammar School"],
+      "year_proposed": "2000s-2010s",
+      "core_principles": [
+        "ウェルビーイングの促進",
+        "強みに基づく教育",
+        "ポジティブ感情の育成",
+        "人格の美徳の発達"
+      ],
+      "key_concepts": [
+        "ウェルビーイング",
+        "強み重視",
+        "ポジティブ感情",
+        "人格の美徳"
+      ],
+      "educational_applications": [
+        "強み発見活動",
+        "感謝教育",
+        "マインドフルネス",
+        "人格教育"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "生徒の強みを見つけて伸ばす",
+          "ポジティブな体験を意図的に作る",
+          "感謝の気持ちを表現する機会を設ける"
+        ],
+        "success_patterns": [
+          "強み重視のアプローチ",
+          "ポジティブな環境づくり"
+        ],
+        "common_pitfalls": [
+          "弱み改善への偏重",
+          "表面的なポジティブ思考"
+        ]
+      },
+      "ai_prompt_template": "ポジティブ教育理論に基づき、[教育目標]について、ウェルビーイングと強みを重視した教育プログラムを設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "ポジティブ感情の増加",
+        "medium_term": "ウェルビーイングの向上",
+        "long_term": "人生満足度の向上"
+      },
+      "suitable_contexts": [
+        "人格教育",
+        "メンタルヘルス",
+        "生活指導",
+        "全人教育"
+      ],
+      "grade_levels": ["elementary", "middle", "high"],
+      "subjects": ["moral_education", "life_skills", "counseling"],
+      "learning_objectives": [
+        "ウェルビーイング向上",
+        "強みの発見・活用",
+        "ポジティブな人生観"
+      ],
+      "implementation_strategies": [
+        "強み診断・活用",
+        "感謝練習",
+        "マインドフルネス",
+        "美徳教育"
+      ],
+      "related_theories": [66, 65, 9, 68]
+    },
+    {
+      "id": 68,
+      "name_ja": "マインドフルネス教育理論",
+      "name_en": "Mindfulness Education Theory",
+      "category": "psychological_theories",
+      "theorists": ["Jon Kabat-Zinn", "Patricia Jennings", "Mark Greenberg"],
+      "year_proposed": "1970s-2000s",
+      "core_principles": [
+        "現在への意識的注意",
+        "非判断的な観察",
+        "感情調整能力の向上",
+        "集中力と自己認識の育成"
+      ],
+      "key_concepts": [
+        "マインドフルネス",
+        "現在への注意",
+        "非判断的観察",
+        "感情調整"
+      ],
+      "educational_applications": [
+        "瞑想・呼吸法",
+        "注意力訓練",
+        "ストレス軽減",
+        "感情管理指導"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "短時間から始めて徐々に時間を延ばす",
+          "呼吸に注意を向ける練習から始める",
+          "日常の活動にマインドフルネスを取り入れる"
+        ],
+        "success_patterns": [
+          "継続的な実践",
+          "日常への統合"
+        ],
+        "common_pitfalls": [
+          "長時間の強要",
+          "宗教的側面の過度な強調"
+        ]
+      },
+      "ai_prompt_template": "マインドフルネス教育理論に基づき、[対象者]について、注意力と感情調整能力を育成するマインドフルネス実践プログラムを設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "注意力の向上",
+        "medium_term": "感情調整能力の改善",
+        "long_term": "ストレス耐性の向上"
+      },
+      "suitable_contexts": [
+        "ストレス対策",
+        "集中力向上",
+        "感情教育",
+        "ウェルビーイング"
+      ],
+      "grade_levels": ["elementary", "middle", "high", "adult"],
+      "subjects": ["mental_health", "life_skills", "meditation"],
+      "learning_objectives": [
+        "注意力の向上",
+        "感情調整能力",
+        "自己認識の深化"
+      ],
+      "implementation_strategies": [
+        "呼吸法指導",
+        "瞑想練習",
+        "身体感覚への注意",
+        "日常実践の促進"
+      ],
+      "related_theories": [67, 65, 66, 20]
+    },
+    {
+      "id": 69,
+      "name_ja": "STEM教育理論",
+      "name_en": "STEM Education Theory",
+      "category": "integrated_education_theories",
+      "theorists": ["National Science Foundation", "Judith Ramaley", "STEM研究者"],
+      "year_proposed": "1990s-2000s",
+      "core_principles": [
+        "科学・技術・工学・数学の統合",
+        "問題解決型学習",
+        "実践的・探究的アプローチ",
+        "21世紀スキルの育成"
+      ],
+      "key_concepts": [
+        "学問統合",
+        "問題解決",
+        "実践的学習",
+        "21世紀スキル"
+      ],
+      "educational_applications": [
+        "統合カリキュラム",
+        "プロジェクト学習",
+        "実験・制作活動",
+        "技術活用"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "実世界の問題を題材にする",
+          "複数の教科を自然に統合する",
+          "試行錯誤を歓迎する雰囲気を作る"
+        ],
+        "success_patterns": [
+          "現実的な問題設定",
+          "教科横断的アプローチ"
+        ],
+        "common_pitfalls": [
+          "表面的な統合",
+          "技術偏重"
+        ]
+      },
+      "ai_prompt_template": "STEM教育理論に基づき、[実世界の問題]について、科学・技術・工学・数学を統合した探究的学習プログラムを設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "統合的思考の発揮",
+        "medium_term": "問題解決能力の向上",
+        "long_term": "イノベーション能力"
+      },
+      "suitable_contexts": [
+        "理数教育",
+        "技術教育",
+        "探究学習",
+        "キャリア教育"
+      ],
+      "grade_levels": ["elementary", "middle", "high", "university"],
+      "subjects": ["science", "technology", "engineering", "mathematics"],
+      "learning_objectives": [
+        "統合的思考力",
+        "問題解決能力",
+        "実践的応用力"
+      ],
+      "implementation_strategies": [
+        "現実問題設定",
+        "教科統合設計",
+        "実践的活動",
+        "技術活用"
+      ],
+      "related_theories": [70, 27, 28, 29]
+    },
+    {
+      "id": 70,
+      "name_ja": "STEAM教育理論",
+      "name_en": "STEAM Education Theory (Science, Technology, Engineering, Arts, Mathematics)",
+      "category": "integrated_education_theories",
+      "theorists": ["Georgette Yakman", "John Maeda", "Rhode Island School of Design"],
+      "year_proposed": "2000s-2010s",
+      "core_principles": [
+        "STEMにアート・デザインを統合",
+        "創造性と論理性の融合",
+        "美的感覚と機能性の両立",
+        "人間中心のイノベーション"
+      ],
+      "key_concepts": [
+        "芸術統合",
+        "創造的思考",
+        "デザイン思考",
+        "人間中心設計"
+      ],
+      "educational_applications": [
+        "デザイン思考教育",
+        "芸術と科学の統合",
+        "創造的問題解決",
+        "美的教育"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "美しさと機能性を両立させる課題を設定する",
+          "芸術的表現と科学的探究を組み合わせる",
+          "ユーザーの視点を重視する"
+        ],
+        "success_patterns": [
+          "芸術的要素の自然な統合",
+          "人間中心の課題設定"
+        ],
+        "common_pitfalls": [
+          "芸術要素の表面的追加",
+          "美的側面の軽視"
+        ]
+      },
+      "ai_prompt_template": "STEAM教育理論に基づき、[創造的課題]について、科学・技術・工学・芸術・数学を統合した人間中心の学習プログラムを設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "創造的思考の発揮",
+        "medium_term": "統合的デザイン能力",
+        "long_term": "人間中心のイノベーション"
+      },
+      "suitable_contexts": [
+        "デザイン教育",
+        "アート教育",
+        "創造教育",
+        "統合教育"
+      ],
+      "grade_levels": ["elementary", "middle", "high", "university"],
+      "subjects": ["art", "design", "science", "technology"],
+      "learning_objectives": [
+        "創造的問題解決",
+        "美的感覚",
+        "統合的思考"
+      ],
+      "implementation_strategies": [
+        "デザイン思考プロセス",
+        "芸術的表現活動",
+        "人間中心設計",
+        "美と機能の融合"
+      ],
+      "related_theories": [69, 64, 28, 71]
+    },
+    {
+      "id": 71,
+      "name_ja": "デザイン思考教育理論",
+      "name_en": "Design Thinking Education Theory",
+      "category": "design_theories",
+      "theorists": ["Tim Brown", "David Kelley", "d.school Stanford"],
+      "year_proposed": "2000s-2010s",
+      "core_principles": [
+        "人間中心のアプローチ",
+        "プロトタイピングによる学習",
+        "失敗からの学び",
+        "協働的創造プロセス"
+      ],
+      "key_concepts": [
+        "人間中心設計",
+        "プロトタイピング",
+        "イテレーション",
+        "共感"
+      ],
+      "educational_applications": [
+        "問題解決学習",
+        "創造的思考教育",
+        "プロトタイプ制作",
+        "ユーザー体験設計"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "ユーザーの立場になって考えさせる",
+          "早い段階でプロトタイプを作らせる",
+          "失敗を学習機会として捉える"
+        ],
+        "success_patterns": [
+          "ユーザー中心の思考",
+          "反復的改善プロセス"
+        ],
+        "common_pitfalls": [
+          "技術先行の思考",
+          "完璧主義の追求"
+        ]
+      },
+      "ai_prompt_template": "デザイン思考教育理論に基づき、[デザイン課題]について、共感・定義・発想・プロトタイプ・テストの5段階を活用した学習プログラムを設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "ユーザー視点の獲得",
+        "medium_term": "創造的問題解決",
+        "long_term": "イノベーション能力"
+      },
+      "suitable_contexts": [
+        "デザイン教育",
+        "起業教育",
+        "問題解決学習",
+        "創造教育"
+      ],
+      "grade_levels": ["middle", "high", "university"],
+      "subjects": ["design", "innovation", "entrepreneurship"],
+      "learning_objectives": [
+        "人間中心思考",
+        "創造的問題解決",
+        "プロトタイピング能力"
+      ],
+      "implementation_strategies": [
+        "5段階プロセス実施",
+        "ユーザー調査",
+        "迅速プロトタイピング",
+        "反復的改善"
+      ],
+      "related_theories": [70, 64, 27, 28]
+    },
+    {
+      "id": 72,
+      "name_ja": "21世紀スキル理論",
+      "name_en": "21st Century Skills Theory",
+      "category": "skill_development_theories",
+      "theorists": ["Partnership for 21st Century Skills", "P21", "Tony Wagner"],
+      "year_proposed": "2000s",
+      "core_principles": [
+        "未来社会に必要なスキル群",
+        "学習・イノベーションスキル",
+        "デジタルリテラシー",
+        "キャリア・ライフスキル"
+      ],
+      "key_concepts": [
+        "4C（批判的思考・創造性・協働・コミュニケーション）",
+        "デジタルリテラシー",
+        "ライフスキル",
+        "グローバルスキル"
+      ],
+      "educational_applications": [
+        "スキルベース教育",
+        "プロジェクト学習",
+        "協働学習",
+        "技術統合"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "知識と並行してスキルを意識的に育成する",
+          "実際の課題を通してスキルを学ばせる",
+          "異文化理解の機会を提供する"
+        ],
+        "success_patterns": [
+          "実践的スキル学習",
+          "グローバルな視点"
+        ],
+        "common_pitfalls": [
+          "知識軽視の極端化",
+          "スキルの表面的扱い"
+        ]
+      },
+      "ai_prompt_template": "21世紀スキル理論に基づき、[学習分野]について、4Cとデジタルリテラシー、ライフスキルを統合的に育成する教育プログラムを設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "スキルの認識向上",
+        "medium_term": "統合的スキル発揮",
+        "long_term": "未来社会への適応"
+      },
+      "suitable_contexts": [
+        "総合学習",
+        "キャリア教育",
+        "国際教育",
+        "技術教育"
+      ],
+      "grade_levels": ["elementary", "middle", "high", "university"],
+      "subjects": ["integrated", "career", "global", "technology"],
+      "learning_objectives": [
+        "4Cスキルの習得",
+        "デジタルリテラシー",
+        "グローバル対応力"
+      ],
+      "implementation_strategies": [
+        "スキル重視設計",
+        "実践的活動",
+        "技術統合",
+        "国際交流"
+      ],
+      "related_theories": [69, 70, 73, 45]
+    },
+    {
+      "id": 73,
+      "name_ja": "コンピテンシーベース教育理論",
+      "name_en": "Competency-Based Education Theory",
+      "category": "skill_development_theories",
+      "theorists": ["David McClelland", "OECD DeSeCo", "Richard Boyatzis"],
+      "year_proposed": "1970s-2000s",
+      "core_principles": [
+        "知識・スキル・態度の統合",
+        "実際の課題遂行能力",
+        "文脈に応じた能力発揮",
+        "生涯にわたる能力開発"
+      ],
+      "key_concepts": [
+        "コンピテンシー",
+        "実践的能力",
+        "統合的発揮",
+        "文脈適応"
+      ],
+      "educational_applications": [
+        "能力ベース評価",
+        "実践的課題",
+        "ポートフォリオ",
+        "キャリア開発"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "知識だけでなく実際に使える能力を評価する",
+          "様々な文脈での能力発揮を確認する",
+          "長期的な能力開発を支援する"
+        ],
+        "success_patterns": [
+          "実践的評価方法",
+          "文脈多様化"
+        ],
+        "common_pitfalls": [
+          "知識軽視の傾向",
+          "評価の困難さ"
+        ]
+      },
+      "ai_prompt_template": "コンピテンシーベース教育理論に基づき、[能力領域]について、知識・スキル・態度を統合した実践的能力を育成・評価するシステムを設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "統合的能力の発揮",
+        "medium_term": "文脈適応能力",
+        "long_term": "生涯学習能力"
+      },
+      "suitable_contexts": [
+        "職業教育",
+        "高等教育",
+        "企業研修",
+        "資格認定"
+      ],
+      "grade_levels": ["high", "university", "adult"],
+      "subjects": ["vocational", "professional", "career"],
+      "learning_objectives": [
+        "実践的能力習得",
+        "統合的発揮能力",
+        "文脈適応力"
+      ],
+      "implementation_strategies": [
+        "能力モデル開発",
+        "実践的課題設定",
+        "多面的評価",
+        "継続的開発"
+      ],
+      "related_theories": [72, 32, 35, 59]
+    },
+    {
+      "id": 74,
+      "name_ja": "メディアリテラシー理論",
+      "name_en": "Media Literacy Theory",
+      "category": "literacy_theories",
+      "theorists": ["James Potter", "Renee Hobbs", "Douglas Kellner"],
+      "year_proposed": "1980s-1990s",
+      "core_principles": [
+        "メディアメッセージの批判的分析",
+        "メディア制作の理解",
+        "情報の信頼性評価",
+        "責任あるメディア使用"
+      ],
+      "key_concepts": [
+        "批判的思考",
+        "メディア分析",
+        "情報評価",
+        "制作理解"
+      ],
+      "educational_applications": [
+        "情報分析教育",
+        "メディア制作",
+        "批判的読解",
+        "デジタル市民性"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "メディアの背景や意図を考えさせる",
+          "複数の情報源を比較検討させる",
+          "実際にメディアを制作する体験をさせる"
+        ],
+        "success_patterns": [
+          "批判的分析習慣",
+          "制作体験の効果"
+        ],
+        "common_pitfalls": [
+          "単純な情報受容",
+          "制作技術への偏重"
+        ]
+      },
+      "ai_prompt_template": "メディアリテラシー理論に基づき、[メディア環境]について、批判的思考力と責任あるメディア使用能力を育成する教育プログラムを設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "メディア分析能力",
+        "medium_term": "批判的評価習慣",
+        "long_term": "責任あるメディア使用"
+      },
+      "suitable_contexts": [
+        "情報教育",
+        "社会科教育",
+        "国語教育",
+        "市民教育"
+      ],
+      "grade_levels": ["elementary", "middle", "high", "adult"],
+      "subjects": ["media_studies", "social_studies", "language_arts"],
+      "learning_objectives": [
+        "批判的メディア分析",
+        "情報評価能力",
+        "責任ある使用"
+      ],
+      "implementation_strategies": [
+        "メディア分析活動",
+        "制作体験",
+        "情報源比較",
+        "倫理的使用指導"
+      ],
+      "related_theories": [75, 43, 72, 45]
+    },
+    {
+      "id": 75,
+      "name_ja": "情報リテラシー理論",
+      "name_en": "Information Literacy Theory",
+      "category": "literacy_theories",
+      "theorists": ["Carol Kuhlthau", "Christina Doyle", "ACRL"],
+      "year_proposed": "1980s-1990s",
+      "core_principles": [
+        "情報ニーズの認識",
+        "効果的な情報検索",
+        "情報の評価と活用",
+        "倫理的な情報使用"
+      ],
+      "key_concepts": [
+        "情報検索",
+        "情報評価",
+        "情報活用",
+        "情報倫理"
+      ],
+      "educational_applications": [
+        "図書館指導",
+        "研究方法教育",
+        "レポート作成",
+        "情報倫理教育"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "情報検索の戦略を段階的に指導する",
+          "信頼できる情報源の見分け方を教える",
+          "引用や著作権について丁寧に指導する"
+        ],
+        "success_patterns": [
+          "段階的スキル習得",
+          "実践的課題での応用"
+        ],
+        "common_pitfalls": [
+          "技術的側面のみの重視",
+          "倫理面の軽視"
+        ]
+      },
+      "ai_prompt_template": "情報リテラシー理論に基づき、[研究課題]について、効果的な情報検索・評価・活用・倫理的使用の全過程を学習するプログラムを設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "情報検索スキル",
+        "medium_term": "情報評価能力",
+        "long_term": "自律的研究能力"
+      },
+      "suitable_contexts": [
+        "図書館教育",
+        "研究指導",
+        "レポート指導",
+        "情報教育"
+      ],
+      "grade_levels": ["middle", "high", "university"],
+      "subjects": ["library_science", "research", "information"],
+      "learning_objectives": [
+        "情報検索能力",
+        "批判的評価力",
+        "倫理的使用"
+      ],
+      "implementation_strategies": [
+        "検索戦略指導",
+        "評価基準提示",
+        "実践的課題",
+        "倫理教育"
+      ],
+      "related_theories": [74, 29, 72, 45]
+    },
+    {
+      "id": 76,
+      "name_ja": "読解指導理論",
+      "name_en": "Reading Comprehension Theory",
+      "category": "literacy_theories",
+      "theorists": ["Patricia Alexander", "Nell Duke", "P. David Pearson"],
+      "year_proposed": "1970s-2000s",
+      "core_principles": [
+        "読解ストラテジーの明示的指導",
+        "背景知識の活用",
+        "メタ認知的読解",
+        "テキスト構造の理解"
+      ],
+      "key_concepts": [
+        "読解ストラテジー",
+        "背景知識",
+        "メタ認知",
+        "テキスト構造"
+      ],
+      "educational_applications": [
+        "読解方略指導",
+        "語彙指導",
+        "文章構造分析",
+        "批判的読解"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "読む前・読む間・読んだ後の戦略を段階的に指導する",
+          "テキストの種類に応じた読み方を教える",
+          "読解プロセスを意識化させる"
+        ],
+        "success_patterns": [
+          "段階的方略指導",
+          "テキスト種別対応"
+        ],
+        "common_pitfalls": [
+          "暗黙の指導",
+          "一般的方略のみ"
+        ]
+      },
+      "ai_prompt_template": "読解指導理論に基づき、[テキストタイプ]について、読解ストラテジーとメタ認知を育成する段階的指導プログラムを設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "読解ストラテジー習得",
+        "medium_term": "読解力の向上",
+        "long_term": "自律的読解能力"
+      },
+      "suitable_contexts": [
+        "国語教育",
+        "外国語教育",
+        "専門文献読解",
+        "学習支援"
+      ],
+      "grade_levels": ["elementary", "middle", "high", "university"],
+      "subjects": ["language_arts", "reading", "literature"],
+      "learning_objectives": [
+        "読解ストラテジー習得",
+        "批判的読解力",
+        "メタ認知能力"
+      ],
+      "implementation_strategies": [
+        "明示的方略指導",
+        "段階的練習",
+        "テキスト多様化",
+        "メタ認知促進"
+      ],
+      "related_theories": [13, 8, 15, 49]
+    },
+    {
+      "id": 77,
+      "name_ja": "ライティング指導理論",
+      "name_en": "Writing Instruction Theory",
+      "category": "literacy_theories",
+      "theorists": ["Donald Graves", "Lucy Calkins", "Carl Bereiter"],
+      "year_proposed": "1970s-1980s",
+      "core_principles": [
+        "プロセス重視の指導",
+        "意味のある文脈での執筆",
+        "段階的スキル構築",
+        "協働的推敲プロセス"
+      ],
+      "key_concepts": [
+        "執筆プロセス",
+        "意味ある文脈",
+        "段階的指導",
+        "協働推敲"
+      ],
+      "educational_applications": [
+        "プロセス・ライティング",
+        "ピア・レビュー",
+        "ポートフォリオ",
+        "ジャンル別指導"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "計画・執筆・推敲・編集の各段階を丁寧に指導する",
+          "読み手を意識した執筆を促す",
+          "同級生との相互評価を活用する"
+        ],
+        "success_patterns": [
+          "プロセス重視指導",
+          "読み手意識の育成"
+        ],
+        "common_pitfalls": [
+          "結果のみの評価",
+          "文法偏重の指導"
+        ]
+      },
+      "ai_prompt_template": "ライティング指導理論に基づき、[文章タイプ]について、プロセス重視で協働的な執筆指導プログラムを設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "執筆プロセスの理解",
+        "medium_term": "文章表現力の向上",
+        "long_term": "自律的執筆能力"
+      },
+      "suitable_contexts": [
+        "国語教育",
+        "外国語教育",
+        "学術ライティング",
+        "創作活動"
+      ],
+      "grade_levels": ["elementary", "middle", "high", "university"],
+      "subjects": ["language_arts", "writing", "composition"],
+      "learning_objectives": [
+        "執筆プロセス習得",
+        "表現力向上",
+        "協働的学習能力"
+      ],
+      "implementation_strategies": [
+        "プロセス段階指導",
+        "協働推敲活動",
+        "ジャンル別アプローチ",
+        "ポートフォリオ活用"
+      ],
+      "related_theories": [33, 50, 26, 15]
+    },
+    {
+      "id": 78,
+      "name_ja": "数学教育理論",
+      "name_en": "Mathematics Education Theory",
+      "category": "subject_specific_theories",
+      "theorists": ["Hans Freudenthal", "George Polya", "Liping Ma"],
+      "year_proposed": "1940s-1990s",
+      "core_principles": [
+        "現実的数学教育",
+        "問題解決重視",
+        "概念的理解の促進",
+        "数学的思考の育成"
+      ],
+      "key_concepts": [
+        "現実的文脈",
+        "問題解決",
+        "概念理解",
+        "数学的思考"
+      ],
+      "educational_applications": [
+        "文脈的問題",
+        "操作活動",
+        "概念形成",
+        "数学的議論"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "生活に身近な場面から数学的概念を導入する",
+          "操作活動を通して概念を形成させる",
+          "複数の解法を認めて議論させる"
+        ],
+        "success_patterns": [
+          "具体から抽象への段階化",
+          "多様な解法の共有"
+        ],
+        "common_pitfalls": [
+          "手続き偏重の指導",
+          "文脈の軽視"
+        ]
+      },
+      "ai_prompt_template": "数学教育理論に基づき、[数学概念]について、現実的文脈での問題解決を通じて概念的理解を促進する指導プログラムを設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "概念的理解の向上",
+        "medium_term": "数学的思考力の発達",
+        "long_term": "数学への肯定的態度"
+      },
+      "suitable_contexts": [
+        "算数・数学教育",
+        "問題解決学習",
+        "概念形成",
+        "数学的活動"
+      ],
+      "grade_levels": ["elementary", "middle", "high"],
+      "subjects": ["mathematics", "arithmetic", "algebra"],
+      "learning_objectives": [
+        "概念的理解",
+        "問題解決能力",
+        "数学的思考力"
+      ],
+      "implementation_strategies": [
+        "現実的問題提示",
+        "操作的活動",
+        "概念形成支援",
+        "数学的議論促進"
+      ],
+      "related_theories": [21, 27, 12, 1]
+    },
+    {
+      "id": 79,
+      "name_ja": "科学教育理論",
+      "name_en": "Science Education Theory",
+      "category": "subject_specific_theories",
+      "theorists": ["Joseph Schwab", "Richard Duschl", "Jonathan Osborne"],
+      "year_proposed": "1960s-2000s",
+      "core_principles": [
+        "探究としての科学学習",
+        "科学的リテラシーの育成",
+        "科学の本質理解",
+        "証拠に基づく推論"
+      ],
+      "key_concepts": [
+        "科学的探究",
+        "科学的リテラシー",
+        "科学の本質",
+        "証拠に基づく推論"
+      ],
+      "educational_applications": [
+        "探究学習",
+        "実験・観察",
+        "仮説検証",
+        "科学的議論"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "観察から疑問を持たせて探究を始める",
+          "証拠と結論を区別して考えさせる",
+          "科学者の活動を体験させる"
+        ],
+        "success_patterns": [
+          "疑問からの出発",
+          "証拠重視の態度"
+        ],
+        "common_pitfalls": [
+          "知識暗記の重視",
+          "探究プロセスの軽視"
+        ]
+      },
+      "ai_prompt_template": "科学教育理論に基づき、[科学概念]について、科学的探究プロセスを通じて科学的リテラシーを育成する学習プログラムを設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "探究的態度の醸成",
+        "medium_term": "科学的思考力の向上",
+        "long_term": "科学的リテラシーの確立"
+      },
+      "suitable_contexts": [
+        "理科教育",
+        "実験学習",
+        "野外観察",
+        "STEM教育"
+      ],
+      "grade_levels": ["elementary", "middle", "high", "university"],
+      "subjects": ["science", "biology", "chemistry", "physics"],
+      "learning_objectives": [
+        "科学的探究能力",
+        "科学的思考力",
+        "科学的リテラシー"
+      ],
+      "implementation_strategies": [
+        "問い重視の導入",
+        "実験・観察活動",
+        "仮説検証プロセス",
+        "科学的議論"
+      ],
+      "related_theories": [29, 69, 1, 27]
+    },
+    {
+      "id": 80,
+      "name_ja": "体育教育理論",
+      "name_en": "Physical Education Theory",
+      "category": "subject_specific_theories",
+      "theorists": ["Jesse Feiring Williams", "Charles McCloy", "Daryl Siedentop"],
+      "year_proposed": "1920s-1980s",
+      "core_principles": [
+        "全人的発達への貢献",
+        "運動技能と体力の向上",
+        "スポーツマンシップの育成",
+        "生涯スポーツの基礎"
+      ],
+      "key_concepts": [
+        "全人的発達",
+        "運動技能",
+        "体力向上",
+        "スポーツマンシップ"
+      ],
+      "educational_applications": [
+        "技能指導",
+        "体力づくり",
+        "ゲーム・スポーツ",
+        "健康教育"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "個人の能力に応じた目標設定をする",
+          "協力とフェアプレーの精神を育てる",
+          "運動の楽しさを重視する"
+        ],
+        "success_patterns": [
+          "個別対応の指導",
+          "楽しさ重視の環境"
+        ],
+        "common_pitfalls": [
+          "競技偏重の指導",
+          "運動嫌いの助長"
+        ]
+      },
+      "ai_prompt_template": "体育教育理論に基づき、[運動種目]について、技能向上と人格形成を両立させる体育学習プログラムを設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "運動技能の向上",
+        "medium_term": "運動への積極的態度",
+        "long_term": "生涯スポーツへの基礎"
+      },
+      "suitable_contexts": [
+        "体育授業",
+        "クラブ活動",
+        "健康教育",
+        "レクリエーション"
+      ],
+      "grade_levels": ["elementary", "middle", "high"],
+      "subjects": ["physical_education", "health", "sports"],
+      "learning_objectives": [
+        "運動技能向上",
+        "体力向上",
+        "社会性育成"
+      ],
+      "implementation_strategies": [
+        "段階的技能指導",
+        "協働的活動",
+        "個別支援",
+        "楽しさ重視"
+      ],
+      "related_theories": [65, 23, 26, 17]
+    },
+    {
+      "id": 81,
+      "name_ja": "芸術教育理論",
+      "name_en": "Arts Education Theory",
+      "category": "subject_specific_theories",
+      "theorists": ["Herbert Read", "Viktor Lowenfeld", "Elliot Eisner"],
+      "year_proposed": "1940s-1990s",
+      "core_principles": [
+        "創造的表現の重視",
+        "美的感受性の育成",
+        "個性と独創性の尊重",
+        "文化的理解の促進"
+      ],
+      "key_concepts": [
+        "創造的表現",
+        "美的感受性",
+        "個性尊重",
+        "文化理解"
+      ],
+      "educational_applications": [
+        "創作活動",
+        "鑑賞教育",
+        "技法指導",
+        "文化学習"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "作品に優劣をつけず個性を認める",
+          "様々な表現方法を体験させる",
+          "作品に込められた思いを大切にする"
+        ],
+        "success_patterns": [
+          "表現の自由度確保",
+          "過程重視の評価"
+        ],
+        "common_pitfalls": [
+          "技術偏重の指導",
+          "画一的な表現要求"
+        ]
+      },
+      "ai_prompt_template": "芸術教育理論に基づき、[芸術分野]について、創造的表現力と美的感受性を育成する芸術教育プログラムを設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "表現への意欲向上",
+        "medium_term": "創造性の発揮",
+        "long_term": "豊かな感性の育成"
+      },
+      "suitable_contexts": [
+        "美術教育",
+        "音楽教育",
+        "演劇教育",
+        "文化活動"
+      ],
+      "grade_levels": ["preschool", "elementary", "middle", "high"],
+      "subjects": ["art", "music", "drama", "culture"],
+      "learning_objectives": [
+        "創造的表現力",
+        "美的感受性",
+        "文化的理解"
+      ],
+      "implementation_strategies": [
+        "自由な創作機会",
+        "多様な表現体験",
+        "鑑賞活動",
+        "文化的背景学習"
+      ],
+      "related_theories": [64, 5, 9, 102]
+    },
+    {
+      "id": 82,
+      "name_ja": "道徳教育理論",
+      "name_en": "Moral Education Theory",
+      "category": "value_education_theories",
+      "theorists": ["John Dewey", "Nel Noddings", "Thomas Lickona"],
+      "year_proposed": "1900s-1990s",
+      "core_principles": [
+        "道徳的判断力の育成",
+        "価値観の内在化",
+        "道徳的実践の重視",
+        "共同体との関係性"
+      ],
+      "key_concepts": [
+        "道徳的判断",
+        "価値内在化",
+        "道徳的実践",
+        "共同体意識"
+      ],
+      "educational_applications": [
+        "道徳的ジレンマ",
+        "価値澄清",
+        "ボランティア活動",
+        "共同体参加"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "日常の出来事から道徳的問題を見つける",
+          "多様な価値観を尊重しながら議論する",
+          "実際の行動に結びつける機会を作る"
+        ],
+        "success_patterns": [
+          "身近な事例の活用",
+          "実践との結合"
+        ],
+        "common_pitfalls": [
+          "価値観の押し付け",
+          "実践と理論の乖離"
+        ]
+      },
+      "ai_prompt_template": "道徳教育理論に基づき、[道徳的主題]について、道徳的判断力と実践力を育成する道徳教育プログラムを設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "道徳的感受性の向上",
+        "medium_term": "価値観の明確化",
+        "long_term": "道徳的実践の習慣化"
+      },
+      "suitable_contexts": [
+        "道徳教育",
+        "価値観教育",
+        "人格教育",
+        "市民教育"
+      ],
+      "grade_levels": ["elementary", "middle", "high"],
+      "subjects": ["moral_education", "ethics", "citizenship"],
+      "learning_objectives": [
+        "道徳的判断力",
+        "価値観の確立",
+        "実践的行動力"
+      ],
+      "implementation_strategies": [
+        "ジレンマ討議",
+        "価値澄清活動",
+        "実践的体験",
+        "共同体参加"
+      ],
+      "related_theories": [24, 23, 43, 83]
+    },
+    {
+      "id": 83,
+      "name_ja": "人権教育理論",
+      "name_en": "Human Rights Education Theory",
+      "category": "value_education_theories",
+      "theorists": ["UNESCO", "Audrey Osler", "Hugh Starkey"],
+      "year_proposed": "1948-1990s",
+      "core_principles": [
+        "人間の尊厳と平等",
+        "基本的人権の理解",
+        "差別のない社会",
+        "人権文化の創造"
+      ],
+      "key_concepts": [
+        "人間の尊厳",
+        "平等",
+        "差別解消",
+        "人権文化"
+      ],
+      "educational_applications": [
+        "人権学習",
+        "差別解消教育",
+        "多様性理解",
+        "権利と責任教育"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "一人ひとりが大切な存在であることを実感させる",
+          "身近な差別や偏見について考えさせる",
+          "違いを認め合う学級文化を作る"
+        ],
+        "success_patterns": [
+          "体験的な人権学習活動",
+          "当事者の声を聞く機会"
+        ],
+        "common_pitfalls": [
+          "知識だけの学習",
+          "感情的な議論"
+        ]
+      },
+      "ai_prompt_template": "人権教育理論に基づき、[人権テーマ]について、学習者が人間の尊厳を理解し、差別のない社会づくりに参画する意識を育む学習を設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "人権意識の向上",
+        "medium_term": "差別への敏感性",
+        "long_term": "人権尊重の行動"
+      },
+      "suitable_contexts": [
+        "道徳教育",
+        "社会科",
+        "総合的な学習",
+        "特別活動"
+      ],
+      "grade_levels": ["elementary", "middle", "high"],
+      "subjects": ["moral_education", "social_studies", "integrated"],
+      "learning_objectives": [
+        "人権意識の形成",
+        "差別解消への取り組み",
+        "多様性の尊重"
+      ],
+      "implementation_strategies": [
+        "人権概念の学習",
+        "体験的活動の実施",
+        "当事者との交流",
+        "行動計画の作成"
+      ],
+      "related_theories": [82, 42, 41, 43]
+    },
+    {
+      "id": 84,
+      "name_ja": "平和教育理論",
+      "name_en": "Peace Education Theory",
+      "category": "value_education_theories",
+      "theorists": ["Johan Galtung", "Betty Reardon", "David Hicks"],
+      "year_proposed": "1960s-1980s",
+      "core_principles": [
+        "暴力の根絶と平和の構築",
+        "紛争の平和的解決",
+        "社会正義の実現",
+        "地球市民意識の育成"
+      ],
+      "key_concepts": [
+        "積極的平和",
+        "紛争解決",
+        "社会正義",
+        "地球市民"
+      ],
+      "educational_applications": [
+        "平和学習",
+        "紛争解決教育",
+        "国際理解教育",
+        "環境教育"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "身近な対立から平和的解決方法を学ばせる",
+          "世界の平和問題を自分事として考えさせる",
+          "多様な文化や価値観を尊重する態度を育てる"
+        ],
+        "success_patterns": [
+          "身近な問題からの出発",
+          "地球規模の視点"
+        ],
+        "common_pitfalls": [
+          "理想論的な議論",
+          "現実問題との乖離"
+        ]
+      },
+      "ai_prompt_template": "平和教育理論に基づき、[平和テーマ]について、紛争の平和的解決能力と地球市民意識を育成する教育プログラムを設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "平和意識の醸成",
+        "medium_term": "紛争解決スキル",
+        "long_term": "平和構築への参画"
+      },
+      "suitable_contexts": [
+        "平和学習",
+        "国際理解教育",
+        "社会科教育",
+        "総合学習"
+      ],
+      "grade_levels": ["elementary", "middle", "high", "university"],
+      "subjects": ["peace_studies", "international", "social_studies"],
+      "learning_objectives": [
+        "平和構築意識",
+        "紛争解決能力",
+        "地球市民意識"
+      ],
+      "implementation_strategies": [
+        "平和概念の学習",
+        "紛争解決技法",
+        "国際交流活動",
+        "社会参加促進"
+      ],
+      "related_theories": [83, 42, 43, 85]
+    },
+    {
+      "id": 85,
+      "name_ja": "環境教育理論",
+      "name_en": "Environmental Education Theory",
+      "category": "sustainability_theories",
+      "theorists": ["UNESCO", "Joy Palmer", "William Stapp"],
+      "year_proposed": "1970s-1980s",
+      "core_principles": [
+        "環境問題の理解",
+        "持続可能な社会の構築",
+        "環境保全への参画",
+        "地球規模の視野"
+      ],
+      "key_concepts": [
+        "環境意識",
+        "持続可能性",
+        "環境保全",
+        "地球規模思考"
+      ],
+      "educational_applications": [
+        "環境学習",
+        "野外教育",
+        "持続可能性教育",
+        "エコアクション"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "身近な環境問題から地球規模の課題へ発展させる",
+          "実際の保全活動に参加させる",
+          "科学的データに基づいて考えさせる"
+        ],
+        "success_patterns": [
+          "体験的な環境学習",
+          "実践的な保全活動"
+        ],
+        "common_pitfalls": [
+          "知識偏重の学習",
+          "行動との分離"
+        ]
+      },
+      "ai_prompt_template": "環境教育理論に基づき、[環境問題]について、科学的理解と実践的行動力を育成する環境教育プログラムを設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "環境意識の向上",
+        "medium_term": "環境行動の実践",
+        "long_term": "持続可能な生活様式"
+      },
+      "suitable_contexts": [
+        "環境教育",
+        "理科教育",
+        "野外教育",
+        "持続可能性教育"
+      ],
+      "grade_levels": ["elementary", "middle", "high", "university"],
+      "subjects": ["environmental", "science", "geography"],
+      "learning_objectives": [
+        "環境意識の育成",
+        "科学的理解力",
+        "実践的行動力"
+      ],
+      "implementation_strategies": [
+        "現地体験学習",
+        "科学的調査",
+        "保全活動参加",
+        "ライフスタイル見直し"
+      ],
+      "related_theories": [84, 79, 86, 69]
+    },
+    {
+      "id": 86,
+      "name_ja": "持続可能な発展のための教育理論",
+      "name_en": "Education for Sustainable Development Theory",
+      "category": "sustainability_theories",
+      "theorists": ["UNESCO", "Charles Hopkins", "Rosalyn McKeown"],
+      "year_proposed": "1990s-2000s",
+      "core_principles": [
+        "持続可能な社会の実現",
+        "環境・経済・社会の統合",
+        "将来世代への責任",
+        "地球市民としての行動"
+      ],
+      "key_concepts": [
+        "持続可能性",
+        "三側面統合",
+        "将来世代",
+        "地球市民"
+      ],
+      "educational_applications": [
+        "ESD学習",
+        "統合的アプローチ",
+        "未来志向教育",
+        "グローバル教育"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "環境・経済・社会の関連性を意識させる",
+          "将来への影響を考える習慣をつけさせる",
+          "地域と地球の両方の視点を持たせる"
+        ],
+        "success_patterns": [
+          "統合的な課題設定",
+          "未来志向の思考"
+        ],
+        "common_pitfalls": [
+          "環境側面のみの重視",
+          "現在中心の思考"
+        ]
+      },
+      "ai_prompt_template": "持続可能な発展のための教育理論に基づき、[持続可能性課題]について、環境・経済・社会を統合した未来志向の学習プログラムを設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "統合的理解の向上",
+        "medium_term": "未来志向の思考",
+        "long_term": "持続可能な行動様式"
+      },
+      "suitable_contexts": [
+        "ESD教育",
+        "総合学習",
+        "社会科教育",
+        "国際教育"
+      ],
+      "grade_levels": ["elementary", "middle", "high", "university"],
+      "subjects": ["esd", "integrated", "social_studies"],
+      "learning_objectives": [
+        "持続可能性理解",
+        "統合的思考力",
+        "未来志向行動"
+      ],
+      "implementation_strategies": [
+        "三側面統合学習",
+        "未来シナリオ検討",
+        "地域・地球規模課題",
+        "実践的プロジェクト"
+      ],
+      "related_theories": [85, 84, 72, 42]
+    },
+    {
+      "id": 87,
+      "name_ja": "キャリア教育理論",
+      "name_en": "Career Education Theory",
+      "category": "life_skills_theories",
+      "theorists": ["Donald Super", "John Holland", "Linda Gottfredson"],
+      "year_proposed": "1950s-1980s",
+      "core_principles": [
+        "生涯にわたるキャリア発達",
+        "自己理解と職業理解",
+        "意思決定能力の育成",
+        "社会人基礎力の形成"
+      ],
+      "key_concepts": [
+        "キャリア発達",
+        "自己理解",
+        "職業理解",
+        "社会人基礎力"
+      ],
+      "educational_applications": [
+        "進路指導",
+        "職業体験",
+        "自己分析",
+        "ライフプラン"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "自分の興味や適性を深く理解させる",
+          "多様な職業や働き方を紹介する",
+          "将来設計を具体的に考えさせる"
+        ],
+        "success_patterns": [
+          "体験的な職業理解",
+          "継続的な自己分析"
+        ],
+        "common_pitfalls": [
+          "職業紹介に留まる指導",
+          "短期的な進路選択"
+        ]
+      },
+      "ai_prompt_template": "キャリア教育理論に基づき、[発達段階]について、自己理解と職業理解を深め、主体的なキャリア形成能力を育成するプログラムを設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "自己理解の深化",
+        "medium_term": "職業観の形成",
+        "long_term": "主体的キャリア形成"
+      },
+      "suitable_contexts": [
+        "進路指導",
+        "キャリア教育",
+        "職業教育",
+        "生活指導"
+      ],
+      "grade_levels": ["elementary", "middle", "high", "university"],
+      "subjects": ["career", "guidance", "life_planning"],
+      "learning_objectives": [
+        "自己理解力",
+        "職業理解力",
+        "キャリア設計力"
+      ],
+      "implementation_strategies": [
+        "自己分析活動",
+        "職業体験学習",
+        "ライフプラン作成",
+        "社会人交流"
+      ],
+      "related_theories": [18, 23, 73, 88]
+    },
+    {
+      "id": 88,
+      "name_ja": "ライフスキル教育理論",
+      "name_en": "Life Skills Education Theory",
+      "category": "life_skills_theories",
+      "theorists": ["WHO", "Botvin Gilbert", "川畑徹朗"],
+      "year_proposed": "1990s",
+      "core_principles": [
+        "日常生活に必要な技能",
+        "問題解決と意思決定",
+        "対人関係とコミュニケーション",
+        "ストレス管理と自己統制"
+      ],
+      "key_concepts": [
+        "生活技能",
+        "問題解決",
+        "対人関係",
+        "ストレス管理"
+      ],
+      "educational_applications": [
+        "生活技能指導",
+        "コミュニケーション教育",
+        "ストレス対処",
+        "健康教育"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "日常の場面で実際に使える技能を教える",
+          "ロールプレイで実践的に学ばせる",
+          "継続的な練習機会を提供する"
+        ],
+        "success_patterns": [
+          "実践的な技能訓練",
+          "段階的なスキル構築"
+        ],
+        "common_pitfalls": [
+          "知識偏重の指導",
+          "実践機会の不足"
+        ]
+      },
+      "ai_prompt_template": "ライフスキル教育理論に基づき、[対象年齢]について、日常生活で必要な問題解決・対人関係・ストレス管理の技能を育成するプログラムを設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "基本技能の習得",
+        "medium_term": "日常場面での活用",
+        "long_term": "自律的生活能力"
+      },
+      "suitable_contexts": [
+        "生活指導",
+        "健康教育",
+        "特別活動",
+        "総合学習"
+      ],
+      "grade_levels": ["elementary", "middle", "high"],
+      "subjects": ["life_skills", "health", "guidance"],
+      "learning_objectives": [
+        "問題解決能力",
+        "対人関係スキル",
+        "自己管理能力"
+      ],
+      "implementation_strategies": [
+        "実践的技能訓練",
+        "ロールプレイ",
+        "段階的練習",
+        "日常への応用"
+      ],
+      "related_theories": [65, 66, 87, 80]
+    },
+    {
+      "id": 89,
+      "name_ja": "ジェンダー教育理論",
+      "name_en": "Gender Education Theory",
+      "category": "social_justice_theories",
+      "theorists": ["Carol Gilligan", "Peggy McIntosh", "bell hooks"],
+      "year_proposed": "1970s-1990s",
+      "core_principles": [
+        "ジェンダー平等の実現",
+        "性別役割分業の見直し",
+        "多様な性のあり方の理解",
+        "個人の可能性の最大化"
+      ],
+      "key_concepts": [
+        "ジェンダー平等",
+        "性別役割",
+        "性の多様性",
+        "個人の可能性"
+      ],
+      "educational_applications": [
+        "ジェンダー平等教育",
+        "性教育",
+        "多様性理解",
+        "キャリア形成"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "固定的な性別役割にとらわれない指導をする",
+          "多様な生き方のモデルを紹介する",
+          "個人の興味・能力を重視した支援を行う"
+        ],
+        "success_patterns": [
+          "固定観念の解消",
+          "多様性の受容"
+        ],
+        "common_pitfalls": [
+          "性別による決めつけ",
+          "画一的な指導"
+        ]
+      },
+      "ai_prompt_template": "ジェンダー教育理論に基づき、[教育場面]について、ジェンダー平等と多様性を尊重した教育環境と学習活動を設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "ジェンダー意識の向上",
+        "medium_term": "固定観念の解消",
+        "long_term": "平等な社会参画"
+      },
+      "suitable_contexts": [
+        "ジェンダー教育",
+        "人権教育",
+        "キャリア教育",
+        "性教育"
+      ],
+      "grade_levels": ["elementary", "middle", "high", "university"],
+      "subjects": ["gender_studies", "human_rights", "career"],
+      "learning_objectives": [
+        "ジェンダー平等意識",
+        "多様性理解",
+        "個性重視態度"
+      ],
+      "implementation_strategies": [
+        "固定観念の検討",
+        "多様なモデル提示",
+        "個性重視指導",
+        "平等な環境構築"
+      ],
+      "related_theories": [83, 42, 41, 87]
+    },
+    {
+      "id": 90,
+      "name_ja": "脳科学ベース学習理論",
+      "name_en": "Brain-Based Learning Theory",
+      "category": "neuroscience_theories",
+      "theorists": ["Eric Jensen", "Patricia Wolfe", "David Sousa"],
+      "year_proposed": "1990s-2000s",
+      "core_principles": [
+        "脳の構造と機能の理解",
+        "学習における脳の働き",
+        "効果的な学習環境の設計",
+        "個人差と脳の発達"
+      ],
+      "key_concepts": [
+        "脳の可塑性",
+        "神経回路",
+        "記憶のメカニズム",
+        "感情と学習"
+      ],
+      "educational_applications": [
+        "脳に優しい学習環境",
+        "記憶定着法",
+        "注意・集中指導",
+        "ストレス管理"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "適度な休憩を取り入れて脳の疲労を防ぐ",
+          "感情を伴う学習で記憶を定着させる",
+          "個人の脳の発達段階を考慮する"
+        ],
+        "success_patterns": [
+          "脳科学に基づく指導法",
+          "個別的な配慮"
+        ],
+        "common_pitfalls": [
+          "科学的根拠の誤解",
+          "過度な一般化"
+        ]
+      },
+      "ai_prompt_template": "脳科学ベース学習理論に基づき、[学習内容]について、脳の働きを最大限活用した効果的な学習プログラムを設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "集中力の向上",
+        "medium_term": "記憶定着の改善",
+        "long_term": "学習効率の最適化"
+      },
+      "suitable_contexts": [
+        "学習指導全般",
+        "記憶術指導",
+        "注意力向上",
+        "学習困難支援"
+      ],
+      "grade_levels": ["elementary", "middle", "high", "university"],
+      "subjects": ["all_subjects"],
+      "learning_objectives": [
+        "効率的学習",
+        "記憶力向上",
+        "集中力強化"
+      ],
+      "implementation_strategies": [
+        "脳に適した環境設計",
+        "記憶技法の活用",
+        "感情と学習の統合",
+        "個別的配慮"
+      ],
+      "related_theories": [14, 3, 68, 21]
+    },
+    {
+      "id": 91,
+      "name_ja": "学習転移理論",
+      "name_en": "Transfer of Learning Theory",
+      "category": "cognitive_theories",
+      "theorists": ["Edward Thorndike", "John Anderson", "Gavriel Salomon"],
+      "year_proposed": "1900s-1990s",
+      "core_principles": [
+        "学習の他場面への応用",
+        "近転移と遠転移",
+        "抽象化と一般化",
+        "メタ認知的理解"
+      ],
+      "key_concepts": [
+        "学習転移",
+        "近転移・遠転移",
+        "抽象化",
+        "一般化"
+      ],
+      "educational_applications": [
+        "応用問題学習",
+        "類推指導",
+        "原理・法則学習",
+        "メタ認知指導"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "学習した内容の共通性や原理を意識させる",
+          "様々な場面での応用例を示す",
+          "学習方法自体を意識化させる"
+        ],
+        "success_patterns": [
+          "原理の明確化",
+          "多様な応用場面"
+        ],
+        "common_pitfalls": [
+          "表面的な類似性の重視",
+          "転移の自動性への過信"
+        ]
+      },
+      "ai_prompt_template": "学習転移理論に基づき、[基礎学習内容]について、他の場面や問題への転移を促進する学習プログラムを設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "類似問題への適用",
+        "medium_term": "異なる文脈での応用",
+        "long_term": "創造的問題解決"
+      },
+      "suitable_contexts": [
+        "応用学習",
+        "問題解決学習",
+        "原理学習",
+        "技能訓練"
+      ],
+      "grade_levels": ["elementary", "middle", "high", "university"],
+      "subjects": ["mathematics", "science", "problem_solving"],
+      "learning_objectives": [
+        "応用能力",
+        "類推能力",
+        "一般化能力"
+      ],
+      "implementation_strategies": [
+        "原理の明示化",
+        "多様な応用例",
+        "類推練習",
+        "メタ認知促進"
+      ],
+      "related_theories": [8, 15, 12, 78]
+    },
+    {
+      "id": 92,
+      "name_ja": "学習スタイル理論",
+      "name_en": "Learning Styles Theory",
+      "category": "individual_differences_theories",
+      "theorists": ["David Kolb", "Neil Fleming", "Howard Gardner"],
+      "year_proposed": "1970s-1980s",
+      "core_principles": [
+        "個人の学習特性の理解",
+        "多様な学習方法の提供",
+        "個別最適化された指導",
+        "学習者の強みの活用"
+      ],
+      "key_concepts": [
+        "学習スタイル",
+        "個人差",
+        "学習特性",
+        "最適化指導"
+      ],
+      "educational_applications": [
+        "個別化指導",
+        "多様な教授法",
+        "学習方法選択",
+        "自己理解促進"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "生徒の学習特性を観察して把握する",
+          "複数の方法で同じ内容を教える",
+          "生徒自身に適した学習方法を見つけさせる"
+        ],
+        "success_patterns": [
+          "多様な指導方法の併用",
+          "個別対応の充実"
+        ],
+        "common_pitfalls": [
+          "スタイルの固定化",
+          "科学的根拠の不足"
+        ]
+      },
+      "ai_prompt_template": "学習スタイル理論に基づき、[学習内容]について、多様な学習スタイルに対応した個別最適化された指導方法を設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "学習方法の多様化",
+        "medium_term": "個人最適化の実現",
+        "long_term": "自己調整学習能力"
+      },
+      "suitable_contexts": [
+        "個別指導",
+        "多様性対応",
+        "学習方法指導",
+        "自己理解支援"
+      ],
+      "grade_levels": ["elementary", "middle", "high", "adult"],
+      "subjects": ["all_subjects"],
+      "learning_objectives": [
+        "個人最適学習",
+        "学習方法の習得",
+        "自己理解の促進"
+      ],
+      "implementation_strategies": [
+        "学習スタイル診断",
+        "多様な指導方法",
+        "個別対応計画",
+        "自己選択機会"
+      ],
+      "related_theories": [5, 6, 25, 48]
+    },
+    {
+      "id": 93,
+      "name_ja": "ナラティブ教育理論",
+      "name_en": "Narrative Education Theory",
+      "category": "humanistic_theories",
+      "theorists": ["Jerome Bruner", "Alasdair MacIntyre", "Michael Connelly"],
+      "year_proposed": "1980s-1990s",
+      "core_principles": [
+        "物語による意味構築",
+        "経験の物語化",
+        "アイデンティティ形成",
+        "文化的継承と創造"
+      ],
+      "key_concepts": [
+        "物語的思考",
+        "経験の物語化",
+        "アイデンティティ",
+        "文化的継承"
+      ],
+      "educational_applications": [
+        "ストーリーテリング",
+        "自伝的学習",
+        "文化学習",
+        "価値観教育"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "生徒の体験を物語として語らせる",
+          "文化や歴史を物語として伝える",
+          "自己の成長を物語として振り返らせる"
+        ],
+        "success_patterns": [
+          "体験の物語化",
+          "文化的つながりの重視"
+        ],
+        "common_pitfalls": [
+          "表面的な物語活用",
+          "批判的思考の軽視"
+        ]
+      },
+      "ai_prompt_template": "ナラティブ教育理論に基づき、[学習テーマ]について、物語的思考を活用して意味構築とアイデンティティ形成を促進する学習活動を設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "物語的表現の向上",
+        "medium_term": "自己理解の深化",
+        "long_term": "文化的アイデンティティ形成"
+      },
+      "suitable_contexts": [
+        "文学教育",
+        "歴史教育",
+        "文化教育",
+        "自己理解"
+      ],
+      "grade_levels": ["elementary", "middle", "high", "adult"],
+      "subjects": ["literature", "history", "culture", "self_development"],
+      "learning_objectives": [
+        "物語的思考力",
+        "自己理解力",
+        "文化的理解"
+      ],
+      "implementation_strategies": [
+        "ストーリーテリング活動",
+        "自伝的執筆",
+        "文化的物語共有",
+        "意味づけ活動"
+      ],
+      "related_theories": [9, 42, 23, 77]
+    },
+    {
+      "id": 94,
+      "name_ja": "複雑系学習理論",
+      "name_en": "Complex Systems Learning Theory",
+      "category": "systems_theories",
+      "theorists": ["Brent Davis", "Dennis Sumara", "Francisco Varela"],
+      "year_proposed": "1990s-2000s",
+      "core_principles": [
+        "学習システムの複雑性",
+        "創発的学習プロセス",
+        "非線形的発達",
+        "自己組織化能力"
+      ],
+      "key_concepts": [
+        "複雑系",
+        "創発",
+        "非線形性",
+        "自己組織化"
+      ],
+      "educational_applications": [
+        "創発的学習環境",
+        "複雑な問題解決",
+        "システム思考",
+        "適応的指導"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "予測困難な学習の展開を受け入れる",
+          "学習者同士の相互作用を重視する",
+          "小さな変化が大きな影響を与えることを理解する"
+        ],
+        "success_patterns": [
+          "柔軟な学習環境",
+          "相互作用の促進"
+        ],
+        "common_pitfalls": [
+          "過度なコントロール",
+          "線形的思考"
+        ]
+      },
+      "ai_prompt_template": "複雑系学習理論に基づき、[学習環境]について、創発的で適応的な学習システムを設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "創発的学習の発生",
+        "medium_term": "適応的思考の発達",
+        "long_term": "複雑性対応能力"
+      },
+      "suitable_contexts": [
+        "複雑な問題解決",
+        "システム学習",
+        "創造的活動",
+        "適応的学習"
+      ],
+      "grade_levels": ["high", "university", "adult"],
+      "subjects": ["systems_thinking", "complex_problems", "research"],
+      "learning_objectives": [
+        "システム思考",
+        "複雑性理解",
+        "適応的思考"
+      ],
+      "implementation_strategies": [
+        "創発環境構築",
+        "相互作用促進",
+        "非線形活動",
+        "適応的対応"
+      ],
+      "related_theories": [63, 56, 1, 27]
+    },
+    {
+      "id": 95,
+      "name_ja": "エンボディード学習理論",
+      "name_en": "Embodied Learning Theory",
+      "category": "embodied_theories",
+      "theorists": ["George Lakoff", "Mark Johnson", "Andy Clark"],
+      "year_proposed": "1980s-2000s",
+      "core_principles": [
+        "身体と認知の統合",
+        "感覚運動体験の重要性",
+        "身体化された知識",
+        "環境との相互作用"
+      ],
+      "key_concepts": [
+        "身体化認知",
+        "感覚運動体験",
+        "身体知",
+        "環境相互作用"
+      ],
+      "educational_applications": [
+        "体験的学習",
+        "身体活動学習",
+        "感覚統合指導",
+        "環境デザイン"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "身体を使った体験を学習に組み込む",
+          "感覚的な体験を大切にする",
+          "教室環境を学習に活用する"
+        ],
+        "success_patterns": [
+          "身体的体験の充実",
+          "多感覚的アプローチ"
+        ],
+        "common_pitfalls": [
+          "身体軽視の指導",
+          "環境の無視"
+        ]
+      },
+      "ai_prompt_template": "エンボディード学習理論に基づき、[学習内容]について、身体性と感覚を活用した体験的学習プログラムを設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "身体的関与の向上",
+        "medium_term": "感覚的理解の深化",
+        "long_term": "身体化された知識"
+      },
+      "suitable_contexts": [
+        "体験学習",
+        "感覚教育",
+        "運動学習",
+        "幼児教育"
+      ],
+      "grade_levels": ["preschool", "elementary", "middle"],
+      "subjects": ["physical_education", "art", "science", "early_childhood"],
+      "learning_objectives": [
+        "身体化された理解",
+        "感覚的認知",
+        "環境適応力"
+      ],
+      "implementation_strategies": [
+        "身体活動統合",
+        "感覚体験重視",
+        "環境活用",
+        "多感覚アプローチ"
+      ],
+      "related_theories": [80, 81, 21, 6]
+    },
+    {
+      "id": 96,
+      "name_ja": "ポストモダン教育理論",
+      "name_en": "Postmodern Education Theory",
+      "category": "critical_theories",
+      "theorists": ["Michel Foucault", "Jacques Derrida", "Peter McLaren"],
+      "year_proposed": "1980s-1990s",
+      "core_principles": [
+        "知識の相対性と多様性",
+        "権力関係の批判的分析",
+        "大きな物語の解体",
+        "差異と多様性の尊重"
+      ],
+      "key_concepts": [
+        "知識の相対性",
+        "権力と知識",
+        "脱構築",
+        "差異と多様性"
+      ],
+      "educational_applications": [
+        "批判的教育",
+        "多声的対話",
+        "権力分析",
+        "差異の尊重"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "絶対的真理ではなく多様な視点を提示する",
+          "知識の背景にある権力関係を考えさせる",
+          "マイノリティの声に注意を向ける"
+        ],
+        "success_patterns": [
+          "多様な視点の提示",
+          "批判的対話の促進"
+        ],
+        "common_pitfalls": [
+          "相対主義の極端化",
+          "建設的議論の阻害"
+        ]
+      },
+      "ai_prompt_template": "ポストモダン教育理論に基づき、[知識領域]について、多様な視点と批判的思考を促進する教育実践を設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "多様な視点の認識",
+        "medium_term": "批判的分析能力",
+        "long_term": "多元的思考態度"
+      },
+      "suitable_contexts": [
+        "批判的教育",
+        "哲学教育",
+        "文化研究",
+        "社会分析"
+      ],
+      "grade_levels": ["high", "university", "adult"],
+      "subjects": ["philosophy", "cultural_studies", "social_studies"],
+      "learning_objectives": [
+        "批判的思考力",
+        "多元的視点",
+        "権力分析能力"
+      ],
+      "implementation_strategies": [
+        "多声的対話",
+        "権力関係分析",
+        "脱構築的読解",
+        "差異の探究"
+      ],
+      "related_theories": [43, 58, 42, 74]
+    },
+    {
+      "id": 97,
+      "name_ja": "学習組織理論",
+      "name_en": "Learning Organization Theory",
+      "category": "organizational_theories",
+      "theorists": ["Peter Senge", "Chris Argyris", "Donald Schön"],
+      "year_proposed": "1990s",
+      "core_principles": [
+        "組織全体での継続学習",
+        "個人学習と組織学習の統合",
+        "システム思考の重視",
+        "変化への適応能力"
+      ],
+      "key_concepts": [
+        "組織学習",
+        "システム思考",
+        "個人・組織統合",
+        "適応能力"
+      ],
+      "educational_applications": [
+        "学校改革",
+        "教師学習",
+        "組織開発",
+        "変革管理"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "個人の学習が組織に活かされる仕組みを作る",
+          "失敗から学ぶ文化を醸成する",
+          "外部との連携で新しい知識を取り入れる"
+        ],
+        "success_patterns": [
+          "学習する文化の醸成",
+          "知識共有の促進"
+        ],
+        "common_pitfalls": [
+          "個人学習の孤立",
+          "変化への抵抗"
+        ]
+      },
+      "ai_prompt_template": "学習組織理論に基づき、[組織の課題]について、継続的学習と適応能力を持つ組織づくりを設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "学習文化の醸成",
+        "medium_term": "組織能力の向上",
+        "long_term": "持続的適応力"
+      },
+      "suitable_contexts": [
+        "学校経営",
+        "組織改革",
+        "教師研修",
+        "変革リーダーシップ"
+      ],
+      "grade_levels": ["organizational"],
+      "subjects": ["organizational_development"],
+      "learning_objectives": [
+        "組織学習能力",
+        "システム思考",
+        "変化適応力"
+      ],
+      "implementation_strategies": [
+        "学習文化構築",
+        "知識共有促進",
+        "システム思考導入",
+        "変革支援"
+      ],
+      "related_theories": [56, 54, 55, 94]
+    },
+    {
+      "id": 98,
+      "name_ja": "アクションラーニング理論",
+      "name_en": "Action Learning Theory",
+      "category": "experiential_theories",
+      "theorists": ["Reg Revans", "Michael Marquardt", "Yury Boshyk"],
+      "year_proposed": "1940s-1980s",
+      "core_principles": [
+        "実問題への取り組み",
+        "行動と省察の循環",
+        "質問中心の学習",
+        "チームでの協働学習"
+      ],
+      "key_concepts": [
+        "実問題解決",
+        "行動・省察循環",
+        "質問重視",
+        "チーム学習"
+      ],
+      "educational_applications": [
+        "問題解決学習",
+        "プロジェクト学習",
+        "チーム研修",
+        "実践的学習"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "実際の問題に取り組ませる",
+          "行動の後には必ず振り返りを行う",
+          "答えよりも質問を重視する"
+        ],
+        "success_patterns": [
+          "現実問題への取り組み",
+          "継続的な省察"
+        ],
+        "common_pitfalls": [
+          "行動のみで省察なし",
+          "表面的な問題設定"
+        ]
+      },
+      "ai_prompt_template": "アクションラーニング理論に基づき、[実践的課題]について、行動と省察を循環させるチーム学習プログラムを設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "実問題への取り組み",
+        "medium_term": "省察的実践能力",
+        "long_term": "継続的改善能力"
+      },
+      "suitable_contexts": [
+        "企業研修",
+        "プロジェクト学習",
+        "リーダーシップ開発",
+        "組織開発"
+      ],
+      "grade_levels": ["university", "adult", "professional"],
+      "subjects": ["management", "leadership", "problem_solving"],
+      "learning_objectives": [
+        "実践的問題解決能力",
+        "省察的思考力",
+        "チーム協働力"
+      ],
+      "implementation_strategies": [
+        "実問題設定",
+        "行動計画立案",
+        "定期的省察",
+        "チーム支援"
+      ],
+      "related_theories": [27, 6, 26, 44]
+    },
+    {
+      "id": 99,
+      "name_ja": "ホリスティック教育理論",
+      "name_en": "Holistic Education Theory",
+      "category": "humanistic_theories",
+      "theorists": ["John Miller", "Ron Miller", "Parker Palmer"],
+      "year_proposed": "1980s-1990s",
+      "core_principles": [
+        "全人的な人間形成",
+        "知性・感情・精神の統合",
+        "つながりの重視",
+        "調和的発達の促進"
+      ],
+      "key_concepts": [
+        "全人教育",
+        "統合的発達",
+        "つながり",
+        "調和"
+      ],
+      "educational_applications": [
+        "統合的カリキュラム",
+        "瞑想・内省",
+        "自然体験",
+        "芸術統合"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "知識だけでなく感情や精神面も育てる",
+          "教科の枠を超えた統合的な学習を行う",
+          "自然や他者とのつながりを大切にする"
+        ],
+        "success_patterns": [
+          "統合的なアプローチ",
+          "つながりの重視"
+        ],
+        "common_pitfalls": [
+          "知識軽視の傾向",
+          "評価の困難さ"
+        ]
+      },
+      "ai_prompt_template": "ホリスティック教育理論に基づき、[教育目標]について、知性・感情・精神を統合した全人的な教育プログラムを設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "統合的な学習体験",
+        "medium_term": "調和的な人格発達",
+        "long_term": "全人的な成長"
+      },
+      "suitable_contexts": [
+        "全人教育",
+        "統合カリキュラム",
+        "代替教育",
+        "人格形成"
+      ],
+      "grade_levels": ["preschool", "elementary", "middle", "high"],
+      "subjects": ["integrated", "spiritual", "holistic"],
+      "learning_objectives": [
+        "全人的成長",
+        "統合的理解",
+        "調和的発達"
+      ],
+      "implementation_strategies": [
+        "統合的カリキュラム",
+        "内省活動",
+        "自然体験",
+        "芸術活動"
+      ],
+      "related_theories": [9, 67, 68, 81]
+    },
+    {
+      "id": 100,
+      "name_ja": "未来志向教育理論",
+      "name_en": "Future-Oriented Education Theory",
+      "category": "futuristic_theories",
+      "theorists": ["Alvin Toffler", "Jim Dator", "Richard Slaughter"],
+      "year_proposed": "1970s-2000s",
+      "core_principles": [
+        "未来社会への準備",
+        "変化への適応能力",
+        "創造的問題解決",
+        "グローバル・ローカル視点"
+      ],
+      "key_concepts": [
+        "未来思考",
+        "変化適応",
+        "創造的解決",
+        "グローカル視点"
+      ],
+      "educational_applications": [
+        "未来学習",
+        "シナリオ・プランニング",
+        "イノベーション教育",
+        "持続可能性教育"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "現在の延長ではない未来を想像させる",
+          "変化に対応する柔軟性を育てる",
+          "グローバルとローカルの両方の視点を持たせる"
+        ],
+        "success_patterns": [
+          "未来志向の思考育成",
+          "適応力の重視"
+        ],
+        "common_pitfalls": [
+          "現在中心の思考",
+          "変化への抵抗"
+        ]
+      },
+      "ai_prompt_template": "未来志向教育理論に基づき、[未来課題]について、変化に適応し創造的に問題解決できる未来市民を育成する教育プログラムを設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "未来思考の芽生え",
+        "medium_term": "変化適応能力の向上",
+        "long_term": "未来創造への参画"
+      },
+      "suitable_contexts": [
+        "未来学習",
+        "グローバル教育",
+        "イノベーション教育",
+        "持続可能性教育"
+      ],
+      "grade_levels": ["middle", "high", "university", "adult"],
+      "subjects": ["future_studies", "global_studies", "innovation"],
+      "learning_objectives": [
+        "未来志向思考",
+        "変化適応力",
+        "創造的問題解決"
+      ],
+      "implementation_strategies": [
+        "未来シナリオ作成",
+        "変化体験活動",
+        "創造的課題解決",
+        "グローカル学習"
+      ],
+      "related_theories": [72, 86, 71, 94]
+    }, 
+
+    {
+      "id": 101,
+      "name_ja": "モンテッソーリ教育法",
+      "name_en": "Montessori Method",
+      "category": "alternative_education_theories",
+      "theorists": ["Maria Montessori"],
+      "year_proposed": "1907-1950s",
+      "core_principles": [
+        "子どもの自然な学習欲求",
+        "環境による教育",
+        "自己修正教具の活用",
+        "混合年齢学級"
+      ],
+      "key_concepts": [
+        "吸収する精神",
+        "敏感期",
+        "自己修正教具",
+        "準備された環境"
+      ],
+      "educational_applications": [
+        "自主的学習活動",
+        "具体的操作活動",
+        "年齢混合学級",
+        "個別進度学習"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "子どもの興味に従って活動を選ばせる",
+          "間違いを自分で発見できる教材を用意する",
+          "大人は観察者として子どもを見守る"
+        ],
+        "success_patterns": [
+          "自発的な学習活動",
+          "集中現象の出現"
+        ],
+        "common_pitfalls": [
+          "大人の過度な介入",
+          "自由の履き違え"
+        ]
+      },
+      "ai_prompt_template": "モンテッソーリ教育法に基づき、[対象年齢]の[学習領域]について、子どもの自然な学習欲求を活かす環境と教具を設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "自発的学習活動の増加",
+        "medium_term": "集中力と自立性の向上",
+        "long_term": "内発的動機に基づく学習習慣"
+      },
+      "suitable_contexts": [
+        "幼児教育",
+        "小学校教育",
+        "個別指導",
+        "特別支援教育"
+      ],
+      "grade_levels": ["preschool", "elementary"],
+      "subjects": ["all_subjects", "practical_life", "sensorial"],
+      "learning_objectives": [
+        "自立性の育成",
+        "集中力の向上",
+        "自己修正能力"
+      ],
+      "implementation_strategies": [
+        "準備された環境構築",
+        "自己修正教具選択",
+        "観察に基づく支援",
+        "混合年齢活動"
+      ],
+      "related_theories": [21, 9, 17, 40]
+    },
+    {
+      "id": 102,
+      "name_ja": "シュタイナー教育理論（ヴァルドルフ教育）",
+      "name_en": "Steiner Education Theory (Waldorf Education)",
+      "category": "alternative_education_theories",
+      "theorists": ["Rudolf Steiner"],
+      "year_proposed": "1919-1925",
+      "core_principles": [
+        "人間の三段階発達",
+        "芸術を通した学習",
+        "頭・心・手の調和的発達",
+        "リズムと反復の重視"
+      ],
+      "key_concepts": [
+        "七年周期発達",
+        "芸術統合",
+        "気質論",
+        "エポック授業"
+      ],
+      "educational_applications": [
+        "芸術統合教育",
+        "エポック授業",
+        "手仕事・工芸",
+        "自然体験"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "発達段階に応じた内容選択をする",
+          "芸術活動を各教科に組み込む",
+          "リズミカルな日課を大切にする"
+        ],
+        "success_patterns": [
+          "芸術的な学習活動",
+          "発達に応じた指導"
+        ],
+        "common_pitfalls": [
+          "発達段階の画一的適用",
+          "現代技術の完全排除"
+        ]
+      },
+      "ai_prompt_template": "シュタイナー教育理論に基づき、[発達段階]の[学習内容]について、芸術を統合した調和的な人間発達を促す教育プログラムを設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "芸術的表現力の向上",
+        "medium_term": "調和的な人格発達",
+        "long_term": "創造的で自由な人間性"
+      },
+      "suitable_contexts": [
+        "ヴァルドルフ学校",
+        "芸術教育",
+        "全人教育",
+        "代替教育"
+      ],
+      "grade_levels": ["preschool", "elementary", "middle", "high"],
+      "subjects": ["art", "craft", "eurythmy", "integrated"],
+      "learning_objectives": [
+        "調和的人格発達",
+        "芸術的感性",
+        "創造的思考力"
+      ],
+      "implementation_strategies": [
+        "発達段階対応",
+        "芸術統合",
+        "エポック制導入",
+        "自然との接触"
+      ],
+      "related_theories": [81, 99, 21, 101]
+    },
+    {
+      "id": 103,
+      "name_ja": "レッジョ・エミリア・アプローチ",
+      "name_en": "Reggio Emilia Approach",
+      "category": "early_childhood_theories",
+      "theorists": ["Loris Malaguzzi", "Reggio Emilia educators"],
+      "year_proposed": "1960s-1990s",
+      "core_principles": [
+        "子どもの100の言葉",
+        "環境が第三の教師",
+        "プロジェクト活動",
+        "ドキュメンテーション"
+      ],
+      "key_concepts": [
+        "100の言葉",
+        "環境の教育力",
+        "創発的カリキュラム",
+        "協働構築"
+      ],
+      "educational_applications": [
+        "プロジェクト学習",
+        "アトリエ活動",
+        "ドキュメンテーション",
+        "環境デザイン"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "子どもの多様な表現方法を認める",
+          "学習過程を丁寧に記録する",
+          "美しい環境を意図的に作る"
+        ],
+        "success_patterns": [
+          "長期プロジェクトの充実",
+          "多様な表現の尊重"
+        ],
+        "common_pitfalls": [
+          "表面的な活動の模倣",
+          "ドキュメンテーションの形式化"
+        ]
+      },
+      "ai_prompt_template": "レッジョ・エミリア・アプローチに基づき、[探究テーマ]について、子どもの多様な表現を活かした創発的プロジェクト学習を設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "多様な表現活動の展開",
+        "medium_term": "深い探究活動の持続",
+        "long_term": "創造的表現力と探究心"
+      },
+      "suitable_contexts": [
+        "幼児教育",
+        "アート教育",
+        "プロジェクト学習",
+        "環境デザイン"
+      ],
+      "grade_levels": ["preschool", "elementary"],
+      "subjects": ["art", "science", "integrated", "environment"],
+      "learning_objectives": [
+        "創造的表現力",
+        "探究的思考力",
+        "協働的学習能力"
+      ],
+      "implementation_strategies": [
+        "長期プロジェクト実施",
+        "アトリエ環境構築",
+        "継続的ドキュメント作成",
+        "多様な表現機会"
+      ],
+      "related_theories": [64, 28, 1, 101]
+    },
+    {
+      "id": 104,
+      "name_ja": "フレネ教育法",
+      "name_en": "Freinet Pedagogy",
+      "category": "progressive_education_theories",
+      "theorists": ["Célestin Freinet", "Élise Freinet"],
+      "year_proposed": "1920s-1960s",
+      "core_principles": [
+        "自由テキストの活用",
+        "学校印刷所による表現",
+        "協同的学習と自治",
+        "労働による教育"
+      ],
+      "key_concepts": [
+        "自由テキスト",
+        "学校印刷",
+        "学校協同組合",
+        "自然的方法"
+      ],
+      "educational_applications": [
+        "自由作文活動",
+        "学級新聞制作",
+        "学校協同組合",
+        "個別進度学習"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "子どもの自由な表現を大切にする",
+          "学習成果を発信する機会を作る",
+          "民主的な学級運営を心がける"
+        ],
+        "success_patterns": [
+          "自由表現の重視",
+          "協同的活動の充実"
+        ],
+        "common_pitfalls": [
+          "技術偏重の指導",
+          "自由の履き違え"
+        ]
+      },
+      "ai_prompt_template": "フレネ教育法に基づき、[学習内容]について、自由表現と協同的学習を通じた民主的教育実践を設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "自由な表現活動の活性化",
+        "medium_term": "協同性と自治性の育成",
+        "long_term": "民主的市民性の形成"
+      },
+      "suitable_contexts": [
+        "小学校教育",
+        "表現教育",
+        "民主的教育",
+        "協同学習"
+      ],
+      "grade_levels": ["elementary", "middle"],
+      "subjects": ["language_arts", "social_studies", "integrated"],
+      "learning_objectives": [
+        "自由表現力",
+        "協同性",
+        "民主的態度"
+      ],
+      "implementation_strategies": [
+        "自由テキスト活動",
+        "印刷・発信活動",
+        "学級自治活動",
+        "個別進度管理"
+      ],
+      "related_theories": [77, 82, 26, 43]
+    },
+    {
+      "id": 105,
+      "name_ja": "コネクティビズム理論",
+      "name_en": "Connectivism Theory",
+      "category": "digital_age_theories",
+      "theorists": ["George Siemens", "Stephen Downes"],
+      "year_proposed": "2005-2010s",
+      "core_principles": [
+        "ネットワークとしての学習",
+        "知識の流動性と更新性",
+        "接続と関係性の重要性",
+        "分散型学習環境"
+      ],
+      "key_concepts": [
+        "学習ネットワーク",
+        "知識の半減期",
+        "接続性",
+        "分散認知"
+      ],
+      "educational_applications": [
+        "オンライン学習コミュニティ",
+        "ソーシャルラーニング",
+        "MOOCs",
+        "パーソナル学習ネットワーク"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "学習者同士のつながりを促進する",
+          "最新情報への接続方法を教える",
+          "知識の更新の重要性を意識させる"
+        ],
+        "success_patterns": [
+          "活発な学習ネットワーク",
+          "継続的な知識更新"
+        ],
+        "common_pitfalls": [
+          "表面的なつながり",
+          "情報の質的評価不足"
+        ]
+      },
+      "ai_prompt_template": "コネクティビズム理論に基づき、[学習分野]について、ネットワークを活用した分散型学習環境を設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "学習ネットワークの構築",
+        "medium_term": "継続的知識更新習慣",
+        "long_term": "自律的学習ネットワーク能力"
+      },
+      "suitable_contexts": [
+        "オンライン教育",
+        "生涯学習",
+        "専門職開発",
+        "高等教育"
+      ],
+      "grade_levels": ["high", "university", "adult"],
+      "subjects": ["digital_literacy", "professional_development"],
+      "learning_objectives": [
+        "ネットワーク構築能力",
+        "情報更新能力",
+        "接続的思考力"
+      ],
+      "implementation_strategies": [
+        "学習ネットワーク構築",
+        "ソーシャル機能活用",
+        "継続的接続維持",
+        "質的評価指導"
+      ],
+      "related_theories": [47, 75, 63, 55]
+    },
+    {
+      "id": 106,
+      "name_ja": "ハクタゴジー理論（自己決定学習理論）",
+      "name_en": "Heutagogy Theory (Self-Determined Learning)",
+      "category": "adult_learning_theories",
+      "theorists": ["Stewart Hase", "Chris Kenyon", "Lisa Marie Blaschke"],
+      "year_proposed": "2000s-2010s",
+      "core_principles": [
+        "学習者の完全な自己決定",
+        "学習プロセスの自己管理",
+        "経験からの意味構築",
+        "能力開発の自己責任"
+      ],
+      "key_concepts": [
+        "自己決定学習",
+        "学習者主権",
+        "能力開発",
+        "自己効力感"
+      ],
+      "educational_applications": [
+        "自己主導学習",
+        "成人専門教育",
+        "職場学習",
+        "生涯学習"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "学習者に完全な選択権を与える",
+          "失敗からの学びを支援する",
+          "自己評価能力を育成する"
+        ],
+        "success_patterns": [
+          "高い自己効力感",
+          "継続的な自己改善"
+        ],
+        "common_pitfalls": [
+          "支援不足による迷走",
+          "自己評価能力の過信"
+        ]
+      },
+      "ai_prompt_template": "ハクタゴジー理論に基づき、[学習目標]について、学習者が完全に自己決定できる学習環境とサポートシステムを設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "自己決定学習の開始",
+        "medium_term": "学習管理能力の向上",
+        "long_term": "生涯学習者としての自立"
+      },
+      "suitable_contexts": [
+        "成人教育",
+        "専門職開発",
+        "企業研修",
+        "高等教育"
+      ],
+      "grade_levels": ["university", "adult", "professional"],
+      "subjects": ["professional_development", "adult_education"],
+      "learning_objectives": [
+        "自己決定能力",
+        "自律的学習管理",
+        "継続的能力開発"
+      ],
+      "implementation_strategies": [
+        "完全自己選択制",
+        "経験重視設計",
+        "自己評価システム",
+        "メンター支援"
+      ],
+      "related_theories": [59, 44, 15, 17]
+    },
+    {
+      "id": 107,
+      "name_ja": "文化歴史的活動理論（CHAT）",
+      "name_en": "Cultural-Historical Activity Theory (CHAT)",
+      "category": "sociocultural_theories",
+      "theorists": ["Lev Vygotsky", "Alexei Leontiev", "Yrjö Engeström"],
+      "year_proposed": "1920s-1990s",
+      "core_principles": [
+        "活動システムとしての学習",
+        "文化的道具による媒介",
+        "分業と規則の役割",
+        "矛盾を通した発達"
+      ],
+      "key_concepts": [
+        "活動システム",
+        "文化的媒介",
+        "三角モデル",
+        "拡張学習"
+      ],
+      "educational_applications": [
+        "職場学習分析",
+        "組織学習設計",
+        "チーム活動分析",
+        "システム改善"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "学習を個人ではなくシステムとして捉える",
+          "文化的背景と道具の役割を理解する",
+          "矛盾や葛藤を発達の機会として活用する"
+        ],
+        "success_patterns": [
+          "システム全体の改善",
+          "文化的理解の深化"
+        ],
+        "common_pitfalls": [
+          "個人主義的思考",
+          "静的システム理解"
+        ]
+      },
+      "ai_prompt_template": "文化歴史的活動理論に基づき、[学習活動]について、文化的文脈と活動システム全体を考慮した学習環境を設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "活動システムの理解",
+        "medium_term": "文化的媒介の活用",
+        "long_term": "システム的変革能力"
+      },
+      "suitable_contexts": [
+        "職場学習",
+        "組織開発",
+        "文化的学習",
+        "システム改善"
+      ],
+      "grade_levels": ["university", "adult", "professional"],
+      "subjects": ["organizational_learning", "cultural_studies"],
+      "learning_objectives": [
+        "システム思考",
+        "文化的理解",
+        "変革的思考"
+      ],
+      "implementation_strategies": [
+        "活動システム分析",
+        "文化的道具活用",
+        "矛盾の探究",
+        "拡張学習促進"
+      ],
+      "related_theories": [22, 62, 94, 2]
+    },
+    {
+      "id": 108,
+      "name_ja": "ケア倫理教育理論",
+      "name_en": "Ethics of Care Education Theory",
+      "category": "moral_education_theories",
+      "theorists": ["Nel Noddings", "Carol Gilligan", "Joan Tronto"],
+      "year_proposed": "1980s-1990s",
+      "core_principles": [
+        "関係性重視の倫理",
+        "ケアリング関係の構築",
+        "文脈的道徳判断",
+        "応答性と責任"
+      ],
+      "key_concepts": [
+        "ケアリング関係",
+        "応答性",
+        "文脈的判断",
+        "相互依存"
+      ],
+      "educational_applications": [
+        "関係性重視教育",
+        "共感的指導",
+        "ケア実践",
+        "道徳的対話"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "一人一人との信頼関係を大切にする",
+          "他者への共感と思いやりを育てる",
+          "具体的な文脈での道徳的判断を重視する"
+        ],
+        "success_patterns": [
+          "温かい人間関係",
+          "共感的な学級風土"
+        ],
+        "common_pitfalls": [
+          "過保護な関係",
+          "公正性の軽視"
+        ]
+      },
+      "ai_prompt_template": "ケア倫理教育理論に基づき、[教育場面]について、ケアリング関係を基盤とした道徳的教育実践を設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "ケアリング関係の構築",
+        "medium_term": "共感的態度の育成",
+        "long_term": "ケア志向の価値観形成"
+      },
+      "suitable_contexts": [
+        "道徳教育",
+        "人間関係指導",
+        "幼児教育",
+        "カウンセリング"
+      ],
+      "grade_levels": ["preschool", "elementary", "middle", "high"],
+      "subjects": ["moral_education", "counseling", "human_relations"],
+      "learning_objectives": [
+        "ケアリング能力",
+        "共感的理解",
+        "関係性重視態度"
+      ],
+      "implementation_strategies": [
+        "個別的関係構築",
+        "共感的対話",
+        "ケア実践体験",
+        "文脈的道徳討議"
+      ],
+      "related_theories": [82, 65, 23, 9]
+    },
+    {
+      "id": 109,
+      "name_ja": "デュアルコーディング理論",
+      "name_en": "Dual Coding Theory",
+      "category": "cognitive_theories",
+      "theorists": ["Allan Paivio"],
+      "year_proposed": "1970s-1980s",
+      "core_principles": [
+        "言語と視覚の二重処理",
+        "独立した情報処理システム",
+        "相互接続による記憶強化",
+        "具体性効果の活用"
+      ],
+      "key_concepts": [
+        "二重符号化",
+        "言語的システム",
+        "非言語的システム",
+        "具体性効果"
+      ],
+      "educational_applications": [
+        "視覚教材活用",
+        "マルチメディア学習",
+        "記憶術指導",
+        "語彙学習"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "言葉と画像を組み合わせて教える",
+          "具体的なイメージを活用する",
+          "抽象概念を視覚化して説明する"
+        ],
+        "success_patterns": [
+          "多感覚的な教材使用",
+          "視覚的記憶支援"
+        ],
+        "common_pitfalls": [
+          "視覚偏重の指導",
+          "単純な画像追加"
+        ]
+      },
+      "ai_prompt_template": "デュアルコーディング理論に基づき、[学習内容]について、言語的・視覚的情報処理を統合した効果的な教材と指導方法を設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "記憶定着の向上",
+        "medium_term": "理解度の深化",
+        "long_term": "情報処理能力の向上"
+      },
+      "suitable_contexts": [
+        "視覚教材開発",
+        "記憶指導",
+        "語学教育",
+        "概念学習"
+      ],
+      "grade_levels": ["elementary", "middle", "high", "university"],
+      "subjects": ["language", "science", "mathematics", "visual_arts"],
+      "learning_objectives": [
+        "記憶力向上",
+        "理解促進",
+        "情報処理能力"
+      ],
+      "implementation_strategies": [
+        "視覚言語統合",
+        "具体的イメージ活用",
+        "マルチメディア教材",
+        "記憶技法指導"
+      ],
+      "related_theories": [14, 8, 3, 45]
+    },
+    {
+      "id": 110,
+      "name_ja": "パラゴジー理論（ピア学習理論）",
+      "name_en": "Paragogy Theory (Peer Learning Theory)",
+      "category": "collaborative_theories",
+      "theorists": ["Joseph Corneli", "Charles Danoff", "Charlotte Pierce"],
+      "year_proposed": "2010s",
+      "core_principles": [
+        "対等な立場での相互学習",
+        "非階層的学習環境",
+        "学習者による学習設計",
+        "共創的知識構築"
+      ],
+      "key_concepts": [
+        "ピア学習",
+        "非階層性",
+        "自己組織化",
+        "共創"
+      ],
+      "educational_applications": [
+        "ピア・チューター",
+        "学習者主導ワークショップ",
+        "協働プロジェクト",
+        "オンライン学習コミュニティ"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "学習者同士の教え合いを促進する",
+          "階層性を排除した環境を作る",
+          "学習者に設計権限を与える"
+        ],
+        "success_patterns": [
+          "活発なピア交流",
+          "自発的学習グループ"
+        ],
+        "common_pitfalls": [
+          "教師の過度な介入",
+          "質的管理の不足"
+        ]
+      },
+      "ai_prompt_template": "パラゴジー理論に基づき、[学習コミュニティ]について、対等な立場での相互学習を促進する環境とシステムを設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "ピア学習の活性化",
+        "medium_term": "自律的学習コミュニティ",
+        "long_term": "継続的相互学習能力"
+      },
+      "suitable_contexts": [
+        "オンライン学習",
+        "大学教育",
+        "専門職開発",
+        "学習コミュニティ"
+      ],
+      "grade_levels": ["high", "university", "adult"],
+      "subjects": ["collaborative_learning", "community_education"],
+      "learning_objectives": [
+        "相互学習能力",
+        "自己組織化能力",
+        "協働的知識構築"
+      ],
+      "implementation_strategies": [
+        "ピア・マッチング",
+        "非階層環境構築",
+        "学習者権限移譲",
+        "共創活動促進"
+      ],
+      "related_theories": [26, 55, 105, 59]
+    },
+    {
+      "id": 111,
+      "name_ja": "国際バカロレア（IB）教育理論",
+      "name_en": "International Baccalaureate (IB) Education Theory",
+      "category": "international_education_theories",
+      "theorists": ["International Baccalaureate Organization", "Marie-Thérèse Maurette"],
+      "year_proposed": "1960s-現在",
+      "core_principles": [
+        "国際的視野の育成",
+        "探究を基盤とした学習",
+        "概念的理解の重視",
+        "多言語・多文化教育"
+      ],
+      "key_concepts": [
+        "国際的視野",
+        "探究ベース学習",
+        "概念的理解",
+        "学習者像"
+      ],
+      "educational_applications": [
+        "探究学習プログラム",
+        "概念ベース学習",
+        "国際理解教育",
+        "多言語教育"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "地域と世界のつながりを意識させる",
+          "概念を中心とした単元構成にする",
+          "批判的・創造的思考を促進する"
+        ],
+        "success_patterns": [
+          "深い概念理解",
+          "国際的視野の拡大"
+        ],
+        "common_pitfalls": [
+          "表面的な国際化",
+          "知識詰め込み型指導"
+        ]
+      },
+      "ai_prompt_template": "国際バカロレア教育理論に基づき、[学習テーマ]について、探究と概念理解を重視した国際的視野を育む学習プログラムを設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "探究的学習態度",
+        "medium_term": "概念的理解の深化",
+        "long_term": "国際的視野と行動力"
+      },
+      "suitable_contexts": [
+        "国際学校",
+        "探究学習",
+        "概念学習",
+        "多言語教育"
+      ],
+      "grade_levels": ["elementary", "middle", "high"],
+      "subjects": ["international", "inquiry", "concept_based"],
+      "learning_objectives": [
+        "国際的視野",
+        "探究的思考",
+        "概念的理解"
+      ],
+      "implementation_strategies": [
+        "探究サイクル活用",
+        "概念重視設計",
+        "多文化体験",
+        "言語習得支援"
+      ],
+      "related_theories": [29, 42, 12, 72]
+    },
+    {
+      "id": 112,
+      "name_ja": "エフェクチュエーション理論",
+      "name_en": "Effectuation Theory",
+      "category": "entrepreneurship_theories",
+      "theorists": ["Saras Sarasvathy"],
+      "year_proposed": "2000s",
+      "core_principles": [
+        "手段志向のアプローチ",
+        "許容可能な損失",
+        "戦略的パートナーシップ",
+        "偶然の活用"
+      ],
+      "key_concepts": [
+        "手段志向",
+        "許容損失",
+        "パートナーシップ",
+        "偶然活用"
+      ],
+      "educational_applications": [
+        "起業教育",
+        "プロジェクト学習",
+        "創造的問題解決",
+        "イノベーション教育"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "現在持っているリソースから始めさせる",
+          "失敗可能な範囲での挑戦を促す",
+          "他者との協働を重視する"
+        ],
+        "success_patterns": [
+          "リソース活用能力",
+          "協働的創造活動"
+        ],
+        "common_pitfalls": [
+          "完璧な計画への固執",
+          "リスク回避志向"
+        ]
+      },
+      "ai_prompt_template": "エフェクチュエーション理論に基づき、[起業・創造課題]について、手段志向で協働的な問題解決アプローチを学習するプログラムを設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "手段志向思考の習得",
+        "medium_term": "協働的創造能力",
+        "long_term": "起業家精神の育成"
+      },
+      "suitable_contexts": [
+        "起業教育",
+        "ビジネス教育",
+        "イノベーション教育",
+        "創造教育"
+      ],
+      "grade_levels": ["high", "university", "adult"],
+      "subjects": ["entrepreneurship", "business", "innovation"],
+      "learning_objectives": [
+        "起業家的思考",
+        "創造的問題解決",
+        "協働的実践力"
+      ],
+      "implementation_strategies": [
+        "リソース重視アプローチ",
+        "小規模実験促進",
+        "パートナーシップ構築",
+        "偶然機会活用"
+      ],
+      "related_theories": [71, 64, 27, 26]
+    },
+    {
+      "id": 113,
+      "name_ja": "対話的教育理論",
+      "name_en": "Dialogical Education Theory",
+      "category": "humanistic_theories",
+      "theorists": ["Martin Buber", "Paulo Freire", "Mikhail Bakhtin"],
+      "year_proposed": "1920s-1970s",
+      "core_principles": [
+        "相互主体的な対話",
+        "我と汝の関係",
+        "多声性の重視",
+        "相互理解と変容"
+      ],
+      "key_concepts": [
+        "真正な対話",
+        "相互主体性",
+        "多声性",
+        "関係性"
+      ],
+      "educational_applications": [
+        "対話的授業",
+        "協働討議",
+        "多文化対話",
+        "哲学対話"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "一方的な講義ではなく真の対話を心がける",
+          "多様な声と視点を大切にする",
+          "相互理解を深める時間を確保する"
+        ],
+        "success_patterns": [
+          "活発な相互対話",
+          "多様な視点の共有"
+        ],
+        "common_pitfalls": [
+          "表面的な討論",
+          "声の大きい人の独占"
+        ]
+      },
+      "ai_prompt_template": "対話的教育理論に基づき、[対話テーマ]について、相互主体的で多声的な真正対話を促進する学習活動を設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "活発な対話参加",
+        "medium_term": "相互理解の深化",
+        "long_term": "対話的思考態度"
+      },
+      "suitable_contexts": [
+        "哲学教育",
+        "多文化教育",
+        "民主的教育",
+        "人文教育"
+      ],
+      "grade_levels": ["middle", "high", "university", "adult"],
+      "subjects": ["philosophy", "literature", "social_studies"],
+      "learning_objectives": [
+        "対話的思考力",
+        "相互理解能力",
+        "多様性受容態度"
+      ],
+      "implementation_strategies": [
+        "対話環境構築",
+        "多声性確保",
+        "相互尊重促進",
+        "深い傾聴指導"
+      ],
+      "related_theories": [43, 42, 108, 82]
+    },
+    {
+      "id": 114,
+      "name_ja": "オープン教育理論",
+      "name_en": "Open Education Theory",
+      "category": "progressive_education_theories",
+      "theorists": ["Charles Silberman", "Herbert Kohl", "Jonathan Kozol"],
+      "year_proposed": "1960s-1970s",
+      "core_principles": [
+        "学習者の選択と自由",
+        "個別化された学習",
+        "柔軟な学習環境",
+        "教師の促進者役割"
+      ],
+      "key_concepts": [
+        "学習の自由",
+        "個別化",
+        "柔軟な環境",
+        "促進者"
+      ],
+      "educational_applications": [
+        "オープンクラスルーム",
+        "自由選択学習",
+        "個別進度学習",
+        "統合的カリキュラム"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "学習者の興味と関心を最優先する",
+          "柔軟で変化可能な学習空間を作る",
+          "指導者ではなく支援者として機能する"
+        ],
+        "success_patterns": [
+          "高い学習意欲",
+          "個性的な学習成果"
+        ],
+        "common_pitfalls": [
+          "無秩序な学習環境",
+          "学習成果の評価困難"
+        ]
+      },
+      "ai_prompt_template": "オープン教育理論に基づき、[学習領域]について、学習者の自由と選択を最大限尊重した柔軟な学習環境を設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "学習への主体的参加",
+        "medium_term": "個別化された成長",
+        "long_term": "自律的学習者の育成"
+      },
+      "suitable_contexts": [
+        "オルタナティブ教育",
+        "個別化教育",
+        "自由学校",
+        "進歩的教育"
+      ],
+      "grade_levels": ["elementary", "middle"],
+      "subjects": ["integrated", "individualized"],
+      "learning_objectives": [
+        "自律的学習能力",
+        "個性の発揮",
+        "学習への内発的動機"
+      ],
+      "implementation_strategies": [
+        "選択制学習活動",
+        "柔軟な空間設計",
+        "個別進度管理",
+        "促進的支援"
+      ],
+      "related_theories": [9, 101, 17, 104]
+    },
+    {
+      "id": 115,
+      "name_ja": "プログレッシブ教育理論",
+      "name_en": "Progressive Education Theory",
+      "category": "progressive_education_theories",
+      "theorists": ["John Dewey", "William Heard Kilpatrick", "Francis Parker"],
+      "year_proposed": "1890s-1950s",
+      "core_principles": [
+        "経験中心の学習",
+        "民主的教育過程",
+        "子ども中心主義",
+        "社会改革への参画"
+      ],
+      "key_concepts": [
+        "経験中心",
+        "民主的過程",
+        "子ども中心",
+        "社会改革"
+      ],
+      "educational_applications": [
+        "経験学習",
+        "プロジェクト法",
+        "民主的学校運営",
+        "社会参加学習"
+      ],
+      "veteran_teacher_insights": {
+        "practical_tips": [
+          "子どもの興味と経験を出発点とする",
+          "学習過程を民主的に運営する",
+          "学校と社会のつながりを重視する"
+        ],
+        "success_patterns": [
+          "体験重視の学習",
+          "民主的な参加"
+        ],
+        "common_pitfalls": [
+          "系統性の軽視",
+          "放任主義の誤解"
+        ]
+      },
+      "ai_prompt_template": "プログレッシブ教育理論に基づき、[学習課題]について、経験と民主的過程を重視した子ども中心の教育実践を設計してください。",
+      "effectiveness_indicators": {
+        "short_term": "体験的学習への参加",
+        "medium_term": "民主的態度の育成",
+        "long_term": "社会参画意識の形成"
+      },
+      "suitable_contexts": [
+        "進歩的教育",
+        "体験学習",
+        "民主的教育",
+        "社会参加学習"
+      ],
+      "grade_levels": ["elementary", "middle", "high"],
+      "subjects": ["integrated", "social_studies", "experiential"],
+      "learning_objectives": [
+        "体験的理解",
+        "民主的態度",
+        "社会参画意識"
+      ],
+      "implementation_strategies": [
+        "経験重視活動",
+        "民主的運営参加",
+        "社会的課題探究",
+        "協働的問題解決"
+      ],
+      "related_theories": [6, 28, 82, 43]
+    }
+  ]
+}       
